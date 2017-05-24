@@ -1,1 +1,1 @@
-[CICE Workflow and Developers Guide](https://docs.google.com/document/d/1rR6WAvZQT9iAMUp-m_HZ06AUCCI19mguFialsMCYs9o){:target="_blank"}
+<a href="https://docs.google.com/document/d/1rR6WAvZQT9iAMUp-m_HZ06AUCCI19mguFialsMCYs9o" target="_blank")CICE Workflow and Developers Guide</a>
