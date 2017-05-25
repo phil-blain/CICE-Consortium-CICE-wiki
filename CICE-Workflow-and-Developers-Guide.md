@@ -1,1 +1,0 @@
-[CICE Workflow and Developers Guide](https://docs.google.com/document/d/1rR6WAvZQT9iAMUp-m_HZ06AUCCI19mguFialsMCYs9o)
