@@ -1,0 +1,1 @@
+[CICE User Guide](https://docs.google.com/document/d/1yQV565RFIQnny_Tj3WM45jJFdDYG-MwriU5BC6sC0Wk)
