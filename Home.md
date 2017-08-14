@@ -1,5 +1,32 @@
-Welcome to the CICE wiki!
+# **Welcome to the [CICE](https://github.com/CICE-Consortium/CICE) wiki!**
+
+*This page is under construction, as is the code, documentation, and testing infrastructure*
+
+This repository contains the CICE sea ice numerical model starting with version 6.  
+Prior versions can be found in https://github.com/CICE-Consortium/CICE-svn-trunk.
+
+The column physics portion of the code, 'Icepack', is kept in a separate repository, https://github.com/CICE-Consortium/Icepack. CICE includes Icepack as a git submodule. The rest of the CICE model, including infrastructure and the dynamical core but not Icepack, is contained in the CICE repository as 'CICEcore'.   
+
+## Release Notes  
+Code documentation is included within each code repository, and links to data and other information can be found on the wiki pages of each repository.  
+(link to html)   
+[prior release info is here](http://oceans11.lanl.gov/trac/CICE/wiki/SourceCode)
+
+## User and Developer Guides
+"Quick Start" instructions are available in [README_v6](https://github.com/CICE-Consortium/CICE/blob/master/README_v6).  
 
 [CICE User Guide](https://docs.google.com/document/d/1yQV565RFIQnny_Tj3WM45jJFdDYG-MwriU5BC6sC0Wk)
 
 [CICE Git and Workflow Guide](https://docs.google.com/document/d/1rR6WAvZQT9iAMUp-m_HZ06AUCCI19mguFialsMCYs9o)
+
+The [About-Us repository](https://github.com/CICE-Consortium/About-Us) and [wiki](https://github.com/CICE-Consortium/About-Us/wiki) contain additional information, including contact information and instructions for code developers.
+
+## Testing
+Instructions for setting up standard tests (e.g. regression, restart) are in [README.test](https://github.com/CICE-Consortium/CICE/blob/master/README.test)
+
+(add links to)
+- larger files such as the gx1 grid, land mask, and forcing files
+- testing data
+- test results
+
+
