@@ -13,9 +13,12 @@ _gx3 data:_
 
 1 year (1997) of data are available: ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/gx3_data/
 
-_Additional testing data:_ ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/other_files/
+_Additional testing data:_ 
 
-To access these files from the command line:
+climatological cloud and precip data are available: ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/other_files/
+
+
+To access these files from the command line instead of the URLS listed above:
 
 $ ftp ftp.cgd.ucar.edu
 
