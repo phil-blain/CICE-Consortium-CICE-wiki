@@ -15,8 +15,9 @@ Code documentation is included within each code repository, and links to data an
 ## User and Developer Guides
 "Quick Start" instructions are available in [README_v6](https://github.com/CICE-Consortium/CICE/blob/master/README_v6).  
 
+[Online and searchable documentation of the current version of CICE](https://cice-consortium.github.io/CICE/)
+
 [CICE User Guide](https://docs.google.com/document/d/1yQV565RFIQnny_Tj3WM45jJFdDYG-MwriU5BC6sC0Wk)
-Detailed online and searchable documentation of the current version of CICE can be found at: https://cice-consortium.github.io/CICE/
 
 [CICE Git and Workflow Guide](https://docs.google.com/document/d/1rR6WAvZQT9iAMUp-m_HZ06AUCCI19mguFialsMCYs9o)
 
