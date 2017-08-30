@@ -45,11 +45,16 @@ gx3 data:
 Additional testing data: ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/other_files/
 
 To access these files from the command line:
+
 $ ftp ftp.cgd.ucar.edu
+
 $ Name: [anonymous]
+
 $ Password: [user's email address]
+
 $ cd /archive/Model-Data/CICE/
-Then the user can ftp the relevant files from the subdirectories.
+
+The user can ftp the relevant files from these subdirectories.
 
 ## CICE Community Discussion
 A community [bulletin board](https://bb.cgd.ucar.edu/forums/cice-consortium-model-development) has been set up for the CICE-Consortium community to discuss model development including bugs, diagnostics, and future directions. There are subforums for discussion of particular topics (e.g. repository questions) as well as a general forum. These forums will be monitored by consortium members but are open to the general community. To start or respond to a discussion topic users will need to create an account by clicking the "Login" button at the top of the page and then following the directions under "Create new account."
