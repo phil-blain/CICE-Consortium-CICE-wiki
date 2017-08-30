@@ -1,5 +1,6 @@
-## Forcing Data
 Instructions for setting up standard tests (e.g. regression, restart) are in [README.test](https://github.com/CICE-Consortium/CICE/blob/master/README.test)
+
+## Forcing Data
 
 The near surface data required for testing CICE can be found at the following anonymous FTP sites. The gx1 and gx3 directories include the grid files as well as near surface wind (u,v), temperature (t), and moisture (q) forcing fields. Climatological cloud and precipitation forcing fields are available under "Additional testing data." Note that *tar.gz files will need to have the data extracted by the user.
 
