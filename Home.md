@@ -15,9 +15,9 @@ Code documentation is included within each code repository, and links to data an
 ## User and Developer Guides
 [Online and searchable documentation of the current version of CICE](https://cice-consortium.github.io/CICE/)
 
-[Quick Start](https://cice-consortium.github.io/CICE/cice_2_quick_start.html) subsection of documentation
+["Quick Start" subsection of documentation](https://cice-consortium.github.io/CICE/cice_2_quick_start.html) 
 
-[Testing](https://cice-consortium.github.io/CICE/cice_7_testing.html) subsection of documentation
+["Testing" subsection of documentation](https://cice-consortium.github.io/CICE/cice_7_testing.html)
 
 [CICE Git and Workflow Guide](https://docs.google.com/document/d/1rR6WAvZQT9iAMUp-m_HZ06AUCCI19mguFialsMCYs9o)
 
