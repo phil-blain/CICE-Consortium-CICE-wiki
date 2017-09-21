@@ -17,14 +17,13 @@ Code documentation is included within each code repository, and links to data an
 
 ["Quick Start" subsection of documentation](https://cice-consortium.github.io/CICE/cice_2_quick_start.html) 
 
-["Testing" subsection of documentation](https://cice-consortium.github.io/CICE/cice_7_testing.html)
-
 [CICE Git and Workflow Guide](https://docs.google.com/document/d/1rR6WAvZQT9iAMUp-m_HZ06AUCCI19mguFialsMCYs9o)
 
 The [About-Us repository](https://github.com/CICE-Consortium/About-Us) and [wiki](https://github.com/CICE-Consortium/About-Us/wiki) contain additional information, including contact information and instructions for code developers.
 
 ## Testing
-Instructions for setting up standard tests (e.g. regression, restart) are in [README.test](https://github.com/CICE-Consortium/CICE/blob/master/README.test)
+Instructions for setting up standard tests (e.g. regression, restart) are in the 
+["Testing"](https://cice-consortium.github.io/CICE/cice_7_testing.html) subsection of documentation.
 
 (add links to)
 - larger files such as the gx1 grid, land mask, and forcing files
