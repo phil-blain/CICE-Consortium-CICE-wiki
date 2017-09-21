@@ -1,4 +1,5 @@
-Instructions for setting up standard tests (e.g. regression, restart) are in [README.test](https://github.com/CICE-Consortium/CICE/blob/master/README.test)
+Instructions for setting up standard tests (e.g. regression, restart) are in the 
+["Testing"](https://cice-consortium.github.io/CICE/cice_7_testing.html) subsection of documentation.
 
 ## Forcing Data
 
