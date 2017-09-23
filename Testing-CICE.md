@@ -1,9 +1,9 @@
 Instructions for setting up standard tests (e.g. regression, restart) are in the 
-["Testing"](https://cice-consortium.github.io/CICE/cice_7_testing.html) subsection of documentation.
+[Testing](https://cice-consortium.github.io/CICE/cice_7_testing.html) subsection of the documentation.
 
 ## Forcing Data
 
-The near surface data required for testing CICE can be found at the following anonymous FTP sites. The gx1 and gx3 directories include the grid files as well as near surface wind (u,v), temperature (t), and moisture (q) forcing fields. Climatological cloud and precipitation forcing fields are available under "Additional testing data." Note that *tar.gz files will need to have the data extracted by the user.
+The near surface data required for testing CICE can be found at the following anonymous FTP sites. The gx1 and gx3 directories include the grid files as well as near surface wind (u,v), temperature (t), and moisture (q) forcing fields. Climatological cloud and precipitation forcing fields are available under "Additional testing data." Note that the user will need to extract the data from the *tar.gz files.
 
 _gx1 data:_
 
@@ -20,7 +20,7 @@ _Additional testing data:_
 climatological cloud and precip data are available: ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/other_files/
 
 
-To access these files from the command line instead of the URLS listed above:
+To access these files from the command line instead of the URLs listed above:
 
 $ ftp ftp.cgd.ucar.edu
 
@@ -30,7 +30,7 @@ $ Password: [user's email address]
 
 $ cd /archive/Model-Data/CICE/
 
-The user can ftp the relevant files from these subdirectories.
+Then use standard ftp commands to obtain the relevant files from these subdirectories.
 
 ## Test results
 (links)
