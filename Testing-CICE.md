@@ -9,7 +9,7 @@ _gx1 data:_
 
 5 years (2005-2009) of data are available: ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/gx1_data/
 
-Information and instructions about how users can generate 50 years of forcing data can also be found [here](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/gx1_data/gx1scrip.tar.gz). 
+Information and instructions about how users can generate 50 years of forcing data can also be found [here](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/gx1_50yr_generation/gx1scrip.tar.gz). 
 
 _gx3 data:_
 
