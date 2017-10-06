@@ -43,7 +43,23 @@ $atm_data_dir
 
     kmt.gx1
 
-    DATA/
+    DATA/gx1v3/LargeYeager/
+ 
+      4XDAILY/
+
+         u_10*
+
+         v_10*
+
+         q_10*
+
+         t_10*
+
+      MONTHLY/
+
+         cldf.omip.dat
+
+         prec.nmyr.dat
 
 ## Test results
 (links)
