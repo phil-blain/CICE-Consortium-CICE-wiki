@@ -19,7 +19,7 @@ _**Additional testing data:**_
 
 climatological cloud and precip data are available: ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/other_files/
 
-
+_**FTP from the command line:**_
 To access these files from the command line instead of the URLs listed above:
 
 $ ftp ftp.cgd.ucar.edu
@@ -31,6 +31,14 @@ $ Password: [user's email address]
 $ cd /archive/Model-Data/CICE/
 
 Then use standard ftp commands to obtain the relevant files from these subdirectories.
+
+_**Directory structure:**_
+An example of how testing data is organized follows. We recommend setting up a similar path structure.
+atm_data_dir = '/glade/p/cesm/pcwg_dev/data/gx1_data/'
+$atm_data_dir
+    grid.gx1
+    kmt.gx1
+    DATA/
 
 ## Test results
 (links)
