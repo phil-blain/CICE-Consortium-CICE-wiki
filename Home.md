@@ -22,7 +22,7 @@ Code documentation is included within each code repository, and links to data an
 The [About-Us repository](https://github.com/CICE-Consortium/About-Us) and [wiki](https://github.com/CICE-Consortium/About-Us/wiki) contain additional information, including contact information and instructions for code developers.
 
 ## Testing
-Instructions for setting up standard tests (e.g. regression, restart) are in the 
+Additional information can be found on the wiki's [Testing page](https://github.com/CICE-Consortium/CICE/wiki/Testing-CICE). Specific instructions for setting up standard tests (e.g. regression, restart) are in the 
 [Testing](https://cice-consortium.github.io/CICE/cice_7_testing.html) subsection of the documentation.
 
 The near-surface data required for testing CICE is available. More information about how to download these data and test CICE can be found on the [Testing CICE](https://github.com/CICE-Consortium/CICE/wiki/Testing-CICE) wiki page. 
