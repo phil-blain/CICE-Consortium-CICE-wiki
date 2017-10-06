@@ -35,9 +35,9 @@ Then use standard ftp commands to obtain the relevant files from these subdirect
 _**Directory structure:**_
 An example of how testing data is organized follows. We recommend setting up a similar path structure.
 
-atm_data_dir = '/glade/p/cesm/pcwg_dev/data/gx1_data/'
+atm_data_dir = '/glade/p/cesm/pcwg_dev/data'
 
-$atm_data_dir
+$atm_data_dir'/gx1_data/'
 
     grid.gx1
 
@@ -47,19 +47,49 @@ $atm_data_dir
  
       4XDAILY/
 
-         u_10*
+         u_10*.data
 
-         v_10*
+         v_10*.data
 
-         q_10*
+         q_10*.dat
 
-         t_10*
+         t_10*.dat
 
       MONTHLY/
 
          cldf.omip.dat
 
          prec.nmyr.dat
+
+$atm_data_dir'/gx3_data/'
+
+    grid.gx3
+
+    kmt.gx3
+
+    atm/gx3v2m/NCAR_bulk/
+ 
+      ISCCPM/MONTHLY/RADFLX
+
+         cldf.1997.dat
+
+         swdn.1997.dat
+
+      MXA/MONTHLY/PRECIP/
+
+         prec.1997.dat
+
+      NCEP/4XDAILY/STATES/
+
+         dn10.1997.dat
+
+         q_10.1997.dat
+
+         t_10.1997.dat
+
+         u_10.1997.dat
+
+         v_10.1997.dat
 
 ## Test results
 (links)
