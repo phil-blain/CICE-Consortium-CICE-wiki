@@ -34,10 +34,15 @@ Then use standard ftp commands to obtain the relevant files from these subdirect
 
 _**Directory structure:**_
 An example of how testing data is organized follows. We recommend setting up a similar path structure.
+
 atm_data_dir = '/glade/p/cesm/pcwg_dev/data/gx1_data/'
+
 $atm_data_dir
+
     grid.gx1
+
     kmt.gx1
+
     DATA/
 
 ## Test results
