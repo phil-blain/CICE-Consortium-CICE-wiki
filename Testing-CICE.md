@@ -3,7 +3,7 @@ Instructions for setting up standard tests (e.g. regression, restart) are in the
 
 ## Forcing Data
 
-The near surface data required for testing CICE can be found at the following anonymous FTP site. The directory structure for CICE data is described below. Note that the user will need to extract the data from the *tar.gz files.
+The near surface data required for testing CICE can be found at the following anonymous FTP site paths listed below. The directory structure for CICE data is described below. Note that the user will need to extract the data from the *tar.gz files.
 
 _**All data:**_
 
