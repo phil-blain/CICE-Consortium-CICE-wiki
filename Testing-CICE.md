@@ -3,39 +3,43 @@ Instructions for setting up standard tests (e.g. regression, restart) are in the
 
 ## Forcing Data
 
-The near surface data required for testing CICE can be found at the following anonymous FTP sites. The gx1 and gx3 directories include the grid files as well as near surface wind (u,v), temperature (t), and moisture (q) forcing fields. Climatological cloud and precipitation forcing fields are available under "Additional testing data." Note that the user will need to extract the data from the *tar.gz files.
+The near surface data required for testing CICE can be found at the following anonymous FTP site. The directory structure for CICE data is described below. gx1 and gx3 directories include the grid files as well as near surface wind (u,v), temperature (t), and moisture (q) forcing fields. Climatological cloud and precipitation forcing fields are available under "Additional testing data." Note that the user will need to extract the data from the *tar.gz files.
 
-_**gx1 data:**_
+_**All data:**_
 
-5 years (2005-2009) of data are available: ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/gx1_data/
+All available forcing, initial condition, and grid data for both resolutions (gx1 and gx3) are available here (19G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_all.tar.gz
 
-If more than 5 years of data are required for your work, information and instructions about how users can generate 50 years of forcing data can also be found [here](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/gx1_50yr_generation/gx1scrip.tar.gz). 
+It is also possible to download only portions of the data for one or both grids. See below for details.
 
-_**gx3 data:**_
+_**grid and initial conditions:**_
 
-1 year (1997) of data are available: ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/gx3_data/
+Initial conditions, grid, and kmt files are provided for each of the two grids (gx1 and gx3). These files are available here (24M): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_ic_grid.tar.gz
 
-_**Additional testing data:**_ 
+_**gx1 forcing data:**_
 
-climatological cloud and precip data are available: ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/other_files/
+Five years (2005-2009) of forcing data are available, which include 4x daily data for near surface fields (u_10, v_10, q_10, t_10) as well as monthly cloud forcing and precipitation fields. The gx1 forcing data are separated into the monthly and yearly 4x daily fields so that download sizes are more manageable. 
 
-_**FTP from the command line:**_
+gx1 monthly data (16M): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_MONTHLY.tar.gz
 
-To access these files from the command line instead of the URLs listed above:
+gx1 4x daily data for 2005 (3.6G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2005.tar.gz
 
-$ ftp ftp.cgd.ucar.edu
+gx1 4x daily data for 2006 (3.6G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2006.tar.gz
 
-$ Name: [anonymous]
+gx1 4x daily data for 2007 (3.6G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2007.tar.gz
 
-$ Password: [user's email address]
+gx1 4x daily data for 2008 (3.6G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2008.tar.gz
 
-$ cd /archive/Model-Data/CICE/
+gx1 4x daily data for 2009 (3.6G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2009.tar.gz
 
-Then use standard ftp commands to obtain the relevant files from these subdirectories.
+If more than 5 years of data are required for your work, information and instructions about how users can generate 50 years of forcing data can also be found [here](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/gx1scrip.tar.gz). These data will not be arranged in the directory structure described below and the user is responsible for arranging files appropriately.
+
+_**gx3 forcing data:**_
+
+One year (1997) of forcing data are available, which include 4x daily data for near surface fields (u_10, v_10, q_10, t_10, dn_10) as well as monthly cloud forcing, precipitation, and shortwave down radiation fields. All gx3 forcing data are available here (428M): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx3_all.tar.gz
 
 _**Directory structure:**_
 
-An example of how testing data is organized follows. We recommend setting up a similar path structure. You will need to set up your own inputdata path, but the organization of directories below that should follow the structure below and should automatically unpack as so from the *.tar.gz files off the ftp site.
+An example of how testing data is organized follows. We recommend setting up a similar path structure. You will need to set up your own 'inputdata' path, but the organization of directories below that should follow the structure below and should automatically unpack as so from the *.tar.gz files off the ftp site.
 
 inputdata = '/glade/p/cesm/pcwg_dev/'
 
@@ -110,6 +114,21 @@ inputdata = '/glade/p/cesm/pcwg_dev/'
           gx3/
 
             iced_gx3_v5.nc
+
+
+_**FTP from the command line:**_
+
+To access these files from the command line instead of the URLs listed above:
+
+$ ftp ftp.cgd.ucar.edu
+
+$ Name: [anonymous]
+
+$ Password: [user's email address]
+
+$ cd /archive/Model-Data/CICE/
+
+Then use standard ftp commands to obtain the relevant files from these subdirectories.
 
 
 ## Test results
