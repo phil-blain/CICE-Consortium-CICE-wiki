@@ -19,17 +19,17 @@ _**gx1 forcing data:**_
 
 Five years (2005-2009) of forcing data are available. In order to make downloading more manageable, forcing files are separated into 4x daily data by year for near surface fields (u_10, v_10, q_10, t_10). The monthly cloud forcing and precipitation climatological fields are separate.
 
-gx1 monthly data (16M): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_MONTHLY.tar.gz
+monthly gx1 data (16M): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_MONTHLY.tar.gz
 
-gx1 4x daily data for 2005 (3.6G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2005.tar.gz
+4x daily gx1 data for 2005 (3.6G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2005.tar.gz
 
-gx1 4x daily data for 2006 (3.6G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2006.tar.gz
+4x daily gx1 data for 2006 (3.6G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2006.tar.gz
 
-gx1 4x daily data for 2007 (3.6G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2007.tar.gz
+4x daily gx1 data for 2007 (3.6G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2007.tar.gz
 
-gx1 4x daily data for 2008 (3.6G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2008.tar.gz
+4x daily gx1 data for 2008 (3.6G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2008.tar.gz
 
-gx1 4x daily data for 2009 (3.6G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2009.tar.gz
+4x daily gx1 data for 2009 (3.6G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2009.tar.gz
 
 If more than 5 years of data are required for your work, information and instructions about how users can generate 50 years of forcing data can also be found [here](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/gx1_50yr_scrip.tar.gz). These data will not be arranged in the directory structure described below and the user is responsible for arranging files appropriately.
 
@@ -37,7 +37,7 @@ _**gx3 forcing data:**_
 
 One year (1997) of forcing data are available, which include 4x daily data for near surface fields (u_10, v_10, q_10, t_10, dn_10) as well as monthly cloud forcing, precipitation, and shortwave down radiation fields. 
 
-gx3 all forcing data for 1997 (428M): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx3_all.tar.gz
+all gx3 forcing data for 1997 (428M): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx3_all.tar.gz
 
 _**Directory structure:**_
 
