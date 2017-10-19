@@ -35,65 +35,82 @@ Then use standard ftp commands to obtain the relevant files from these subdirect
 
 _**Directory structure:**_
 
-An example of how testing data is organized follows. We recommend setting up a similar path structure.
+An example of how testing data is organized follows. We recommend setting up a similar path structure. You will need to set up your own inputdata path, but the organization of directories below that should follow the structure below and should automatically unpack as so from the *.tar.gz files off the ftp site.
 
+inputdata = '/glade/p/cesm/pcwg_dev/'
 
-atm_data_dir = '/glade/p/cesm/pcwg_dev/data'
+   $inputdata'/CICE_data/'
 
+       forcing/
 
-   $atm_data_dir'/gx1_data/'
+         gx1/
 
-       grid.gx1
+            COREII/4XDAILY/
 
-       kmt.gx1
+                u_10*.data
 
-       DATA/gx1v3/LargeYeager/
- 
-         4XDAILY/
+                v_10*.data
 
-            u_10*.data
+                q_10*.dat
 
-            v_10*.data
+                t_10*.dat
 
-            q_10*.dat
+            COREII/MONTHLY/
 
-            t_10*.dat
+                cldf.omip.dat
 
-         MONTHLY/
+                prec.nmyr.dat
 
-            cldf.omip.dat
+         gx3/
 
-            prec.nmyr.dat
+            NCAR_bulk/4XDAILY/
 
-   $atm_data_dir'/gx3_data/'
+                u_10.1997.data
 
-       grid.gx3
+                v_10.1997.data
 
-       kmt.gx3
+                q_10.1997.dat
 
-       atm/gx3v2m/NCAR_bulk/
- 
-         ISCCPM/MONTHLY/RADFLX
+                t_10.1997.dat
 
-            cldf.1997.dat
+                dn10.1997.dat
 
-            swdn.1997.dat
+            NCAR_bulk/MONTHLY/
 
-         MXA/MONTHLY/PRECIP/
+                cldf.1997.dat
 
-            prec.1997.dat
+                prec.1997.dat
 
-         NCEP/4XDAILY/STATES/
+                swdn.1997.dat
 
-            dn10.1997.dat
+       grid/
 
-            q_10.1997.dat
+         gx1/
 
-            t_10.1997.dat
+             grid_gx1.bin
 
-            u_10.1997.dat
+             kmt_gx1.bin
 
-            v_10.1997.dat
+         gx3/
+
+             grid_gx3.bin
+
+             kmt_gx3.bin
+
+             grid_gx3.nc
+
+             kmt_gx3.nc
+
+       ic/
+
+         gx1/
+   
+             iced_gx1_v5.nc
+
+         gx3/
+
+            iced_gx3_v5.nc
+
 
 ## Test results
 (links)
