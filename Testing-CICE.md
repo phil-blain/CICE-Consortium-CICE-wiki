@@ -3,7 +3,7 @@ Instructions for setting up standard tests (e.g. regression, restart) are in the
 
 ## Forcing Data
 
-The near surface data required for testing CICE can be found at the following anonymous FTP site. The directory structure for CICE data is described below. gx1 and gx3 directories include the grid files as well as near surface wind (u,v), temperature (t), and moisture (q) forcing fields. Climatological cloud and precipitation forcing fields are available under "Additional testing data." Note that the user will need to extract the data from the *tar.gz files.
+The near surface data required for testing CICE can be found at the following anonymous FTP site. The directory structure for CICE data is described below. Note that the user will need to extract the data from the *tar.gz files.
 
 _**All data:**_
 
