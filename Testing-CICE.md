@@ -11,7 +11,7 @@ All available forcing, initial condition, and grid data for both resolution grid
 
 It is also possible to download only portions of the data for one or both grids. See below for details.
 
-_**grid and initial conditions:**_
+_**grid files and initial conditions:**_
 
 Initial conditions, grid, and kmt files are provided for each of the two grids (gx1 and gx3). These files are available here (24M): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_ic_grid.tar.gz
 
