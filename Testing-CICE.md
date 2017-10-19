@@ -43,9 +43,9 @@ _**Directory structure:**_
 
 An example of how testing data is organized follows. We recommend setting up a similar path structure. You will need to set up your own 'inputdata' path, but the organization of directories below that should follow the structure below and should automatically unpack as so from the *.tar.gz files off the ftp site.
 
-inputdata = '/glade/p/cesm/pcwg_dev/'
+inputdata = '/glade/p/cesm/pcwg_dev'
 
-   $inputdata'/CICE_data/'
+   $inputdata/CICE_data/
 
        forcing/
 
