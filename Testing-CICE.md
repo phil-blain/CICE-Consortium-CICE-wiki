@@ -43,55 +43,55 @@ inputdata = '/glade/p/cesm/pcwg_dev/'
 
        forcing/
 
-         gx1/
+         gx1/COREII/
 
-            COREII/4XDAILY/
+            4XDAILY/
 
-                u_10*.data
+               u_10*.data
 
-                v_10*.data
+               v_10*.data
 
-                q_10*.dat
+               q_10*.dat
 
-                t_10*.dat
+               t_10*.dat
 
-            COREII/MONTHLY/
+            MONTHLY/
 
-                cldf.omip.dat
+               cldf.omip.dat
 
-                prec.nmyr.dat
+               prec.nmyr.dat
 
-         gx3/
+         gx3/NCAR_bulk/
 
-            NCAR_bulk/4XDAILY/
+            4XDAILY/
 
-                u_10.1997.data
+               u_10.1997.data
 
-                v_10.1997.data
+               v_10.1997.data
 
-                q_10.1997.dat
+               q_10.1997.dat
 
-                t_10.1997.dat
+               t_10.1997.dat
 
-                dn10.1997.dat
+               dn10.1997.dat
 
-            NCAR_bulk/MONTHLY/
+            MONTHLY/
 
-                cldf.1997.dat
+               cldf.1997.dat
 
-                prec.1997.dat
+               prec.1997.dat
 
-                swdn.1997.dat
+               swdn.1997.dat
 
        grid/
 
-         gx1/
+          gx1/
 
              grid_gx1.bin
 
              kmt_gx1.bin
 
-         gx3/
+          gx3/
 
              grid_gx3.bin
 
@@ -103,11 +103,11 @@ inputdata = '/glade/p/cesm/pcwg_dev/'
 
        ic/
 
-         gx1/
+          gx1/
    
              iced_gx1_v5.nc
 
-         gx3/
+          gx3/
 
             iced_gx3_v5.nc
 
