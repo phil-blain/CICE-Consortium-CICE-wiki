@@ -13,8 +13,6 @@ Code documentation is included within each code repository, and links to data an
 Prior release info is contained in the Release Notes links in the menu to the right of this page.
 
 ## User and Developer Guides
-Basic information for initial code download and setup is available on the [CICE User Guide](https://github.com/CICE-Consortium/CICE/wiki/CICE-User-Guide) wiki page.
-
 Comprehensive information about the current version of the CICE model is found in the [online and searchable documentation](https://cice-consortium.github.io/CICE/), including a 
 ["Quick Start" section](https://cice-consortium.github.io/CICE/cice_2_quick_start.html), a science guide and a user guide.
 
