@@ -13,11 +13,10 @@ Code documentation is included within each code repository, and links to data an
 [prior release info is here](http://oceans11.lanl.gov/trac/CICE/wiki/SourceCode)
 
 ## User and Developer Guides
-[Online and searchable documentation of the current version of CICE](https://cice-consortium.github.io/CICE/)
+Basic information for initial code download and setup is available on the [CICE User Guide](https://github.com/CICE-Consortium/CICE/wiki/CICE-User-Guide) wiki page.
 
-["Quick Start" subsection of documentation](https://cice-consortium.github.io/CICE/cice_2_quick_start.html) 
-
-[CICE Git and Workflow Guide](https://docs.google.com/document/d/1rR6WAvZQT9iAMUp-m_HZ06AUCCI19mguFialsMCYs9o)
+Comprehensive information about the current version of the CICE model is found in the [online and searchable documentation](https://cice-consortium.github.io/CICE/), including a 
+["Quick Start" section](https://cice-consortium.github.io/CICE/cice_2_quick_start.html), a science guide and a user guide.
 
 The [About-Us repository](https://github.com/CICE-Consortium/About-Us) and [wiki](https://github.com/CICE-Consortium/About-Us/wiki) contain additional information, including contact information and instructions for code developers.
 
