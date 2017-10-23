@@ -10,7 +10,7 @@ The column physics portion of the code, 'Icepack', is kept in a separate reposit
 ## Release Notes  
 Code documentation is included within each code repository, and links to data and other information can be found on the wiki pages of each repository.  
    
-[prior release info is here](http://oceans11.lanl.gov/trac/CICE/wiki/SourceCode)
+Prior release info is contained in the Release Notes links in the menu to the right of this page.
 
 ## User and Developer Guides
 Basic information for initial code download and setup is available on the [CICE User Guide](https://github.com/CICE-Consortium/CICE/wiki/CICE-User-Guide) wiki page.
