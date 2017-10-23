@@ -10,7 +10,7 @@ To port CICE to your machine for testing, you will need to do the following:
 2.  Download CICE
 + fork the CICE and Icepack repositories
 + clone the code as described in the [CICE Git and Workflow Guide](https://docs.google.com/document/d/1rR6WAvZQT9iAMUp-m_HZ06AUCCI19mguFialsMCYs9o)
-3.  Prepare the scripts and data, if they do not already exist 
+3.  Prepare the scripts and data, if they do not already exist for your machine
 + cd to scripts/machines/ in a local branch of your CICE fork
 + copy existing env.machine and Macros.machine files to new names for your new machine
 + edit the env and Macros files
