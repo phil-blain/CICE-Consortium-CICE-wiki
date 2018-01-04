@@ -2,7 +2,7 @@
 
 ### What are Sphinx and reStructuredText (RST)?
 
-The CICE and Icepack documentation is written using reStructuredText (RST) markup language. ReStructuredText is a markup language, like HTML, markdown or LaTeX. Sphinx is a python tool for publishing RST documents in other formats such as HTML and PDF.
+The CICE and Icepack documentation is written using reStructuredText (RST) markup language. ReStructuredText is a markup language, like HTML, markdown or LaTeX. Sphinx is a python tool for publishing RST documents in other formats such as HTML and PDF. Additional information about using RST and Sphinx are found in the sections below.
 
 ### What is expected of *me* when changing the documentation?
 
