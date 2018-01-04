@@ -6,7 +6,7 @@ The CICE and Icepack documentation is written using reStructuredText (RST) marku
 
 ### What is expected of *me* when changing the documentation?
 
-We expect that if you need to add or modify documentation that you will be able to modify the RST source files and generate HTML using Sphinx in order to test the HTML generated. We will review the RST and HTML during a Pull Request to verify it is working properly and consistent with the rest of the CICE-Consortium documentation format.
+We expect that if you need to add or modify documentation that you will be able to modify the RST source files and generate HTML using Sphinx in order to review the HTML documentation. We will review the RST and HTML during a Pull Request to verify it is working properly and consistent with the rest of the CICE-Consortium documentation format.
 
 We do not expect you to generate a PDF of your documentation changes and include this as part of a Pull Request. Updated PDF documentation will be generated for each new release. The online HTML documentation, however, will be updated regularly with regular code development workflow. 
 
@@ -16,7 +16,7 @@ A PDF of the latest release documentation is available in the master branch at /
 
 The RST source files for generating html are stored in the master branch of the repository under /doc/source/. 
 
-On your local fork, when you modify RST and use it to generate HTML, the HTML files are created in the /doc/build/html/ directory and can be opened locally to be tested as you add to the documentation.
+On your local fork, when you modify RST and use it to generate HTML, the HTML files are created in the /doc/build/html/ directory and can be opened locally to be reviewed as you add to the documentation.
 
 For the CICE-Consortium, the tested and vetted HTML pages brought in through successful Pull Requests are stored in the gh-pages branch of the repository and accessible from the URL to the linked, searchable User's Guide  on the [Main Wiki Page](https://github.com/CICE-Consortium/Icepack/wiki). Note that the gh-pages is an orphan branch (see below for details) of the repository and has *only* the Sphinx generated HTML documentation and nothing else. 
 
