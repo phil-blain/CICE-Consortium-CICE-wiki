@@ -103,7 +103,7 @@ When you're happy with the HTML you've generated, you need to commit the RST to 
 
 > $git push origin  (pushes your changes to your local fork)
 
-From the GitHub website of your local fork and branch, immediately do a Pull Request to the CICE-Consortium. We will take care of testing and adding changed HTML to the gh-pages orphan branch.
+7. From the GitHub website of your local fork and branch, immediately do a Pull Request to the CICE-Consortium. We will take care of testing and adding changed HTML to the gh-pages orphan branch.
 
 ## Other Tips and Tricks
 
