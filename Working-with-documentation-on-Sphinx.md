@@ -20,24 +20,17 @@ On your local fork, when you modify RST and use it to generate HTML, the HTML fi
 
 For the CICE-Consortium, the tested and vetted HTML pages brought in through successful Pull Requests are stored in the gh-pages branch of the repository and accessible from the URL to the linked, searchable User's Guide  on the [Main Wiki Page](https://github.com/CICE-Consortium/Icepack/wiki). Note that the gh-pages is an orphan branch (see below for details) of the repository and has *only* the Sphinx generated HTML documentation and nothing else. 
 
-## ReStructuredText (RST)
+## Modifying Documentation
 
-### Modifying RST files
+### Installing Sphinx
 
-Open the RST file using a text editor and make the changes necessary. Note that from the User's Guide documentation (see link above) there is a hyperlink called "Show Source" on the left hand column that will show you the RST source code for the HTML you are viewing. This is a good way to see the syntax for tables, equations, linking references, labeling tables or figures, and correctly identifying documentation sections or subsections.
+This must be done once on each platform. See [Sphinx](http://www.sphinx-doc.org/en/stable/) or [Installing Sphinx](http://www.sphinx-doc.org/en/stable/install.html) for details. This can be done easily on a mac laptop by doing the following at the command line:
 
-Here are some basic resources for using RST files:
-* [RST Primer1](http://www.sphinx-doc.org/en/stable/rest.html) and [RST Primer2](http://docutils.sourceforge.net/docs/user/rst/quickstart.html)
-* [RST Syntax](https://wiki.typo3.org/ReST_Syntax)
-* [RST tables](http://www.sphinx-doc.org/en/stable/rest.html#tables) - Note that tables can be tricky in Sphinx and we prefer using [comma separated tables](http://docutils.sourceforge.net/docs/ref/rst/directives.html#csv-table) when possible.
+> $sudo pip install --ignore-installed sphinx
 
-## Sphinx
+> $sudo pip install --ignore-installed sphinxcontrib-bibtex
 
-### Software required for Sphinx HTML generation
-
-Install Sphinx on your local machine. See [Sphinx](http://www.sphinx-doc.org/en/stable/) or [Installing Sphinx](http://www.sphinx-doc.org/en/stable/install.html) for details.
-
-The CICE-Consortium uses the following software to get successful Sphinx HTML builds including references:
+Other platforms may require other steps. The CICE-Consortium uses the following software to get successful Sphinx HTML builds including references:
 
 * python 2.7.11
 
@@ -53,43 +46,42 @@ You will need to use the conf.py file associated with the CICE-Consortium. This 
 
 To use linked references within the HTML you will need to have the sphinxcontrib-bibtex package as well as the zreferences.rst and master_list.bib files under /doc/source/ in the master repository. The list of references in master_list.bib is currently ordered sequentially from oldest to newest and alphabetically within a given year. To add references for your documentation, edit the master_list.bib file using the Articles and Books as examples for your addition(s). Please follow the format for ordering the date/alphabetization ad well as including a URL with the document's DOI. 
 
-### Sphinx workflow
+### Model sandbox
 
-Much of this workflow follows the general CICE-Consortium [Git Workflow and Developer's guide](https://docs.google.com/document/d/1rR6WAvZQT9iAMUp-m_HZ06AUCCI19mguFialsMCYs9o/edit#heading=h.ugpwrwa68ov1). 
+(I would get rid of most of the detailed workflow documentation and say follow user guide to clone the repository and "update documentation whenever you modify the model".)
 
-[Figure 1](https://github.com/ESMCI/cime/wiki/CIME-Git-Workflow) is also a useful visualization for how the process works.
+### Editing rst files
 
-1. Create a personal fork of the code you are modifying. Then create a branch called "documentation" to test just your RST changes without modifying any other part of the code in the repository. Clone this fork to your local machine with Sphinx installation to do the HTML generation and testing.
+Open the RST file using a text editor and make the changes necessary. Note that from the User's Guide documentation (see link above) there is a hyperlink called "Show Source" on the left hand column that will show you the RST source code for the HTML you are viewing. This is a good way to see the syntax for tables, equations, linking references, labeling tables or figures, and correctly identifying documentation sections or subsections.
 
-2. Add CICE-Consortium as upstream source so you can keep your fork updated and make PR easier.
+Here are some basic resources for using RST files:
+* [RST Primer1](http://www.sphinx-doc.org/en/stable/rest.html) and [RST Primer2](http://docutils.sourceforge.net/docs/user/rst/quickstart.html)
+* [RST Syntax](https://wiki.typo3.org/ReST_Syntax)
+* [RST tables](http://www.sphinx-doc.org/en/stable/rest.html#tables) - Note that tables can be tricky in Sphinx and we prefer using [comma separated tables](http://docutils.sourceforge.net/docs/ref/rst/directives.html#csv-table) when possible. 
 
-> $git remote add upstream https://github.com/CICE-Consortium/CICE
+### Building HTML documentation
 
-> $git remote --v (check that your personal fork is the "origin" and that the CICE-Consortium branch is the "upstream")
-
-3. Check your branch and pull upstream changes
-
-> $git status (check available branches from your personal fork)
-
-> $git checkout documentation
-
-> $git pull upstream documentation  (pulls changes from the CICE-Consortium repository to your fork and branch)
-
-4. Update the RST files
-
-> $cd /doc/source/
-
-> $vi FILE.RST  (change RST file)
-
-5. Test HTML
-
-> $ cd ../  (be in the /doc/ directory)
+Move into the /doc/ directory of your sandbox. Then do the following:
 
 > $make clean (gets rid of old html)
 
 > $make html  (builds HTML into /build/html/ directory. It will also give you errors if there is a problem with the build)
 
 > $open /build/html/FILE.html  (opens the local HTML on your browser for testing)
+
+### Push changes back to the repository
+     Again, would say to follow standard workflow documentation and point to that
+
+
+
+
+### Sphinx workflow
+
+Much of this workflow follows the general CICE-Consortium [Git Workflow and Developer's guide](https://docs.google.com/document/d/1rR6WAvZQT9iAMUp-m_HZ06AUCCI19mguFialsMCYs9o/edit#heading=h.ugpwrwa68ov1). 
+
+1. Create a personal fork of the code you are modifying. Then create a branch called "documentation" to test just your RST changes without modifying any other part of the code in the repository. Clone this fork to your local machine with Sphinx installation to do the HTML generation and testing.
+
+
 
 6. Getting the documentation back to the CICE-Consortium
 
