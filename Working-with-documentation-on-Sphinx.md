@@ -46,11 +46,11 @@ You will need to use the conf.py file associated with the CICE-Consortium. This 
 
 To use linked references within the HTML you will need to have the sphinxcontrib-bibtex package as well as the zreferences.rst and master_list.bib files under /doc/source/ in the master repository. The list of references in master_list.bib is currently ordered sequentially from oldest to newest and alphabetically within a given year. To add references for your documentation, edit the master_list.bib file using the Articles and Books as examples for your addition(s). Please follow the format for ordering the date/alphabetization ad well as including a URL with the document's DOI. 
 
-### Model sandbox
+### Model sandbox and documentation
 
-(I would get rid of most of the detailed workflow documentation and say follow user guide to clone the repository and "update documentation whenever you modify the model".)
+Follow the general CICE-Consortium [Git Workflow and Developer's guide](https://docs.google.com/document/d/1rR6WAvZQT9iAMUp-m_HZ06AUCCI19mguFialsMCYs9o/edit#heading=h.ugpwrwa68ov1) to clone the repository and create your personal fork for model modifications. Whenever you modify the model you should update documentation. You can update the documentation on the same branch of your fork on which you test code or you can create a separate branch called documentation to test only the RST and HTML documentation.
 
-### Editing rst files
+### Editing RST files
 
 Open the RST file using a text editor and make the changes necessary. Note that from the User's Guide documentation (see link above) there is a hyperlink called "Show Source" on the left hand column that will show you the RST source code for the HTML you are viewing. This is a good way to see the syntax for tables, equations, linking references, labeling tables or figures, and correctly identifying documentation sections or subsections.
 
@@ -63,39 +63,21 @@ Here are some basic resources for using RST files:
 
 Move into the /doc/ directory of your sandbox. Then do the following:
 
-> $make clean (gets rid of old html)
+> $make clean 
 
-> $make html  (builds HTML into /build/html/ directory. It will also give you errors if there is a problem with the build)
+This gets rid of old HTML files.
 
-> $open /build/html/FILE.html  (opens the local HTML on your browser for testing)
+> $make html
+
+This builds HTML into /build/html/ directory. It will also give you errors if there is a problem with the build that will help you figure out how you need to modify your RST files for a successful HTML build.
+
+> $open /build/html/FILE.html 
+
+Open the HTML on your browser for testing.
 
 ### Push changes back to the repository
-     Again, would say to follow standard workflow documentation and point to that
 
-
-
-
-### Sphinx workflow
-
-Much of this workflow follows the general CICE-Consortium [Git Workflow and Developer's guide](https://docs.google.com/document/d/1rR6WAvZQT9iAMUp-m_HZ06AUCCI19mguFialsMCYs9o/edit#heading=h.ugpwrwa68ov1). 
-
-1. Create a personal fork of the code you are modifying. Then create a branch called "documentation" to test just your RST changes without modifying any other part of the code in the repository. Clone this fork to your local machine with Sphinx installation to do the HTML generation and testing.
-
-
-
-6. Getting the documentation back to the CICE-Consortium
-
-When you're happy with the HTML you've generated, you need to commit the RST to your personal fork then do a Pull Request to the CICE-Consortium that we will verify has worked properly.
-
-> $ cd /doc/
-
-> $git add *.rst
-
-> $git commit -m "ADD USEFUL MESSAGE HERE"
-
-> $git push origin  (pushes your changes to your local fork)
-
-7. From the GitHub website of your local fork and branch, immediately do a Pull Request to the CICE-Consortium. We will take care of testing and adding changed HTML to the gh-pages orphan branch.
+When you're happy with the HTML you've generated, follow the standard CICE-Consortium [Git Workflow and Developer's guide](https://docs.google.com/document/d/1rR6WAvZQT9iAMUp-m_HZ06AUCCI19mguFialsMCYs9o/edit#heading=h.ugpwrwa68ov1) to do a Pull Request and make sure to note in the Pull Request Template that documentation has also been updated. We will take care of testing and adding changed HTML to the gh-pages orphan branch.
 
 ## Other Tips and Tricks
 
