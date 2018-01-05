@@ -20,7 +20,7 @@ On your local fork, when you modify RST and use it to generate HTML, the HTML fi
 
 For the CICE-Consortium, the tested and vetted HTML pages brought in through successful Pull Requests are stored in the gh-pages branch of the repository and accessible from the URL to the linked, searchable User's Guide  on the [Main Wiki Page](https://github.com/CICE-Consortium/Icepack/wiki). Note that the gh-pages is an orphan branch (see below for details) of the repository and has *only* the Sphinx generated HTML documentation and nothing else. 
 
-## Modifying Documentation
+## Steps for Modifying Documentation
 
 ### Installing Sphinx
 
