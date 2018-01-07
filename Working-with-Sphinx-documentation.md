@@ -18,7 +18,7 @@ The RST source files for generating html are stored in the master branch of the 
 
 On your local fork, when you modify RST and use it to generate HTML, the HTML files are created in the /doc/build/html/ directory and can be opened locally for review as you modify the documentation.
 
-For the CICE Consortium, the tested and vetted HTML pages brought in through successful Pull Requests are stored in the gh-pages branch of the repository and accessible from the URL to the linked, searchable User's Guide  on the [Main Wiki Page](https://github.com/CICE-Consortium/Icepack/wiki). Note that gh-pages is an orphan branch (see below for details) of the repository and has *only* the Sphinx generated HTML documentation and nothing else. 
+For the CICE Consortium, the tested and vetted HTML pages brought in through successful Pull Requests are stored in the gh-pages branch of the repository and accessible from the URL to the linked, searchable User's Guide  on the main wiki page for [CICE](https://github.com/CICE-Consortium/CICE/wiki) or [Icepack](https://github.com/CICE-Consortium/Icepack/wiki). Note that gh-pages is an orphan branch (see below for details) of the repository and has *only* the Sphinx generated HTML documentation and nothing else. 
 
 ## Steps for Modifying Documentation
 
