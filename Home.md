@@ -10,7 +10,7 @@ The column physics portion of the code, 'Icepack', is kept in a separate reposit
 ## Release Notes  
 Code documentation is included within each code repository, and links to data and other information can be found on the wiki pages of each repository.  
    
-Prior release info is contained in the Release Notes links in the menu to the right of this page.
+Release information from CICE tag versions from the previous subversion (svn) repository is contained in the [Release Notes](https://github.com/CICE-Consortium/CICE-svn-trunk/releases) links from the [CICE-svn-trunk repository](https://github.com/CICE-Consortium/CICE-svn-trunk).
 
 ## User and Developer Guides
 Comprehensive information about the current version of the CICE model is found in the [online and searchable documentation](https://cice-consortium.github.io/CICE/), including a 
