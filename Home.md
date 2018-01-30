@@ -3,14 +3,14 @@
 *This page is under construction, as is the code, documentation, and testing infrastructure*
 
 This repository contains the CICE sea ice numerical model starting with version 6.  
-Prior versions can be found in https://github.com/CICE-Consortium/CICE-svn-trunk.
+Prior versions can be found in the [CICE-svn-trunk repository](https://github.com/CICE-Consortium/CICE-svn-trunk) and tarballs are provided for each release.
 
-The column physics portion of the code, 'Icepack', is kept in a separate repository, https://github.com/CICE-Consortium/Icepack. CICE includes Icepack as a git submodule. The rest of the CICE model, including infrastructure and the dynamical core but not Icepack, is contained in the CICE repository as 'CICEcore'.   
+The column physics portion of the code, 'Icepack', is kept in a separate [repository](https://github.com/CICE-Consortium/Icepack). CICE includes Icepack as a git submodule. The rest of the CICE model, including infrastructure and the dynamical core but not Icepack, is contained in the CICE repository as 'CICEcore'.   
 
 ## Release Notes  
 Code documentation is included within each code repository, and links to data and other information can be found on the wiki pages of each repository.  
    
-Release information from CICE tag versions from the previous subversion (svn) repository is contained in the [Release Notes](https://github.com/CICE-Consortium/CICE-svn-trunk/releases) links from the [CICE-svn-trunk repository](https://github.com/CICE-Consortium/CICE-svn-trunk).
+Release information from CICE versions prior to version 6 is contained in the [Release Notes](https://github.com/CICE-Consortium/CICE-svn-trunk/releases) links from the [CICE-svn-trunk repository](https://github.com/CICE-Consortium/CICE-svn-trunk).
 
 ## User and Developer Guides
 Comprehensive information about the current version of the CICE model is found in the [online and searchable documentation](https://cice-consortium.github.io/CICE/), including a 
