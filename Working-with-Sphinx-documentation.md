@@ -47,7 +47,7 @@ To use linked references within the HTML you will need to have the sphinxcontrib
 
 ### Model sandbox and documentation
 
-Follow the general CICE-Consortium [Git Workflow and Developer's guide](https://docs.google.com/document/d/1rR6WAvZQT9iAMUp-m_HZ06AUCCI19mguFialsMCYs9o/edit#heading=h.ugpwrwa68ov1) to clone the repository and create your personal fork for model modifications. Whenever you modify the model you should update documentation. You can update the documentation on the same branch of your fork on which you test code, or you can create a separate branch called documentation to test only the RST and HTML documentation.
+Follow the general CICE-Consortium [Git Workflow Guidance](https://github.com/CICE-Consortium/About-Us/wiki/Git-Workflow-Guidance) to clone the repository and create your personal fork for model modifications. Whenever you modify the model you should update documentation. You can update the documentation on the same branch of your fork on which you test code, or you can create a separate branch called documentation to test only the RST and HTML documentation.
 
 ### Editing RST files
 
@@ -76,7 +76,7 @@ Open the HTML on your browser for testing.
 
 ### Push changes back to the repository
 
-When you're happy with the HTML you've generated, follow the standard CICE-Consortium [Git Workflow and Developer's guide](https://docs.google.com/document/d/1rR6WAvZQT9iAMUp-m_HZ06AUCCI19mguFialsMCYs9o/edit#heading=h.ugpwrwa68ov1) to do a Pull Request and make sure to note in the Pull Request Template that documentation has also been updated. We will take care of testing and adding changed HTML to the gh-pages orphan branch.
+When you're happy with the HTML you've generated, follow the standard CICE-Consortium [Git Workflow Guidance](https://github.com/CICE-Consortium/About-Us/wiki/Git-Workflow-Guidance) to do a Pull Request and make sure to note in the Pull Request Template that documentation has also been updated. We will take care of testing and adding changed HTML to the gh-pages orphan branch.
 
 ## Other Tips and Tricks
 
