@@ -21,6 +21,8 @@ Comprehensive information about the current version of the CICE model is found i
 
 The [About-Us repository](https://github.com/CICE-Consortium/About-Us) and [wiki](https://github.com/CICE-Consortium/About-Us/wiki) contain additional information, including contact information and instructions for code developers.
 
+The [FAQ](https://github.com/CICE-Consortium/About-Us/wiki/FAQ) includes questions about both CICE and Icepack.
+
 To port CICE to your machine, you will need to do the following:
 1.  Install external software.
 + a Fortran compiler
