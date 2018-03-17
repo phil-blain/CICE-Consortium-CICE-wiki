@@ -6,7 +6,7 @@
 
 Background: 
 
-[CICE v5.1.2](https://github.com/CICE-Consortium/CICE-svn-trunk/releases/tag/cice-5.1.2) was tagged at r954 of the subversion trunk.  The last commit to the trunk was [r1134](https://github.com/CICE-Consortium/CICE-svn-trunk/commit/ac5d48162210ac021dfa2c0d9e2c43a011a84a73#diff-cdf82f1995461279ffcf99d9aeb2cf34).  All changes after that were merged into “colpkg” branches.  The rasm_colpkg branch was the starting point for what became the new github CICE repository.  [svn revision numbers not linked below were in private branches of the svn repository and later merged into the trunk.]
+[CICE v5.1.2](https://github.com/CICE-Consortium/CICE-svn-trunk/releases/tag/cice-5.1.2) was tagged at r954 of the subversion trunk.  The last commit to the trunk was [r1134](https://github.com/CICE-Consortium/CICE-svn-trunk/commit/ac5d48162210ac021dfa2c0d9e2c43a011a84a73#diff-cdf82f1995461279ffcf99d9aeb2cf34).  All changes after that were merged into “colpkg” branches.  The rasm_colpkg branch was the starting point for what became the new github CICE repository.  Subversion revision numbers not linked below [rnnnn] were in private branches of the svn repository and later [merged into the trunk](https://github.com/CICE-Consortium/CICE-svn-trunk/commits/master/cice).
 
 Major changes:
 
