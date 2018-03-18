@@ -14,9 +14,10 @@ Major changes:
 - Full vertical biogeochemistry
 - Independent column physics package [Icepack](https://github.com/CICE-Consortium/Icepack) implemented as a git submodule
 - A flexible, extensible, robust interface between the column physics modules and the driver
-- Restructured code and forcing data directories
 - A warning package that captures diagnostic and error information from within the column physics, for printing by the driver
-- An entirely new scripting system- A comprehensive test suite of various configuration options, with quality control and compliance tests
+- Restructured code and forcing data directories
+- An entirely new scripting system
+- A comprehensive test suite of various configuration options, with quality control and compliance tests
 - Automated testing using Travis CI
 - Automated test reporting organized by hash, version, machine and branch, for both the primary Consortium repository and user forks
 - Online documentation
@@ -25,7 +26,7 @@ Major changes:
 Enhancements:
 
 - Change use of ULAT to TLAT to determine what latitudes initial ice is present in set_state_var [r970]
-- add 4d fields (categories, vertical ice)  [r1076](https://github.com/CICE-Consortium/CICE-svn-trunk/commit/c53339b0784151ba0ec8bf50503f042ee80175aa#diff-cdf82f1995461279ffcf99d9aeb2cf34)
+- Add 4d fields to history (categories, vertical ice)  [r1076](https://github.com/CICE-Consortium/CICE-svn-trunk/commit/c53339b0784151ba0ec8bf50503f042ee80175aa#diff-cdf82f1995461279ffcf99d9aeb2cf34)
 - Update PIO; Universal large file support [r1094]
 - Remove calendar_type from namelist options and initialize it based on the namelist flag use_leap_years.  [r1098]
 - Add fbot to history output [r1107]
