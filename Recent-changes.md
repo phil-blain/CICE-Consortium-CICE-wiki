@@ -37,6 +37,7 @@ Enhancements:
 - Add grounding scheme and tensile strength [#52](https://github.com/CICE-Consortium/CICE/pull/52)
 - Add new namelist options for dynamics parameters [#52](https://github.com/CICE-Consortium/CICE/pull/52)
 - Update Icepack version in CICE (Icepack v1.0.0 [#81](https://github.com/CICE-Consortium/CICE/pull/81))
+- Modifications to stress diagnostics, including principal stress normalization and internal pressure [#99](https://github.com/CICE-Consortium/CICE/pull/99)
 
 Bug fixes:
 
