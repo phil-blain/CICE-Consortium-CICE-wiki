@@ -12,16 +12,18 @@ Code documentation is included within each code repository, and links to data an
    
 Release information from CICE versions prior to version 6 is contained in the [Release Notes](https://github.com/CICE-Consortium/CICE-svn-trunk/releases) links from the [CICE-svn-trunk repository](https://github.com/CICE-Consortium/CICE-svn-trunk).
 
-## User and Developer Guides
-Comprehensive information about the current version of the CICE model is found in the [online and searchable documentation](https://cice-consortium.github.io/CICE/), including a 
-["Quick Start" section](https://cice-consortium.github.io/CICE/cice_2_quick_start.html), a science guide and a user guide.
+## Documentation
+[CICE Documentation](https://readthedocs.org/projects/cice-consortium-cice/) 
 
-[CICE Documentation](https://cice-consortium.github.io/CICE/)    
-[Git Workflow Guidance](https://github.com/CICE-Consortium/About-Us/wiki/Git-Workflow-Guidance)
+The [CICE Documentation wiki page](https://github.com/CICE-Consortium/CICE/wiki/CICE-Documentation) details the information available about Icepack and how to modify the documentation during code development. 
+   
+[CICE Git Workflow Guidance](https://github.com/CICE-Consortium/About-Us/wiki/Git-Workflow-Guidance) (includes instructions for working with Icepack)
 
 The [About-Us repository](https://github.com/CICE-Consortium/About-Us) and [wiki](https://github.com/CICE-Consortium/About-Us/wiki) contain additional information, including contact information and instructions for code developers.
 
 The [FAQ](https://github.com/CICE-Consortium/About-Us/wiki/FAQ) includes questions about both CICE and Icepack.
+
+## Porting
 
 To port CICE to your machine, you will need to do the following:
 1.  Install external software.
