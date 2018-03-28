@@ -13,9 +13,9 @@ Code documentation is included within each code repository, and links to data an
 Release information from CICE versions prior to version 6 is contained in the [Release Notes](https://github.com/CICE-Consortium/CICE-svn-trunk/releases) links from the [CICE-svn-trunk repository](https://github.com/CICE-Consortium/CICE-svn-trunk).
 
 ## Documentation
-[CICE Documentation](https://readthedocs.org/projects/cice-consortium-cice/) 
+PDF and HTML versions of [CICE Documentation](https://readthedocs.org/projects/cice-consortium-cice/) hosted at readthedocs.org.
 
-The [CICE Documentation wiki page](https://github.com/CICE-Consortium/CICE/wiki/CICE-Documentation) details the information available about Icepack and how to modify the documentation during code development. 
+The [CICE Documentation wiki page](https://github.com/CICE-Consortium/CICE/wiki/CICE-Documentation) details the information available about CICE and how to modify the documentation during code development. 
    
 [CICE Git Workflow Guidance](https://github.com/CICE-Consortium/About-Us/wiki/Git-Workflow-Guidance) (includes instructions for working with Icepack)
 
