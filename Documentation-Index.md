@@ -6,6 +6,8 @@
 
 ### Input and Testing
 * [Input Datasets](https://github.com/CICE-Consortium/CICE/wiki/Testing-CICE) - info about how to download input datasets
+* [Porting](http://cice-consortium-cice.readthedocs.io/en/master/index.html) - see the online documentation
+* [Test Results](https://github.com/CICE-Consortium/Test-Results/wiki) - posted to github wiki page (work in progress)
 
 ### Model Documentation
 * [DOI](https://zenodo.org/record/1205675) - see zenodo
@@ -15,3 +17,4 @@
 
 ### Process Documentation
 * [git workflow and developers guide](https://docs.google.com/document/d/1rR6WAvZQT9iAMUp-m_HZ06AUCCI19mguFialsMCYs9o) - information about how to use git with CICE and how to contribute
+* [Updating Documentation](http://cice-consortium-cice.readthedocs.io/en/master/index.html) - see the online documentation
