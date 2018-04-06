@@ -18,3 +18,7 @@
 ### Process Documentation
 * [git workflow and developers guide](https://docs.google.com/document/d/1rR6WAvZQT9iAMUp-m_HZ06AUCCI19mguFialsMCYs9o) - information about how to use git with CICE and how to contribute
 * [Updating Documentation](http://cice-consortium-cice.readthedocs.io/en/master/index.html) - see the online documentation
+* How to contribute to model development - TBD
+
+### Consortium Documentation
+* Release Process - TBD
