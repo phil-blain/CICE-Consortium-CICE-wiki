@@ -17,9 +17,15 @@
 * List of publications - TBD
 
 ### Process Documentation
-* [git workflow and developers guide](https://docs.google.com/document/d/1rR6WAvZQT9iAMUp-m_HZ06AUCCI19mguFialsMCYs9o) - information about how to use git with CICE and how to contribute
+* [git workflow and developers guide](https://docs.google.com/document/d/1rR6WAvZQT9iAMUp-m_HZ06AUCCI19mguFialsMCYs9o) - information about how to use git with CICE and how to contribute [what's this??](https://github.com/CICE-Consortium/About-Us/wiki/Git-Workflow-Guidance)
 * [Updating Documentation](http://cice-consortium-cice.readthedocs.io/en/master/index.html) - see the online documentation
 * How to contribute to model development - TBD
 
-### Consortium Documentation
+### About the Consortium
+* [Overview](https://github.com/CICE-Consortium/About-Us)
+* [Organization](https://github.com/CICE-Consortium/About-Us/wiki/Organization)
+* [History](https://github.com/CICE-Consortium/About-Us/wiki/History)
+
+
+### Internal Consortium Documentation
 * Release Process - TBD
