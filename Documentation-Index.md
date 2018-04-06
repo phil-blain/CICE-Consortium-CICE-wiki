@@ -20,6 +20,7 @@ Icepack
 ### Model Documentation
 * DOI [(CICE)](https://zenodo.org/record/1205675) [(Icepack)](https://zenodo.org/record/1213463)- see zenodo
 * List of publications - TBD
+* [Bulletin Board](https://bb.cgd.ucar.edu/forums/cice-consortium-model-development) - community interaction
 
 CICE
 * [ReadTheDocs](https://readthedocs.org/projects/cice-consortium-cice/) - location of CICE documentation
