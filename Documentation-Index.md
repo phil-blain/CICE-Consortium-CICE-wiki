@@ -1,1 +1,1 @@
-[CICE github repo](https://github.com/CICE-Consortium/CICE)
+CICE github repo (https://github.com/CICE-Consortium/CICE)
