@@ -7,7 +7,7 @@
 ### Input and Testing
 * [Input Datasets](https://github.com/CICE-Consortium/CICE/wiki/Testing-CICE) - info about how to download input datasets
 
-### Documentation
+### Model Documentation
 * [ReadTheDocs](https://readthedocs.org/projects/cice-consortium-cice/) - location of CICE documentation
-* [CICE master documentation (html)](http://cice-consortium-cice.readthedocs.io/en/master/) - html documentation from current CICE master
-* [CICE master documentation (pdf)](https://media.readthedocs.org/pdf/cice-consortium-cice/master/cice-consortium-cice.pdf) - pdf documentation from current CICE master
+* CICE master documentation [(html)](http://cice-consortium-cice.readthedocs.io/en/master/) [(pdf)](https://media.readthedocs.org/pdf/cice-consortium-cice/master/cice-consortium-cice.pdf) - documentation from current CICE master
+* CICE release documentation [(html)](https://readthedocs.org/projects/cice-consortium-cice/) [(pdf)](https://readthedocs.org/projects/cice-consortium-cice/downloads/) - static documentation from prior releases
