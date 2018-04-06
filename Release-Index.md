@@ -1,5 +1,3 @@
-**CICE6.0.0.alpha:** 
-[(release page)](https://github.com/CICE-Consortium/CICE/releases/tag/cice6.0.0.alpha) :
-[(repo)](https://github.com/CICE-Consortium/CICE/tree/cice6.0.0.alpha) :
-documentation ([html](http://cice-consortium-cice.readthedocs.io/en/cice6.0.0.alpha/),[pdf](https://media.readthedocs.org/pdf/cice-consortium-cice/cice6.0.0.alpha/cice-consortium-cice.pdf) )
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1205675.svg)](https://doi.org/10.5281/zenodo.1205675)
+tag | release page | repository | documentation | DOI |
+----|:---:|:---:|:---:|---|
+| **CICE6.0.0.alpha** | [release](https://github.com/CICE-Consortium/CICE/releases/tag/cice6.0.0.alpha) | [repo](https://github.com/CICE-Consortium/CICE/tree/cice6.0.0.alpha) | [html](http://cice-consortium-cice.readthedocs.io/en/cice6.0.0.alpha/),[pdf](https://media.readthedocs.org/pdf/cice-consortium-cice/cice6.0.0.alpha/cice-consortium-cice.pdf)  | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1205675.svg)](https://doi.org/10.5281/zenodo.1205675) |
