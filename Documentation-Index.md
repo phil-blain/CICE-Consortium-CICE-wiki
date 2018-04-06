@@ -28,7 +28,7 @@ CICE
 
 Icepack
 * [ReadTheDocs](https://readthedocs.org/projects/cice-consortium-icepack/) - location of Icepack documentation
-* Icepack master documentation [(html)](http://cice-consortium-icepack.readthedocs.io/en/master/) [(pdf)](https://media.readthedocs.org/pdf/cice-consortium-cice/master/cice-consortium-icepack.pdf) - documentation from current Icepack master
+* Icepack master documentation [(html)](http://cice-consortium-icepack.readthedocs.io/en/master/) [(pdf)](https://media.readthedocs.org/pdf/cice-consortium-icepack/master/cice-consortium-icepack.pdf) - documentation from current Icepack master
 * Icepack release documentation [(html)](https://readthedocs.org/projects/cice-consortium-icepack/) [(pdf)](https://readthedocs.org/projects/cice-consortium-icepack/downloads/) - static documentation from prior releases
 
 ### Process Documentation
