@@ -44,4 +44,4 @@ Icepack
 
 
 ### Internal Consortium Documentation
-* Release Process - TBD
+* [Release Process](https://github.com/CICE-Consortium/CICE/wiki/Release-Process) - steps for release
