@@ -9,5 +9,5 @@
 
 ### Documentation
 * [ReadTheDocs](https://readthedocs.org/projects/cice-consortium-cice/) - location of CICE documentation
-* [CICE master documentation (html)](http://cice-consortium-cice.readthedocs.io/en/master/)[CICE master documentation (html)] - html documentation from current CICE master
+* [CICE master documentation (html)](http://cice-consortium-cice.readthedocs.io/en/master/) - html documentation from current CICE master
 * [CICE master documentation (pdf)](https://media.readthedocs.org/pdf/cice-consortium-cice/master/cice-consortium-cice.pdf) - pdf documentation from current CICE master
