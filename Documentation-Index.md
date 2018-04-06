@@ -1,8 +1,16 @@
 
 ### Repository Information
+CICE
 * [CICE github repo](https://github.com/CICE-Consortium/CICE) - location of repository
 * [CICE tags](https://github.com/CICE-Consortium/CICE/tags) - location of all CICE tags
 * [CICE releases](https://github.com/CICE-Consortium/CICE/releases) - location of list of formal releases and related information
+* [CICE5 and prior](https://github.com/CICE-Consortium/CICE-svn-trunk) - pre CICE-Consortium versions
+
+Icepack
+* [Icepack github repo](https://github.com/CICE-Consortium/Icepack) - location of repository
+* [Icepack tags](https://github.com/CICE-Consortium/Icepack/tags) - location of all Icepack tags
+* [Icepack releases](https://github.com/CICE-Consortium/Icepack/releases) - location of list of formal releases and related information
+
 
 ### Input and Testing
 * [Input Datasets](https://github.com/CICE-Consortium/CICE/wiki/Testing-CICE) - info about how to download input datasets
@@ -17,7 +25,7 @@
 * List of publications - TBD
 
 ### Process Documentation
-* [git workflow and developers guide](https://docs.google.com/document/d/1rR6WAvZQT9iAMUp-m_HZ06AUCCI19mguFialsMCYs9o) - information about how to use git with CICE and how to contribute [what's this??](https://github.com/CICE-Consortium/About-Us/wiki/Git-Workflow-Guidance)
+* [git workflow and developers guide](https://docs.google.com/document/d/1rR6WAvZQT9iAMUp-m_HZ06AUCCI19mguFialsMCYs9o) - information about how to use git with CICE and how to contribute [(what's this??)](https://github.com/CICE-Consortium/About-Us/wiki/Git-Workflow-Guidance)
 * [Updating Documentation](http://cice-consortium-cice.readthedocs.io/en/master/index.html) - see the online documentation
 * How to contribute to model development - TBD
 
