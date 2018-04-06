@@ -3,7 +3,7 @@
 CICE
 * [CICE github repo](https://github.com/CICE-Consortium/CICE) - location of repository
 * [CICE tags](https://github.com/CICE-Consortium/CICE/tags) - location of all CICE tags
-* [CICE releases](https://github.com/CICE-Consortium/CICE/releases) - location of list of formal releases and related information
+* [CICE releases](https://github.com/CICE-Consortium/CICE/Wiki/Release-Index) - location of list of formal releases and related information
 * [CICE5 and prior](https://github.com/CICE-Consortium/CICE-svn-trunk) - pre CICE-Consortium versions
 
 Icepack
