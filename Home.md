@@ -1,9 +1,9 @@
 # **Welcome to the [CICE](https://github.com/CICE-Consortium/CICE) wiki!**
-This repository contains the CICE sea ice numerical model starting with version 6. For information on CICE prior to version 6 please see the [CICE-svn-trunk wiki](https://github.com/CICE-Consortium/CICE-svn-trunk/wiki). 
+This repository contains the CICE sea ice numerical model starting with version 6, which is now [licensed](https://github.com/CICE-Consortium/CICE/blob/master/LICENSE.pdf) for use through the CICE Consortium. 
+
+Information on CICE prior to version 6: [CICE-svn-trunk wiki](https://github.com/CICE-Consortium/CICE-svn-trunk/wiki). 
 
 The column physics portion of the CICE code, 'Icepack', is kept in a separate [Icepack repository](https://github.com/CICE-Consortium/Icepack). CICE includes Icepack as a git submodule. 
-
-The CICE model for CICE version 6 and later is now [licensed](https://github.com/CICE-Consortium/CICE/blob/master/LICENSE.pdf) for use through the CICE Consortium. 
 
 ## Releases  
 The [CICE Version Index](https://github.com/CICE-Consortium/CICE/wiki/CICE-Version-Index) of numbered CICE releases since version 6 has specific information for each release. Each release is available as branches in this repository or as tarballs.
