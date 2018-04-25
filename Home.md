@@ -10,7 +10,7 @@ The CICE model for CICE version 6 and later is now [licensed](https://github.com
 ## Releases  
 The [CICE Version Index (post version 6)](https://github.com/CICE-Consortium/CICE/wiki/CICE-Versions-Index-post-version-6) of numbered releases of CICE version 6 and later has specific information for each release. Each release is available as branches in this repository or as tarballs.
 
-[Recent-Changes](https://github.com/CICE-Consortium/CICE/wiki/CICE-Recent-Changes) provides information about developments on the master branch since the last numbered release.
+[CICE Recent-Changes](https://github.com/CICE-Consortium/CICE/wiki/CICE-Recent-Changes) provides information about developments on the master branch since the last numbered release.
 
 ## More information
 See the [Resource Index](https://github.com/CICE-Consortium/About-Us/wiki/Resource-Index) and pages linked at right for further information.
