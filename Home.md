@@ -12,7 +12,7 @@ Information for CICE prior to version 6.
 
 ## Releases  
 [CICE Version Index](https://github.com/CICE-Consortium/CICE/wiki/CICE-Version-Index)   
-Numbered CICE releases since version 6.  Each release is available as branches in this repository or as tarballs.
+Numbered CICE releases since version 6, including documentation.  Each release is available as branches in this repository or as tarballs.
 
 [CICE Recent-Changes](https://github.com/CICE-Consortium/CICE/wiki/CICE-Recent-Changes)    
 Information about developments on the master branch since the last numbered release.
