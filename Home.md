@@ -1,5 +1,3 @@
-*This page is under construction, as is the code, documentation, and testing infrastructure*
-
 # **Welcome to the [CICE](https://github.com/CICE-Consortium/CICE) wiki!**
 This repository contains the CICE sea ice numerical model starting with version 6. For information on CICE prior to version 6 please see the [CICE-svn-trunk wiki](https://github.com/CICE-Consortium/CICE-svn-trunk/wiki). 
 
