@@ -8,7 +8,7 @@ The column physics portion of the CICE code, 'Icepack', is kept in a separate [I
 The CICE model for CICE version 6 and later is now [licensed](https://github.com/CICE-Consortium/CICE-svn-trunk/blob/master/LICENSE.pdf) for use through the CICE Consortium. (**_SHOULD WE MOVE THIS TO THE ABOUT-US REPO?_**)
 
 ## Releases  
-The [Version Index](https://github.com/CICE-Consortium/CICE/wiki/CICE-Versions-Index-post-version-6) of numbered releases of CICE version 6 and later has specific information for each release. Each release is available as branches in this repository or as tarballs.
+The [CICE Version Index (post version 6)](https://github.com/CICE-Consortium/CICE/wiki/CICE-Versions-Index-post-version-6) of numbered releases of CICE version 6 and later has specific information for each release. Each release is available as branches in this repository or as tarballs.
 
 [Recent-Changes](https://github.com/CICE-Consortium/CICE/wiki/CICE-Recent-Changes) provides information about developments on the master branch since the last numbered release.
 
