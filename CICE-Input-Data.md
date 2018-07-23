@@ -89,3 +89,9 @@ inputdata = '/glade/p/cesm/pcwg_dev/'
           gx3/
             iced_gx3_v5.nc
 ```
+
+## Updated Files
+A list of file updates or additions will be shown here. We have adopted a convention of appending any new files with `_yyyymmdd` for the date the file was created to better track any file updates or additions. Updated files will be included in the Icepack_data.tar.gz data described above and users will be responsible for downloading and extracting the new files.
+
+### List of new files and date added to ftp tarballs
+* 
