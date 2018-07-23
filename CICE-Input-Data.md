@@ -1,6 +1,6 @@
 ## Forcing Data
 
-Data files for testing CICE and that were included with code distributions from the svn repository are too large to be kept on github. The near surface data required for testing CICE can be found at the following anonymous FTP site paths listed below. 
+Data files for testing CICE and that were included with code distributions from the svn repository are too large to be kept on github. The near surface data required for testing CICE can be found at the following anonymous FTP site paths listed below. Information on newly added or updated forcing files is described [below](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data#updated-files).
 
 Specific instructions for setting up standard tests (e.g. regression, restart) are in the User's Guide section of the documentation.
 
