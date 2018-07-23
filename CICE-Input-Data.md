@@ -50,7 +50,8 @@ An example of how testing data is organized follows. We recommend setting up a s
 
 If you plan to use these data for testing previous versions of CICE (V1-V5), please note that the directory structure has changed and therefore the data files will need to be moved into the proper directories for testing previous releases.
 
-*inputdata = '/glade/p/cesm/pcwg_dev/'
+```
+inputdata = '/glade/p/cesm/pcwg_dev/'
    
    CICE_data/
 
@@ -123,3 +124,4 @@ If you plan to use these data for testing previous versions of CICE (V1-V5), ple
           gx3/
 
             iced_gx3_v5.nc
+```
