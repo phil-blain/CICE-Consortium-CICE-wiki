@@ -54,7 +54,6 @@ If you plan to use these data for testing previous versions of CICE (V1-V5), ple
 inputdata = '/glade/p/cesm/pcwg_dev/'
    
    CICE_data/
-
        forcing/
 
          gx1/COREII/
