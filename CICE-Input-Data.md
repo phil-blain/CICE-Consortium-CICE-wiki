@@ -96,10 +96,9 @@ inputdata = '/glade/p/cesm/pcwg_dev/'
 ```
 
 ## Updated Files
-A list of file updates or additions will be shown here. We have adopted a convention of appending any new files with `_yyyymmdd` for the date the file was created to better track any file updates or additions. Updated files will be included in the Icepack_data.tar.gz data described above and users will be responsible for downloading and extracting the new files.
+A list of file updates or additions will be shown here. We have adopted a convention of appending any new files with `_yyyymmdd` for the date the file was created to better track any file updates or additions. Updated files will be included in the CICE_data_all.tar.gz data described above and users will be responsible for downloading and extracting the new files.
 
 ### List of new files and date added to ftp tarballs
-* September 18, 2018
-   CICE_data/forcing/gx1/WOA/MONTHLY/
-      nitrate_climatologyWOA_gx1v6f.nc
-      silicate_climatologyWOA_gx1v6f.nc
+* September 18, 2018: CICE_data/forcing/gx1/WOA/MONTHLY/
+      - nitrate_climatologyWOA_gx1v6f.nc
+      - silicate_climatologyWOA_gx1v6f.nc
