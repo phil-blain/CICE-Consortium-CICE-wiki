@@ -54,15 +54,20 @@ If you plan to use these data for testing previous versions of CICE (V1-V5), ple
 inputdata = '/glade/p/cesm/pcwg_dev/'   
    CICE_data/
        forcing/
-         gx1/COREII/
-            4XDAILY/
-               u_10*.data
-               v_10*.data
-               q_10*.dat
-               t_10*.dat
-            MONTHLY/
-               cldf.omip.dat
-               prec.nmyr.dat
+         gx1/
+            COREII/
+               4XDAILY/
+                  u_10*.data
+                  v_10*.data
+                  q_10*.dat
+                  t_10*.dat
+               MONTHLY/
+                  cldf.omip.dat
+                  prec.nmyr.dat
+            WOA/
+               MONTHLY/
+                  nitrate_climatologyWOA_gx1v6f.nc
+                  silicate_climatologyWOA_gx1v6f.nc
          gx3/NCAR_bulk/
             4XDAILY/
                u_10.1997.data
@@ -94,4 +99,7 @@ inputdata = '/glade/p/cesm/pcwg_dev/'
 A list of file updates or additions will be shown here. We have adopted a convention of appending any new files with `_yyyymmdd` for the date the file was created to better track any file updates or additions. Updated files will be included in the Icepack_data.tar.gz data described above and users will be responsible for downloading and extracting the new files.
 
 ### List of new files and date added to ftp tarballs
-* 
+* September 18, 2018
+   CICE_data/forcing/gx1/WOA/MONTHLY/
+      nitrate_climatologyWOA_gx1v6f.nc
+      silicate_climatologyWOA_gx1v6f.nc
