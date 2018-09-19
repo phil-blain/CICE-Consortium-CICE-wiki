@@ -96,9 +96,13 @@ inputdata = '/glade/p/cesm/pcwg_dev/'
 ```
 
 ## Updated Files
-A list of file updates or additions will be shown here. We have adopted a convention of appending any new files with `_yyyymmdd` for the date the file was created to better track any file updates or additions. Updated files will be included in the CICE_data_all.tar.gz data described above and users will be responsible for downloading and extracting the new files.
+Recently added or updated input data will be available in the complete input data download (ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_all.tar.gz). However, users needing just the new files can download just the updated files here: ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_new.tar.gz . 
+
+A list of file updates or additions is shown below and will be updated with new additions. After 6 months the files will be incorporated in the full data files an no longer considered "new". Users will be responsible for downloading and extracting the new files.
+
+We have adopted a convention of appending any new files with `_yyyymmdd` for the date the file was created to better track any file updates or additions. 
 
 ### List of new files and date added to ftp tarballs
-* September 18, 2018: CICE_data/forcing/gx1/WOA/MONTHLY/
-      - nitrate_climatologyWOA_gx1v6f.nc
-      - silicate_climatologyWOA_gx1v6f.nc
+* _September 18, 2018_: CICE_data/forcing/gx1/WOA/MONTHLY/
+  * nitrate_climatologyWOA_gx1v6f.nc
+  * silicate_climatologyWOA_gx1v6f.nc
