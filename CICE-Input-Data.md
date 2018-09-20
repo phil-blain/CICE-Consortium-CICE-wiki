@@ -44,6 +44,18 @@ To access these files from the command line instead of the URLs listed above::
 
 Then use standard ftp commands to obtain the relevant files from these subdirectories.
 
+## Updated Files
+Recently added or updated input data will be available in the complete input data download (ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_all.tar.gz). However, users needing just the new files can download just the updated files here: ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_new.tar.gz . 
+
+A list of file updates or additions is shown below and will be updated with new additions. After 6 months the files will be incorporated in the full data files an no longer considered "new". Users will be responsible for downloading and extracting the new files.
+
+We have adopted a convention of appending any new files with `_yyyymmdd` for the date the file was created to better track any file updates or additions. 
+
+### List of new files and date added to ftp tarballs
+* _September 18, 2018_: CICE_data/forcing/gx1/WOA/MONTHLY/
+  * nitrate_climatologyWOA_gx1v6f_20150107.nc
+  * silicate_climatologyWOA_gx1v6f_20150107.nc
+
 ## Directory structure
 
 An example of how testing data is organized follows. We recommend setting up a similar path structure. You will need to set up your own 'inputdata' path, but the organization of the CICE_data top level directory should follow the structure below and should automatically unpack as so from the ftp's *.tar.gz files. You will need to extract the data from the downloaded *tar.gz files.
@@ -94,15 +106,3 @@ inputdata = '/glade/p/cesm/pcwg_dev/'
           gx3/
             iced_gx3_v5.nc
 ```
-
-## Updated Files
-Recently added or updated input data will be available in the complete input data download (ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_all.tar.gz). However, users needing just the new files can download just the updated files here: ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_new.tar.gz . 
-
-A list of file updates or additions is shown below and will be updated with new additions. After 6 months the files will be incorporated in the full data files an no longer considered "new". Users will be responsible for downloading and extracting the new files.
-
-We have adopted a convention of appending any new files with `_yyyymmdd` for the date the file was created to better track any file updates or additions. 
-
-### List of new files and date added to ftp tarballs
-* _September 18, 2018_: CICE_data/forcing/gx1/WOA/MONTHLY/
-  * nitrate_climatologyWOA_gx1v6f_20150107.nc
-  * silicate_climatologyWOA_gx1v6f_20150107.nc
