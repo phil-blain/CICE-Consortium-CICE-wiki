@@ -52,7 +52,7 @@ A list of file updates or additions is shown below and will be updated with new 
 We have adopted a convention of appending any new files with `_yyyymmdd` for the date the file was created to better track any file updates or additions. 
 
 ### List of new files and date added to ftp tarballs
-* _September 18, 2018_: CICE_data/forcing/gx1/WOA/MONTHLY/
+* _September 2018_: CICE_data/forcing/gx1/WOA/MONTHLY/
   * nitrate_climatologyWOA_gx1v6f_20150107.nc
   * silicate_climatologyWOA_gx1v6f_20150107.nc
 
