@@ -66,8 +66,8 @@ inputdata = '/glade/p/cesm/pcwg_dev/'
                   prec.nmyr.dat
             WOA/
                MONTHLY/
-                  nitrate_climatologyWOA_gx1v6f.nc
-                  silicate_climatologyWOA_gx1v6f.nc
+                  nitrate_climatologyWOA_gx1v6f_20150107.nc
+                  silicate_climatologyWOA_gx1v6f_20150107.nc
          gx3/NCAR_bulk/
             4XDAILY/
                u_10.1997.data
@@ -104,5 +104,5 @@ We have adopted a convention of appending any new files with `_yyyymmdd` for the
 
 ### List of new files and date added to ftp tarballs
 * _September 18, 2018_: CICE_data/forcing/gx1/WOA/MONTHLY/
-  * nitrate_climatologyWOA_gx1v6f.nc
-  * silicate_climatologyWOA_gx1v6f.nc
+  * nitrate_climatologyWOA_gx1v6f_20150107.nc
+  * silicate_climatologyWOA_gx1v6f_20150107.nc
