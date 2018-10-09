@@ -55,6 +55,9 @@ We have adopted a convention of appending any new files with `_yyyymmdd` for the
 * _September 2018_: CICE_data/forcing/gx1/WOA/MONTHLY/
   * nitrate_climatologyWOA_gx1v6f_20150107.nc
   * silicate_climatologyWOA_gx1v6f_20150107.nc
+* _October 2018_: CICE_data/grid/tx1/
+  * grid_tx1.bin
+  * kmt_tx1.bin
 
 ## Directory structure
 
@@ -100,6 +103,9 @@ inputdata = '/glade/p/cesm/pcwg_dev/'
              kmt_gx3.bin
              grid_gx3.nc
              kmt_gx3.nc
+          tx1/
+             grid_tx1.bin
+             kmt_tx1.bin
        ic/
           gx1/
              iced_gx1_v5.nc
