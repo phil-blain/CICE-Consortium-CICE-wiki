@@ -12,7 +12,7 @@ It is also possible to download only portions of the data for one or both grids.
 
 ### _**grid files and initial conditions:**_
 
-Initial conditions, grid, and kmt files are provided for each of the two grids (gx1 and gx3). These files are available here (24M): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_ic_grid.tar.gz
+Initial conditions, grid, and kmt files are provided for each of the two grids (gx1 and gx3). We also provide grid and kmt files for the tripole grid (tx1). These files are available here (24M): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_ic_grid.tar.gz
 
 ### _**gx1 forcing data:**_
 
