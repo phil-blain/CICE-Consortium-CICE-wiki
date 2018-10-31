@@ -58,6 +58,9 @@ We have adopted a convention of appending any new files with `_yyyymmdd` for the
 * _October 2018_: CICE_data/grid/tx1/
   * grid_tx1.bin
   * kmt_tx1.bin
+* _October 2018_: CICE_data/grid/
+  * gx1/global_gx1.bathy.nc
+  * gx3/global_gx3.bathy.nc
 
 ## Directory structure
 
