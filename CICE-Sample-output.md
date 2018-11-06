@@ -1,12 +1,12 @@
 IN DEVELOPMENT! NOT FINAL. 
 
 ## Contents
-* [CICE v6.0.0 - gx3 standard configuration](TBD)
-* [CICE v6.0.0 - gx1 standard configuration](TBD)
-* [CICE v6.0.0 - box 2001 configuration](TBD)
-* [CICE v6.0.0 - box advection configuration](TBD)
-* [CICE v6.0.0 - landfast ice](TBD)
-* [How to add images to the wiki](https://github.com/CICE-Consortium/Icepack/wiki/Icepack-Sample-output#how-to-add-images-to-the-wiki)
+* [CICE v6.0.0 - gx3 standard configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-v600---gx3-standard-configuration)
+* [CICE v6.0.0 - gx1 standard configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-v600---gx1-standard-configuration)
+* [CICE v6.0.0 - box 2001 configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-v600---box-2001-configuration)
+* [CICE v6.0.0 - box advection configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-v600---box-advection-configuration)
+* [CICE v6.0.0 - landfast ice](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-v600---landfast-ice)
+* [How to add images to the wiki](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#how-to-add-images-to-the-wiki)
 
 ## CICE v6.0.0 - gx3 standard configuration
 
