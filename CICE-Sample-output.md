@@ -25,7 +25,7 @@ IN DEVELOPMENT! NOT FINAL.
 **Normalized principal stresses with various ellipse parameters**
 [[images/LF_normalized_stresses.png]]
 
-**Area of landfast ice on the gx1 grid through one year in the East Siberian Sea (top), Laptev Sea (middle), and Kara Sea (bottom) with various ellipse parameters** 
+**Area of landfast ice on the gx1 grid through one year in the East Siberian Sea (top), Laptev Sea (middle), and Kara Sea (bottom) with various parameters** 
 [[images/LF_area_seasonal_1.png]]
 
 **Area of landfast ice on the gx1 grid through one year in the East Siberian Sea (top), Laptev Sea (middle), and Kara Sea (bottom) with EAP rheology** 
