@@ -1,11 +1,11 @@
 IN DEVELOPMENT! NOT FINAL. 
 
 ## Contents
-* [CICE version 6.0.0 - gx3 standard configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-v600---gx3-standard-configuration)
-* [CICE version 6.0.0 - gx1 standard configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-v600---gx1-standard-configuration)
-* [CICE version 6.0.0 - box 2001 configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-v600---box-2001-configuration)
-* [CICE version 6.0.0 - box advection configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-v600---box-advection-configuration)
-* [CICE version 6.0.0 - landfast ice](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-v600---landfast-ice)
+* [CICE version 6.0.0 - gx3 standard configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---gx3-standard-configuration)
+* [CICE version 6.0.0 - gx1 standard configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---gx1-standard-configuration)
+* [CICE version 6.0.0 - box 2001 configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---box-2001-configuration)
+* [CICE version 6.0.0 - box advection configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---box-advection-configuration)
+* [CICE version 6.0.0 - landfast ice](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---landfast-ice)
 * [How to add images to the wiki](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#how-to-add-images-to-the-wiki)
 
 ## CICE version 6.0.0 - gx3 standard configuration
