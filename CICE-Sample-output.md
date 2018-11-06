@@ -10,10 +10,6 @@ IN DEVELOPMENT! NOT FINAL.
 
 ## CICE v6.0.0 - gx3 standard configuration
 
-[[images/Icepackv1_0_0-fullITD.png]]
-[[images/Icepackv1_0_0-slab.png]]
-[[images/Icepackv1_0_0-icefree.png]]
-
 ## CICE v6.0.0 - gx1 standard configuration
 
 ## CICE v6.0.0 - box 2001 configuration
@@ -21,6 +17,11 @@ IN DEVELOPMENT! NOT FINAL.
 ## CICE v6.0.0 - box advection configuration
 
 ## CICE v6.0.0 - landfast ice
+Images courtesy of Jean-Francois Lemieux and Philippe Blain, both of Environment Canada
+[[images/LF_maps.png]]
+[[images/LF_normalized_stresses.png]]
+[[images/LF_area_seasonal_1.png]]
+[[images/LF_area_seasonal_2.png]]
 
 ## How to add images to the wiki
 
