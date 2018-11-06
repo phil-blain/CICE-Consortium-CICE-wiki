@@ -17,7 +17,7 @@ IN DEVELOPMENT! NOT FINAL.
 ## CICE version 6.0.0 - box advection configuration
 
 ## CICE version 6.0.0 - landfast ice
-Images courtesy of Jean-Francois Lemieux and Philippe Blain, both of Environment Canada
+*Images courtesy of Jean-Francois Lemieux and Philippe Blain, both of Environment Canada*
 
 **Maps of observed landfast ice (left) and in CICE version 6.0.0 gx1 grid with the standard configuration (upper right) and modified configuration (lower right)**
 [[images/LF_maps.png]]
