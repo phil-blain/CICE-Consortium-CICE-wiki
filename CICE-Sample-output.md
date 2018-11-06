@@ -1,25 +1,25 @@
 IN DEVELOPMENT! NOT FINAL. 
 
 ## Contents
-* [CICE v6.0.0 - gx3 standard configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-v600---gx3-standard-configuration)
-* [CICE v6.0.0 - gx1 standard configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-v600---gx1-standard-configuration)
-* [CICE v6.0.0 - box 2001 configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-v600---box-2001-configuration)
-* [CICE v6.0.0 - box advection configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-v600---box-advection-configuration)
-* [CICE v6.0.0 - landfast ice](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-v600---landfast-ice)
+* [CICE version 6.0.0 - gx3 standard configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-v600---gx3-standard-configuration)
+* [CICE version 6.0.0 - gx1 standard configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-v600---gx1-standard-configuration)
+* [CICE version 6.0.0 - box 2001 configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-v600---box-2001-configuration)
+* [CICE version 6.0.0 - box advection configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-v600---box-advection-configuration)
+* [CICE version 6.0.0 - landfast ice](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-v600---landfast-ice)
 * [How to add images to the wiki](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#how-to-add-images-to-the-wiki)
 
-## CICE v6.0.0 - gx3 standard configuration
+## CICE version 6.0.0 - gx3 standard configuration
 
-## CICE v6.0.0 - gx1 standard configuration
+## CICE version 6.0.0 - gx1 standard configuration
 
-## CICE v6.0.0 - box 2001 configuration
+## CICE version 6.0.0 - box 2001 configuration
 
-## CICE v6.0.0 - box advection configuration
+## CICE version 6.0.0 - box advection configuration
 
-## CICE v6.0.0 - landfast ice
+## CICE version 6.0.0 - landfast ice
 Images courtesy of Jean-Francois Lemieux and Philippe Blain, both of Environment Canada
 
-**Maps of observed landfast ice (left) and in CICE v6.0.0 gx1 grid with the standard configuration (upper right) and modified configuration (lower right)**
+**Maps of observed landfast ice (left) and in CICE version 6.0.0 gx1 grid with the standard configuration (upper right) and modified configuration (lower right)**
 [[images/LF_maps.png]]
 
 **Normalized principal stresses with various ellipse parameters**
