@@ -56,9 +56,8 @@ We have adopted a convention of appending any new files with `_yyyymmdd` for the
   * nitrate_climatologyWOA_gx1v6f_20150107.nc
   * silicate_climatologyWOA_gx1v6f_20150107.nc
 * _October 2018_: CICE_data/grid/tx1/
-  * grid_tx1.bin
-  * kmt_tx1.bin
-* _October 2018_: CICE_data/grid/
+  * tx1/grid_tx1.bin
+  * tx1/kmt_tx1.bin
   * gx1/global_gx1.bathy.nc
   * gx3/global_gx3.bathy.nc
 
@@ -101,11 +100,13 @@ inputdata = '/glade/p/cesm/pcwg_dev/'
           gx1/
              grid_gx1.bin
              kmt_gx1.bin
+             global_gx1.bathy.nc
           gx3/
              grid_gx3.bin
              kmt_gx3.bin
              grid_gx3.nc
              kmt_gx3.nc
+             global_gx3.bathy.nc
           tx1/
              grid_tx1.bin
              kmt_tx1.bin
