@@ -55,7 +55,7 @@ We have adopted a convention of appending any new files with `_yyyymmdd` for the
 * _September 2018_: CICE_data/forcing/gx1/WOA/MONTHLY/
   * nitrate_climatologyWOA_gx1v6f_20150107.nc
   * silicate_climatologyWOA_gx1v6f_20150107.nc
-* _October 2018_: CICE_data/grid/tx1/
+* _October 2018_: CICE_data/grid/
   * tx1/grid_tx1.bin
   * tx1/kmt_tx1.bin
   * gx1/global_gx1.bathy.nc
