@@ -6,49 +6,54 @@
 
 
 Major changes:
-- update icepack #163, 188, 223
-- Add CMIP6 support #191, 195
-- Add dynamic allocation #194
-- Move tracer pre-processing information to namelist #196
-- Add tripole grid and test #201
-- Bathymetry files for testing landfast ice #222
-- Revise rEVP #229
-- Refactor tracer initialization to take advantage of dynamic allocation #235
+- Update icepack [#163](https://github.com/CICE-Consortium/CICE/pull/163) [#188](https://github.com/CICE-Consortium/CICE/pull/188) [#223](https://github.com/CICE-Consortium/CICE/pull/223)
+- Add CMIP6 support [#191](https://github.com/CICE-Consortium/CICE/pull/191) [#195](https://github.com/CICE-Consortium/CICE/pull/195)
+- Add dynamic allocation [#194](https://github.com/CICE-Consortium/CICE/pull/194)
+- Move tracer pre-processing information to namelist [#196](https://github.com/CICE-Consortium/CICE/pull/196)
+- Add tripole grid and test [#201](https://github.com/CICE-Consortium/CICE/pull/201)
+- Add bathymetry files for testing landfast ice [#222](https://github.com/CICE-Consortium/CICE/pull/222)
+- Revise rEVP [#229](https://github.com/CICE-Consortium/CICE/pull/229) [#226](https://github.com/CICE-Consortium/CICE/pull/226)
+- Refactor tracer initialization to take advantage of dynamic allocation [#235](https://github.com/CICE-Consortium/CICE/pull/235)
 
 Enhancements:
-- Travis CI #111
-- Update documentation #102, 106, 112, 113, 126, 127, 142, 179, 192, 195, 203, 225, 227, 229, 232, 234, 236
-- Enhance machine support #120, 125, 153, 187, 220
-- Add queue information to scripts #143, 147
-- version number in netcdf output #121
-- Increase test coverage #129
-- Implement box model tests #151
-- Support coupling in RASM #152
-- Rename some variables and subroutines #158
-- Test the QC testing process #167
-- Add subname to each routine, for diagnostics #173
-- Move emissivity into namelist #176
-- Clean up dummy and unused variables #180
-- Adding output variables for vector speed/direction quantities (ice, atm, ocn) #199
-- compare log files in addition to restart files for regression tests #202
-- Changed namelist flags, settings for consistency with Icepack #208
-- clarify test output #209
-- scripts #215
-- move k1 to namelist #220
-- HYCOM forcing for DMI #230
+- Travis CI [#111](https://github.com/CICE-Consortium/CICE/pull/111)
+- Update documentation 
+- Enhance machine support [#120](https://github.com/CICE-Consortium/CICE/pull/120)
+[#125](https://github.com/CICE-Consortium/CICE/pull/125)
+[#153](https://github.com/CICE-Consortium/CICE/pull/153)
+[#220](https://github.com/CICE-Consortium/CICE/pull/220)
+- Add queue information to scripts [#143](https://github.com/CICE-Consortium/CICE/pull/143)
+[#147](https://github.com/CICE-Consortium/CICE/pull/147)
+- Add version number in netcdf output [#121](https://github.com/CICE-Consortium/CICE/pull/121)
+- Increase test coverage [#129](https://github.com/CICE-Consortium/CICE/pull/129)
+- Implement box model tests [#151](https://github.com/CICE-Consortium/CICE/pull/151)
+- Support coupling in RASM [#152](https://github.com/CICE-Consortium/CICE/pull/152)
+- Rename some variables and subroutines [#158](https://github.com/CICE-Consortium/CICE/pull/158)
+- Test the QC testing process [#167](https://github.com/CICE-Consortium/CICE/pull/167)
+- Add subname to each routine, for diagnostics [#173](https://github.com/CICE-Consortium/CICE/pull/173)
+- Move emissivity into namelist [#176](https://github.com/CICE-Consortium/CICE/pull/176)
+- Clean up dummy and unused variables [#180](https://github.com/CICE-Consortium/CICE/pull/180)
+- Add output variables for vector speed/direction quantities (ice, atm, ocn) [#199](https://github.com/CICE-Consortium/CICE/pull/199)
+- Compare log files in addition to restart files for regression tests [#202](https://github.com/CICE-Consortium/CICE/pull/202)
+- Change namelist flags, settings for consistency with Icepack [#208](https://github.com/CICE-Consortium/CICE/pull/208)
+- Clarify test output [#209](https://github.com/CICE-Consortium/CICE/pull/209)
+- Enhance scripts [#215](https://github.com/CICE-Consortium/CICE/pull/215)
+- Move k1 to namelist [#220](https://github.com/CICE-Consortium/CICE/pull/220)
+- Add HYCOM forcing for DMI [#230](https://github.com/CICE-Consortium/CICE/pull/230)
 
 Bug fixes:
-- Handle effective sample size > 30 in QC script #108
-- Commented out non-thread-safe threading #111
-- Fix QC false failures and update per Roberts et al 2018 #145, 161
-- Broadcast calendar fields #146
-- Binary restarts
-- Mask restoring variables by land
-- fix failing tests #163
-- fix units for trsig in history output #198
-- corrected parameter k1 for basal grounding scheme #206
-- Debug zbgc #207
-- Fix threading problem for dfresh, dfsalt #228
+- Handle effective sample size > 30 in QC script [#108](https://github.com/CICE-Consortium/CICE/pull/108)
+- Comment out non-thread-safe threading [#111](https://github.com/CICE-Consortium/CICE/pull/111)
+- Fix QC false failures and update per Roberts et al 2018 [#145](https://github.com/CICE-Consortium/CICE/pull/145)
+[#161](https://github.com/CICE-Consortium/CICE/pull/161)
+- Broadcast calendar fields [#146](https://github.com/CICE-Consortium/CICE/pull/146)
+- Fix binary restarts [#148](https://github.com/CICE-Consortium/CICE/pull/148)
+- Mask restoring variables by land [#149](https://github.com/CICE-Consortium/CICE/pull/149)
+- Fix failing tests [#163](https://github.com/CICE-Consortium/CICE/pull/163)
+- Fix units for trsig in history output [#198](https://github.com/CICE-Consortium/CICE/pull/198)
+- Correct parameter k1 for basal grounding scheme [#206](https://github.com/CICE-Consortium/CICE/pull/206)
+- Debug zbgc [#207](https://github.com/CICE-Consortium/CICE/pull/207)
+- Fix threading problem for dfresh, dfsalt [#228](https://github.com/CICE-Consortium/CICE/pull/228)
 
 
 
