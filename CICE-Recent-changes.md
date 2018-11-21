@@ -4,6 +4,10 @@
      By:  E. Hunke
      Last numbered version:  CICE 6.0.0.alpha  
 
+This page includes changes to the CICE dycore ("cicecore"), scripts and test cases since CICE 6.0.0.alpha.  Other changes since the release of CICE v5.1.2 can be found on prior release pages for CICE and Icepack:      
+https://github.com/CICE-Consortium/CICE/releases       
+https://github.com/CICE-Consortium/Icepack/releases      
+CICE v6.0.0 is released with Icepack v1.1.0.
 
 Major changes:
 - Update icepack [#163](https://github.com/CICE-Consortium/CICE/pull/163) [#188](https://github.com/CICE-Consortium/CICE/pull/188) [#223](https://github.com/CICE-Consortium/CICE/pull/223) [#250](https://github.com/CICE-Consortium/CICE/pull/250)
