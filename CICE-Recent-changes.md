@@ -1,12 +1,12 @@
 # Important changes to the code on the master branch since the last numbered release
 
-     Date of last update:  16 Nov 2018
+     Date of last update:  21 Nov 2018
      By:  E. Hunke
      Last numbered version:  CICE 6.0.0.alpha  
 
 
 Major changes:
-- Update icepack [#163](https://github.com/CICE-Consortium/CICE/pull/163) [#188](https://github.com/CICE-Consortium/CICE/pull/188) [#223](https://github.com/CICE-Consortium/CICE/pull/223)
+- Update icepack [#163](https://github.com/CICE-Consortium/CICE/pull/163) [#188](https://github.com/CICE-Consortium/CICE/pull/188) [#223](https://github.com/CICE-Consortium/CICE/pull/223) [#250](https://github.com/CICE-Consortium/CICE/pull/250)
 - Add CMIP6 support [#191](https://github.com/CICE-Consortium/CICE/pull/191) [#195](https://github.com/CICE-Consortium/CICE/pull/195)
 - Add dynamic allocation [#194](https://github.com/CICE-Consortium/CICE/pull/194)
 - Move tracer pre-processing information to namelist [#196](https://github.com/CICE-Consortium/CICE/pull/196)
@@ -14,6 +14,7 @@ Major changes:
 - Add bathymetry files for testing landfast ice [#222](https://github.com/CICE-Consortium/CICE/pull/222)
 - Revise rEVP [#229](https://github.com/CICE-Consortium/CICE/pull/229) [#226](https://github.com/CICE-Consortium/CICE/pull/226)
 - Refactor tracer initialization to take advantage of dynamic allocation [#235](https://github.com/CICE-Consortium/CICE/pull/235)
+- Set EVP subcycling ndte=240 (increased from 120) [#250](https://github.com/CICE-Consortium/CICE/pull/250)
 
 Enhancements:
 - Travis CI [#111](https://github.com/CICE-Consortium/CICE/pull/111)
@@ -40,6 +41,7 @@ Enhancements:
 - Enhance scripts [#215](https://github.com/CICE-Consortium/CICE/pull/215)
 - Move k1 to namelist [#220](https://github.com/CICE-Consortium/CICE/pull/220)
 - Add HYCOM forcing for DMI [#230](https://github.com/CICE-Consortium/CICE/pull/230)
+- Consolidate BGC namelist flags and clean up initialization [#240](https://github.com/CICE-Consortium/CICE/pull/240)
 
 Bug fixes:
 - Handle effective sample size > 30 in QC script [#108](https://github.com/CICE-Consortium/CICE/pull/108)
