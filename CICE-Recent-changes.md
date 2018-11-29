@@ -1,6 +1,6 @@
 # Important changes to the code on the master branch since the last numbered release
 
-     Date of last update:  21 Nov 2018
+     Date of last update:  28 Nov 2018
      By:  E. Hunke
      Last numbered version:  CICE 6.0.0.alpha  
 
