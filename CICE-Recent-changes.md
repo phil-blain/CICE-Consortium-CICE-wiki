@@ -32,7 +32,7 @@ Enhancements:
 - Add version number in netcdf output [#121](https://github.com/CICE-Consortium/CICE/pull/121)
 - Increase test coverage [#129](https://github.com/CICE-Consortium/CICE/pull/129)
 - Implement box model tests [#151](https://github.com/CICE-Consortium/CICE/pull/151)
-- Support coupling in RASM [#152](https://github.com/CICE-Consortium/CICE/pull/152)
+- Support coupling in RASM [#152](https://github.com/CICE-Consortium/CICE/pull/152) [#253](https://github.com/CICE-Consortium/CICE/pull/253)
 - Rename some variables and subroutines [#158](https://github.com/CICE-Consortium/CICE/pull/158)
 - Test the QC testing process [#167](https://github.com/CICE-Consortium/CICE/pull/167)
 - Add subname to each routine, for diagnostics [#173](https://github.com/CICE-Consortium/CICE/pull/173)
@@ -46,6 +46,7 @@ Enhancements:
 - Move k1 to namelist [#220](https://github.com/CICE-Consortium/CICE/pull/220)
 - Add HYCOM forcing for DMI [#230](https://github.com/CICE-Consortium/CICE/pull/230)
 - Consolidate BGC namelist flags and clean up initialization [#240](https://github.com/CICE-Consortium/CICE/pull/240)
+- Improved EAP efficiency [#257](https://github.com/CICE-Consortium/CICE/pull/257)
 
 Bug fixes:
 - Handle effective sample size > 30 in QC script [#108](https://github.com/CICE-Consortium/CICE/pull/108)
@@ -60,6 +61,7 @@ Bug fixes:
 - Correct parameter k1 for basal grounding scheme [#206](https://github.com/CICE-Consortium/CICE/pull/206)
 - Debug zbgc [#207](https://github.com/CICE-Consortium/CICE/pull/207)
 - Fix threading problem for dfresh, dfsalt [#228](https://github.com/CICE-Consortium/CICE/pull/228)
+- Fix array-out-of-bounds in EAP [#257](https://github.com/CICE-Consortium/CICE/pull/257)
 
 
 
