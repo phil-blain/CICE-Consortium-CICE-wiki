@@ -15,20 +15,19 @@ IN DEVELOPMENT! NOT FINAL.
 ## CICE version 6.0.0 - box 2001 configuration
 
 ## CICE version 6.0.0 - box advection configuration
+*Images courtesy of Jean-Francois Lemieux and Philippe Blain, both of Environment Canada*
+
+[[images/Slotcylbox.png]]
 
 ## CICE version 6.0.0 - landfast ice
 *Images courtesy of Jean-Francois Lemieux and Philippe Blain, both of Environment Canada*
 
-**Maps of observed landfast ice (left) and in CICE version 6.0.0 gx1 grid with the standard configuration (upper right) and modified configuration (lower right)**
 [[images/LF_maps.png]]
 
-**Normalized principal stresses with various ellipse parameters**
 [[images/LF_normalized_stresses.png]]
 
-**Area of landfast ice on the gx1 grid through one year in the East Siberian Sea (top), Laptev Sea (middle), and Kara Sea (bottom) with various parameters** 
 [[images/LF_area_seasonal_1.png]]
 
-**Area of landfast ice on the gx1 grid through one year in the East Siberian Sea (top), Laptev Sea (middle), and Kara Sea (bottom) with EAP rheology** 
 [[images/LF_area_seasonal_2.png]]
 
 ## How to add images to the wiki
