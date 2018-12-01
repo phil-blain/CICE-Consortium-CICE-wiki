@@ -1,4 +1,4 @@
-****The purpose of providing this sample output is for users to verify their configurations and testing relative to the standards case the Consortium runs. It is not intended for publication.****
+**The purpose of providing this sample output is for users to verify their configurations and testing relative to the standards case the Consortium runs. It is not intended for publication.**
 
 ## Contents
 * [CICE version 6.0.0 - gx1 standard configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---gx3-standard-configuration)
