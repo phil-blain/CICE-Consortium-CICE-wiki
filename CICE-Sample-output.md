@@ -5,6 +5,8 @@
 * [CICE version 6.0.0 - landfast ice](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---landfast-ice)
 * [How to add images to the wiki](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#how-to-add-images-to-the-wiki)
 
+------------------------------------------------------------------------------------------------------------------------
+
 ## CICE version 6.0.0 - gx3 standard configuration
 
 ## CICE version 6.0.0 - gx1 standard configuration
