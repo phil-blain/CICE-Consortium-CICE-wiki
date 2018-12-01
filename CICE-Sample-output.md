@@ -1,16 +1,16 @@
 ## Contents
-* [CICE version 6.0.0 - gx3 standard configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---gx3-standard-configuration)
-* [CICE version 6.0.0 - gx1 standard configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---gx1-standard-configuration)
+* [CICE version 6.0.0 - gx1 standard configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---gx3-standard-configuration)
+* [CICE version 6.0.0 - gx3 standard configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---gx1-standard-configuration)
 * [CICE version 6.0.0 - box advection configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---box-advection-configuration)
 * [CICE version 6.0.0 - landfast ice](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---landfast-ice)
 * [How to add images to the wiki](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#how-to-add-images-to-the-wiki)
 
 ------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------
-## CICE version 6.0.0 - gx3 standard configuration
+## CICE version 6.0.0 - gx1 standard configuration
 
 ------------------------------------------------------------------------------------------------------------------------
-## CICE version 6.0.0 - gx1 standard configuration
+## CICE version 6.0.0 - gx3 standard configuration
 *Images courtesy of Elizabeth Hunke of LANL and David Bailey of NCAR*
 
 [[images/gx3_aice_spatial.png]]
