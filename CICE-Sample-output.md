@@ -16,15 +16,15 @@
 
 [[images/gx1_vect_spatial.png]]
 
-[[images/gx1_ice_area_timeseriesl.png]]
+[[images/gx1_ice_area_timeseries.png]]
 
-[[images/gx1_ice_extent_timeseriesl.png]]
+[[images/gx1_ice_extent_timeseries.png]]
 
-[[images/gx1_ice_vol_timeseriesl.png]]
+[[images/gx1_ice_vol_timeseries.png]]
 
-[[images/gx1_snow_vol_timeseriesl.png]]
+[[images/gx1_snow_vol_timeseries.png]]
 
-[[images/gx1_ice_speed_timeseriesl.png]]
+[[images/gx1_ice_speed_timeseries.png]]
 
 ------------------------------------------------------------------------------------------------------------------------
 ## CICE version 6.0.0 - gx3 standard configuration
