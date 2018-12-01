@@ -3,7 +3,7 @@
 ## Contents
 * [CICE version 6.0.0 - gx1 standard configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---gx3-standard-configuration)
 * [CICE version 6.0.0 - gx3 standard configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---gx1-standard-configuration)
-* [CICE version 6.0.0 - box advection configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---box-advection-configuration)
+* [CICE version 6.0.0 - slotted cylinder advection test](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---slotted-cylinder-advection-test)
 * [CICE version 6.0.0 - landfast ice](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---landfast-ice)
 * [How to add images to the wiki](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#how-to-add-images-to-the-wiki)
 
@@ -43,7 +43,7 @@
 [[images/gx3_timeseries_2.png]]
 
 ------------------------------------------------------------------------------------------------------------------------
-## CICE version 6.0.0 - box advection configuration
+## CICE version 6.0.0 - slotted cylinder advection test
 *Images courtesy of Philippe Blain of Environment Canada*
 
 [[images/boxslotcyl.png]]
