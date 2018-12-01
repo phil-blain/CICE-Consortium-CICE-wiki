@@ -5,7 +5,6 @@
 * [CICE version 6.0.0 - gx3 standard configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---gx1-standard-configuration)
 * [CICE version 6.0.0 - slotted cylinder advection test](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---slotted-cylinder-advection-test)
 * [CICE version 6.0.0 - landfast ice](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---landfast-ice)
-* [How to add images to the wiki](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#how-to-add-images-to-the-wiki)
 
 ------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------
@@ -62,6 +61,3 @@
 
 ------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------
-## How to add images to the wiki
-
-Clone the wiki, create a directory for the images if it does not already exist, copy the images into the directory, add paths to images in Wiki pages (see above). Then git add, commit, and push; there are no pull requests for this process as there are with the code portion of the repository.  Edit the wiki page online to add the image link, or do this in the clone before pushing.
