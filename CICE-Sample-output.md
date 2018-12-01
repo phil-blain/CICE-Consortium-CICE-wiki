@@ -8,6 +8,23 @@
 ------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------
 ## CICE version 6.0.0 - gx1 standard configuration
+*Images courtesy of Elizabeth Hunke of LANL and David Bailey of NCAR*
+
+[[images/gx1_aice_spatial.png]]
+
+[[images/gx1_hi_spatial.png]]
+
+[[images/gx1_vect_spatial.png]]
+
+[[images/gx1_ice_area_timeseriesl.png]]
+
+[[images/gx1_ice_extent_timeseriesl.png]]
+
+[[images/gx1_ice_vol_timeseriesl.png]]
+
+[[images/gx1_snow_vol_timeseriesl.png]]
+
+[[images/gx1_ice_speed_timeseriesl.png]]
 
 ------------------------------------------------------------------------------------------------------------------------
 ## CICE version 6.0.0 - gx3 standard configuration
