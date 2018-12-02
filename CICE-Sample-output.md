@@ -5,7 +5,7 @@
 * [CICE version 6.0.0 - gx3 standard configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---gx3-standard-configuration)
 * [CICE version 6.0.0 - slotted cylinder advection test](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---slotted-cylinder-advection-test)
 * [CICE version 6.0.0 - landfast ice](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---landfast-ice)
-* [CICE version 6.0.0 - RASM coupled ice-ocean](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---RASM-coupled-ice--ocean)
+* [CICE version 6.0.0 - RASM coupled ice-ocean](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---rasm-coupled-ice-ocean)
 
 ------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------
