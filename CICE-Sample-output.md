@@ -1,10 +1,11 @@
 **The purpose of providing this sample output is for users to verify their configurations and testing relative to the standards case the Consortium runs. It is not intended for publication.**
 
 ## Contents
-* [CICE version 6.0.0 - gx1 standard configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---gx3-standard-configuration)
-* [CICE version 6.0.0 - gx3 standard configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---gx1-standard-configuration)
+* [CICE version 6.0.0 - gx1 standard configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---gx1-standard-configuration)
+* [CICE version 6.0.0 - gx3 standard configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---gx3-standard-configuration)
 * [CICE version 6.0.0 - slotted cylinder advection test](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---slotted-cylinder-advection-test)
 * [CICE version 6.0.0 - landfast ice](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---landfast-ice)
+* [CICE version 6.0.0 - RASM coupled ice-ocean](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---RASM-coupled-ice--ocean)
 
 ------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------
@@ -18,8 +19,6 @@
 [[images/gx1_vect_spatial.png]]
 
 [[images/gx1_ice_area_timeseries.png]]
-
-[[images/gx1_ice_extent_timeseries.png]]
 
 [[images/gx1_ice_vol_timeseries.png]]
 
@@ -60,4 +59,11 @@
 [[images/LF_area_seasonal_2.png]]
 
 ------------------------------------------------------------------------------------------------------------------------
+## CICE version 6.0.0 - RASM coupled ice-ocean
+*Courtesy of Robert Osinski, Regional Arctic System Model project*
+
+RASM G case (POP-CICE), 9 km resolution, forced with modified COREII and runoff, 1979-2010       
+using EAP (kdyn=2), mushy thermo (ktherm=2) 
+
+[[images/Gcase_CICEv6.png]]
 ------------------------------------------------------------------------------------------------------------------------
