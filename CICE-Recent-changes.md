@@ -32,7 +32,7 @@ Enhancements:
 [#147](https://github.com/CICE-Consortium/CICE/pull/147)
 - Add version number in netcdf output [#121](https://github.com/CICE-Consortium/CICE/pull/121)
 - Increase test coverage [#129](https://github.com/CICE-Consortium/CICE/pull/129)
-- Implement box model tests [#151](https://github.com/CICE-Consortium/CICE/pull/151)
+- Implement box model tests [#151](https://github.com/CICE-Consortium/CICE/pull/151) [#254](https://github.com/CICE-Consortium/CICE/pull/254)
 - Support coupling in RASM [#152](https://github.com/CICE-Consortium/CICE/pull/152) [#253](https://github.com/CICE-Consortium/CICE/pull/253)
 - Rename some variables and subroutines [#158](https://github.com/CICE-Consortium/CICE/pull/158)
 - Test the QC testing process [#167](https://github.com/CICE-Consortium/CICE/pull/167)
