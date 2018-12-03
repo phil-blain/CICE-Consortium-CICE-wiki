@@ -12,11 +12,17 @@
 ## CICE version 6.0.0 - gx1 standard configuration
 *Images courtesy of Elizabeth Hunke of LANL and David Bailey of NCAR*
 
-[[images/gx1_aice_spatial.png]]
+[[images/gx1_aice_evp_spatial.png]]
 
-[[images/gx1_hi_spatial.png]]
+[[images/gx1_hi_evp_spatial.png]]
 
-[[images/gx1_vect_spatial.png]]
+[[images/gx1_vect_evp_spatial.png]]
+
+[[images/gx1_aice_eap_spatial.png]]
+
+[[images/gx1_hi_eap_spatial.png]]
+
+[[images/gx1_vect_eap_spatial.png]]
 
 [[images/gx1_ice_area_timeseries.png]]
 
@@ -44,7 +50,9 @@
 ## CICE version 6.0.0 - slotted cylinder advection test
 *Images courtesy of Philippe Blain of Environment Canada*
 
-[[images/boxslotcyl.png]]
+[[images/boxslotcyl_aice.png]]
+
+[[images/boxslotcyl_hi.png]]
 
 ------------------------------------------------------------------------------------------------------------------------
 ## CICE version 6.0.0 - landfast ice
@@ -66,4 +74,5 @@ RASM G case (POP-CICE), 9 km resolution, forced with modified COREII and runoff,
 using EAP (kdyn=2), mushy thermo (ktherm=2) 
 
 [[images/Gcase_CICEv6.png]]
+
 ------------------------------------------------------------------------------------------------------------------------
