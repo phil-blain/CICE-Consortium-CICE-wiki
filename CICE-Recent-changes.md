@@ -1,6 +1,6 @@
 # Important changes to the code on the master branch since the last numbered release
 
-     Date of last update:  28 Nov 2018
+     Date of last update:  3 Dec 2018
      By:  E. Hunke
      Last numbered version:  CICE 6.0.0.alpha  
 
@@ -10,7 +10,7 @@ https://github.com/CICE-Consortium/Icepack/releases
 CICE v6.0.0 is released with Icepack v1.1.0.
 
 Major changes:
-- Update icepack [#163](https://github.com/CICE-Consortium/CICE/pull/163) [#188](https://github.com/CICE-Consortium/CICE/pull/188) [#223](https://github.com/CICE-Consortium/CICE/pull/223) [#250](https://github.com/CICE-Consortium/CICE/pull/250)
+- Update icepack [#163](https://github.com/CICE-Consortium/CICE/pull/163) [#188](https://github.com/CICE-Consortium/CICE/pull/188) [#223](https://github.com/CICE-Consortium/CICE/pull/223) [#250](https://github.com/CICE-Consortium/CICE/pull/250) [#262](https://github.com/CICE-Consortium/CICE/pull/262)
 - Add CMIP6 support [#191](https://github.com/CICE-Consortium/CICE/pull/191) [#195](https://github.com/CICE-Consortium/CICE/pull/195)
 - Add dynamic allocation [#194](https://github.com/CICE-Consortium/CICE/pull/194)
 - Move tracer pre-processing information to namelist [#196](https://github.com/CICE-Consortium/CICE/pull/196)
@@ -27,6 +27,7 @@ Enhancements:
 [#125](https://github.com/CICE-Consortium/CICE/pull/125)
 [#153](https://github.com/CICE-Consortium/CICE/pull/153)
 [#220](https://github.com/CICE-Consortium/CICE/pull/220)
+[#261](https://github.com/CICE-Consortium/CICE/pull/261)
 - Add queue information to scripts [#143](https://github.com/CICE-Consortium/CICE/pull/143)
 [#147](https://github.com/CICE-Consortium/CICE/pull/147)
 - Add version number in netcdf output [#121](https://github.com/CICE-Consortium/CICE/pull/121)
