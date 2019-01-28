@@ -18,4 +18,6 @@ Numbered CICE releases since version 6, including documentation.  Each release i
 Information about developments on the master branch since the last numbered release.
 
 ## More information
+The [Community Bulletin Board](https://bb.cgd.ucar.edu/forums/cice-consortium-model-development) is the first point of contact for the Consortium to discuss model development including bugs, diagnostics, and future directions.
+
 See the [Resource Index](https://github.com/CICE-Consortium/About-Us/wiki/Resource-Index) and pages linked at right for further information.
