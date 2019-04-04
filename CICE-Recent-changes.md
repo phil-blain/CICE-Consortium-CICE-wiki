@@ -13,7 +13,6 @@ Enhancements:
 * machine updates [#272](https://github.com/CICE-Consortium/CICE/pull/272), [#280](https://github.com/CICE-Consortium/CICE/pull/280), [#290](https://github.com/CICE-Consortium/CICE/pull/290), [#303](https://github.com/CICE-Consortium/CICE/pull/303), [#304](https://github.com/CICE-Consortium/CICE/pull/304)
 * make bulletin board more visible in online info [#276](https://github.com/CICE-Consortium/CICE/pull/276)
 * commit used to test webhooks, etc [#277](https://github.com/CICE-Consortium/CICE/pull/277)
-* new, vectorized EVP kernel [#278](https://github.com/CICE-Consortium/CICE/pull/278)
 * add ability for user to set the test directory [#281](https://github.com/CICE-Consortium/CICE/pull/281)
 
 Bug fixes:
