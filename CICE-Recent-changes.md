@@ -3,7 +3,16 @@
      Date of last update:  9 May 2019
      By:  T. Craig
      Last numbered release:  CICE 6.0.0  
-[Last numbered release](https://github.com/CICE-Consortium/CICE/releases) 
+
+## 
+
+Date of last update:  9 May 2019
+
+By:  T. Craig
+
+[Last numbered release](https://github.com/CICE-Consortium/CICE/releases): CICE 6.0.0 
+
+## Changes
 
 **Major changes:**
 * new, vectorized EVP kernel [#278](https://github.com/CICE-Consortium/CICE/pull/278)
