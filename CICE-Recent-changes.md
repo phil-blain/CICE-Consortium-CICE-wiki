@@ -2,9 +2,9 @@
  
 ## 
 
-Date of last update:  9 May 2019
+Date of last update:  5 June 2019
 
-By:  T. Craig
+By:  E. Hunke
 
 [Last numbered release](https://github.com/CICE-Consortium/CICE/releases): CICE 6.0.0 
 
@@ -16,12 +16,15 @@ By:  T. Craig
 
 **Enhancements:**
 * add option to write restarts each timestep [#312](https://github.com/CICE-Consortium/CICE/pull/312)
-* update scripts to improve robustness [#311](https://github.com/CICE-Consortium/CICE/pull/311)
+* update scripts to improve robustness [#311](https://github.com/CICE-Consortium/CICE/pull/311), [#315](https://github.com/CICE-Consortium/CICE/pull/315)
+* reuse test suites [#310](https://github.com/CICE-Consortium/CICE/pull/310)
 * improve build [#307](https://github.com/CICE-Consortium/CICE/pull/307)
 * correction to documentation [#271](https://github.com/CICE-Consortium/CICE/pull/271)
-* machine updates [#272](https://github.com/CICE-Consortium/CICE/pull/272), [#280](https://github.com/CICE-Consortium/CICE/pull/280), [#290](https://github.com/CICE-Consortium/CICE/pull/290), [#303](https://github.com/CICE-Consortium/CICE/pull/303), [#304](https://github.com/CICE-Consortium/CICE/pull/304), [#309](https://github.com/CICE-Consortium/CICE/pull/309)
+* machine updates [#272](https://github.com/CICE-Consortium/CICE/pull/272), [#280](https://github.com/CICE-Consortium/CICE/pull/280), [#290](https://github.com/CICE-Consortium/CICE/pull/290), [#303](https://github.com/CICE-Consortium/CICE/pull/303), [#304](https://github.com/CICE-Consortium/CICE/pull/304), [#309](https://github.com/CICE-Consortium/CICE/pull/309), [#313](https://github.com/CICE-Consortium/CICE/pull/313), [#314](https://github.com/CICE-Consortium/CICE/pull/314), [#319](https://github.com/CICE-Consortium/CICE/pull/319)
 * make bulletin board more visible in online info [#276](https://github.com/CICE-Consortium/CICE/pull/276)
 * commit used to test webhooks, etc [#277](https://github.com/CICE-Consortium/CICE/pull/277)
 * add ability for user to set the test directory [#281](https://github.com/CICE-Consortium/CICE/pull/281)
 
 **Bug fixes:**
+* default for --bgen failed for single tests [#300](https://github.com/CICE-Consortium/CICE/pull/300)
+* poll_queue.csh failed for ubuntu [#300](https://github.com/CICE-Consortium/CICE/pull/300)
