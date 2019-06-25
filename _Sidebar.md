@@ -1,5 +1,5 @@
 ### [**CICE Home**](https://github.com/CICE-Consortium/CICE/wiki)
-### [**CICE releases**](https://github.com/CICE-Consortium/CICE/wiki/CICE-Version-Index)
+### [**CICE Releases**](https://github.com/CICE-Consortium/CICE/wiki/CICE-Version-Index)
 ### [**CICE Recent Changes**](https://github.com/CICE-Consortium/CICE/wiki/CICE-Recent-Changes)
 ### [**CICE Input Data**](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data)
 ### [**CICE Sample Output**](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-Output)
