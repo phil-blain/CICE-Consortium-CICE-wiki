@@ -11,11 +11,11 @@ By:  T. Craig
 ## 
 
 **Major changes:**
-* new, vectorized EVP kernel [#278](https://github.com/CICE-Consortium/CICE/pull/278)[#318](https://github.com/CICE-Consortium/CICE/pull/318)
+* new, vectorized EVP kernel [#278](https://github.com/CICE-Consortium/CICE/pull/278), [#318](https://github.com/CICE-Consortium/CICE/pull/318)
 * refactor code to enable bit-for-bit testing [#300](https://github.com/CICE-Consortium/CICE/pull/300)
 
 **Enhancements:**
-* update grounding scheme to depths less than 30m [#325](https://github.com/CICE-Consortium/CICE/pull/325)
+* update grounding scheme to apply only at depths less than 30m [#325](https://github.com/CICE-Consortium/CICE/pull/325)
 * add option to write restarts each timestep [#312](https://github.com/CICE-Consortium/CICE/pull/312)
 * update scripts to improve robustness [#311](https://github.com/CICE-Consortium/CICE/pull/311), [#315](https://github.com/CICE-Consortium/CICE/pull/315)
 * reuse test suites [#310](https://github.com/CICE-Consortium/CICE/pull/310)
