@@ -13,7 +13,7 @@ By:  T. Craig
 **Major changes:**
 
 **Enhancements:**
-* update machines
-* update documentation
+* update machines?
+* update documentation?
 
 **Bug fixes:**
