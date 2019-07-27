@@ -3,11 +3,11 @@
 ## Contents
 This sample output is applicable for the CICE version 6.0.0 release and subsequent model releases in which the climate is not statistically different from the previous release. When a release has a statistically different climate, as shown by our testing suite, new sample output will be created for that release.
 
-* [CICE version 6.0.0 - gx1 standard configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---gx1-standard-configuration)
-* [CICE version 6.0.0 - gx3 standard configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---gx3-standard-configuration)
-* [CICE version 6.0.0 - slotted cylinder advection test](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---slotted-cylinder-advection-test)
-* [CICE version 6.0.0 - landfast ice](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---landfast-ice)
-* [CICE version 6.0.0 - RASM coupled ice-ocean](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---rasm-coupled-ice-ocean)
+* [CICE version 6.0.0 - gx1 standard configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-6.0.0-Sample-Output#cice-version-600---gx1-standard-configuration)
+* [CICE version 6.0.0 - gx3 standard configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-6.0.0-Sample-output#cice-version-600---gx3-standard-configuration)
+* [CICE version 6.0.0 - slotted cylinder advection test](https://github.com/CICE-Consortium/CICE/wiki/CICE-6.0.0-Sample-output#cice-version-600---slotted-cylinder-advection-test)
+* [CICE version 6.0.0 - landfast ice](https://github.com/CICE-Consortium/CICE/wiki/CICE-6.0.0-Sample-output#cice-version-600---landfast-ice)
+* [CICE version 6.0.0 - RASM coupled ice-ocean](https://github.com/CICE-Consortium/CICE/wiki/CICE-6.0.0-Sample-output#cice-version-600---rasm-coupled-ice-ocean)
 
 ------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------
