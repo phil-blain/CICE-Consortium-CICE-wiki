@@ -1,7 +1,7 @@
 **The purpose of providing this sample output is for users to verify their configurations and testing relative to the standards case the Consortium runs. It is not intended for publication.**
 
 ## Contents
-This sample output is applicable for the CICE version 6.0.0 series and subsequent model releases in which the climate is not statistically different from the previous release. When a release has a statistically different climate, as shown by our testing suite, new sample output will be created for that release.
+This sample output is applicable for the CICE version 6.0.0 release and subsequent model releases in which the climate is not statistically different from the previous release. When a release has a statistically different climate, as shown by our testing suite, new sample output will be created for that release.
 
 * [CICE version 6.0.0 - gx1 standard configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---gx1-standard-configuration)
 * [CICE version 6.0.0 - gx3 standard configuration](https://github.com/CICE-Consortium/CICE/wiki/CICE-Sample-output#cice-version-600---gx3-standard-configuration)
