@@ -7,5 +7,3 @@ version | release page | repository | documentation | DOI | test results and sam
 
 The DOI links include citation instructions.   
 Releases prior to version 6: [CICE-svn-trunk](https://github.com/CICE-Consortium/CICE-svn-trunk)
-
-
