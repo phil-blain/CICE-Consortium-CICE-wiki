@@ -2,7 +2,7 @@
  
 ## 
 
-Date of last update:  15 August 2019
+Date of last update:  24 August 2019
 
 By:  T. Craig
 
@@ -15,7 +15,9 @@ By:  T. Craig
 **Enhancements:**
 * add optional machine limit settings on total pe counts and batch wall times [#349](https://github.com/CICE-Consortium/CICE/pull/349).  Add limits to brooks machine [#351](https://github.com/CICE-Consortium/CICE/pull/351)
 * update revp [#331](https://github.com/CICE-Consortium/CICE/pull/331). Change stress initialization to previous time step for revp, to be up-to-date with literature.
-* update qc test [#337](https://github.com/CICE-Consortium/CICE/pull/337)
+* minor update to qc test validation [#337](https://github.com/CICE-Consortium/CICE/pull/337)
+* update qc post-process plotting capabilities [#355](https://github.com/CICE-Consortium/CICE/pull/355)
+* update timeseries plotting tools, add a python version is extended capabilities [#345](https://github.com/CICE-Consortium/CICE/pull/345)
 * add circular dependency checks in the build scripts [#336](https://github.com/CICE-Consortium/CICE/pull/336)
 * update machines
   * travis xenial update [#338](https://github.com/CICE-Consortium/CICE/pull/338)
