@@ -16,14 +16,14 @@ Initial conditions, grid, and kmt files are provided for each of the two grids (
 
 ### _**gx1 forcing data:**_
 
-Five years (2005-2009) of forcing data are available. In order to make downloading more manageable, forcing files are separated into 4x daily data by year for near surface fields (u_10, v_10, q_10, t_10). The monthly cloud forcing and precipitation climatological fields are separate.
+Five years (2005-2009) of forcing data are available. In order to make downloading more manageable, forcing files are separated into 4x and 8x daily data by year for near surface fields (u_10, v_10, q_10, t_10). The monthly cloud forcing and precipitation climatological fields are separate.
 
 * monthly gx1 data (32M): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_MONTHLY.tar.gz
-* 4x daily gx1 data for 2005 (3.6G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2005.tar.gz
-* 4x daily gx1 data for 2006 (3.6G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2006.tar.gz
-* 4x daily gx1 data for 2007 (3.6G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2007.tar.gz
-* 4x daily gx1 data for 2008 (3.6G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2008.tar.gz
-* 4x daily gx1 data for 2009 (3.6G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2009.tar.gz
+* 4x and 8x daily gx1 data for 2005 (3.6G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2005.tar.gz
+* 4x and 8x daily gx1 data for 2006 (3.6G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2006.tar.gz
+* 4x and 8x daily gx1 data for 2007 (3.6G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2007.tar.gz
+* 4x and 8x daily gx1 data for 2008 (3.6G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2008.tar.gz
+* 4x and 8x daily gx1 data for 2009 (3.6G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2009.tar.gz
 
 If more than 5 years of data are required for your work, information and instructions about how users can generate 50 years of forcing data can also be found at ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/gx1_50yr_scrip.tar.gz. These data will not be arranged in the directory structure described below and the user is responsible for arranging files appropriately.  The Consortium recommends against using the stand-alone configuration for scientific studies.  See the [FAQ](https://github.com/CICE-Consortium/About-Us/wiki/FAQ-(Frequently-Asked-Questions)#stand-alone-configuration-and-forcing).
 
@@ -60,6 +60,12 @@ We have adopted a convention of appending any new files with `_yyyymmdd` for the
   * tx1/kmt_tx1.bin
   * gx1/global_gx1.bathy.nc
   * gx3/global_gx3.bathy.nc
+*_August 2019_: CICE_data/forcing/gx1/JRA55/8XDAILY
+  * JRA55_03hr_forcing_2005.nc
+  * JRA55_03hr_forcing_2006.nc
+  * JRA55_03hr_forcing_2007.nc 
+  * JRA55_03hr_forcing_2008.nc 
+  * JRA55_03hr_forcing_2009.nc
 
 ## Directory structure
 
@@ -81,6 +87,13 @@ inputdata = '/glade/p/cesm/pcwg_dev/'
                MONTHLY/
                   cldf.omip.dat
                   prec.nmyr.dat
+            JRA55/
+               8XDAILY/
+                  JRA55_03hr_forcing_2005.nc
+                  JRA55_03hr_forcing_2006.nc
+                  JRA55_03hr_forcing_2007.nc
+                  JRA55_03hr_forcing_2008.nc
+                  JRA55_03hr_forcing_2009.nc
             WOA/
                MONTHLY/
                   nitrate_climatologyWOA_gx1v6f_20150107.nc
