@@ -16,7 +16,11 @@ Initial conditions, grid, and kmt files are provided for each of the two grids (
 
 ### _**gx1 forcing data:**_
 
-Five years (2005-2009) of forcing data are available. In order to make downloading more manageable, forcing files are separated into 4x and 8x daily data by year for near surface fields (u_10, v_10, q_10, t_10). The monthly cloud forcing and precipitation climatological fields are separate.
+Five years (2005-2009) of forcing data are available. 
+
+COREII forcing files are 4x daily data by year for the following near surface fields: u_10, v_10, q_10, t_10. The monthly cloud forcing and precipitation climatological fields are separate.
+
+JRA55 forcing files are 8x daily data by year with the 
 
 * monthly gx1 data (32M): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_MONTHLY.tar.gz
 
