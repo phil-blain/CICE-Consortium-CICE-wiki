@@ -6,7 +6,7 @@ Specific instructions for setting up standard tests (e.g. regression, restart) a
 
 ### _**All data:**_
 
-All available forcing, initial condition, and grid data for both resolution grids (gx1 and gx3) are available here (19G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_all.tar.gz
+All available forcing, initial condition, and grid data for both resolution grids (gx1 and gx3) are available here (56G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_all.tar.gz
 
 It is also possible to download only portions of the data for one or both grids. See below for details.
 
