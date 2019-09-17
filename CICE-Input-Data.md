@@ -27,7 +27,7 @@ Five years (2005-2009) of forcing data are available from the FTP from two sourc
    https://doi.org/10.1016/j.ocemod.2018.07.002
 
 
-#### _**gx1 files:**_
+#### _**gx1 tar file subsets:**_
 * monthly gx1 data (32M): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_MONTHLY.tar.gz
 
 * 4x and 8x daily gx1 data for 2005 (3.6G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2005.tar.gz
