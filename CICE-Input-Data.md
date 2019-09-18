@@ -20,14 +20,11 @@ Five years (2005-2009) of forcing data are available from the FTP from two sourc
 
 1) COREII (Large and Yeager 2009) forcing files are 4x daily data by year for the following near surface fields: Zonal Wind (u_10), Meridional Wind (v_10), 10m Specific Humidity (q_10), and 10m Temperature (t_10). The monthly cloud forcing (cldf) and precipitation (prec) climatological fields are separate.
 
-   Large, W.G. and S.G. Yeager (2009).The global climatology of an interannually varying air-sea flux data set. 
-   Climate Dynamics, 33, 341-364. https://doi.org/10.1007/s00382-008-0441-3
+   _Large, W.G. and S.G. Yeager (2009).The global climatology of an interannually varying air-sea flux data set. Climate Dynamics, 33, 341-364. https://doi.org/10.1007/s00382-008-0441-3_
 
 2) JRA55 forcing (Tsujino et. al 2018) files are 8x daily data by year with the following fields: X-ward wind (wndewd), Y-ward wind (wndnwd), Specific Humidity (spchmd), Air Temperature (airtmp), Total Precipitation (ttlpcp), Downward Surface Longwave (dlwsfc), and Downward Surface Shortwave (glbrad). As a result, there is no need for monthly files or cloud fraction when using the JRA55 forcing.
 
-   Tsujino, H., Urakawa, S., Nakano, H., Small, R. J., Kim, W. M., Yeager, S. G., et al. (2018). JRA‐55 based 
-   surface dataset for driving ocean–sea‐ice models (JRA55‐do). Ocean Modelling. 
-   https://doi.org/10.1016/j.ocemod.2018.07.002
+   _Tsujino, H., Urakawa, S., Nakano, H., Small, R. J., Kim, W. M., Yeager, S. G., et al. (2018). JRA‐55 based surface dataset for driving ocean–sea‐ice models (JRA55‐do). Ocean Modelling. https://doi.org/10.1016/j.ocemod.2018.07.002_
 
 
 #### _**gx1 tar file subsets:**_
@@ -68,14 +65,6 @@ A list of file updates or additions is shown below and will be updated with new 
 We have adopted a convention of appending any new files with `_yyyymmdd` for the date the file was created to better track any file updates or additions. 
 
 ### List of new files and date added to ftp tarballs
-* _September 2018_: CICE_data/forcing/gx1/WOA/MONTHLY/
-  * nitrate_climatologyWOA_gx1v6f_20150107.nc
-  * silicate_climatologyWOA_gx1v6f_20150107.nc
-* _October 2018_: CICE_data/grid/
-  * tx1/grid_tx1.bin
-  * tx1/kmt_tx1.bin
-  * gx1/global_gx1.bathy.nc
-  * gx3/global_gx3.bathy.nc
 * _August 2019_: CICE_data/forcing/gx1/JRA55/8XDAILY
   * JRA55_03hr_forcing_2005.nc
   * JRA55_03hr_forcing_2006.nc
