@@ -34,7 +34,7 @@ By:  T. Craig
   * add circular dependency checks in the build scripts [#336](https://github.com/CICE-Consortium/CICE/pull/336)
   * refresh and improve build system including new targets and new features [#354](https://github.com/CICE-Consortium/CICE/pull/336)
 * update machines
-  * Add limits to brooks machine [#351](https://github.com/CICE-Consortium/CICE/pull/351)
+  * add limits to brooks machine [#351](https://github.com/CICE-Consortium/CICE/pull/351)
   * travis xenial update [#338](https://github.com/CICE-Consortium/CICE/pull/338)
   * cori upgrade  [#339](https://github.com/CICE-Consortium/CICE/pull/339)
   * cheyenne upgrade [#341](https://github.com/CICE-Consortium/CICE/pull/341)
