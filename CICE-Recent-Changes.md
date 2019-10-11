@@ -16,7 +16,7 @@ By:  T. Craig
 
 **Enhancements:**
 
-* update icepack to version 1.1.2 [#368](https://github.com/CICE-Consortium/CICE/pull/368)
+* update icepack to version 1.1.2 and update cice version number to 6.0.2 [#368](https://github.com/CICE-Consortium/CICE/pull/368)
 * update revp [#331](https://github.com/CICE-Consortium/CICE/pull/331). Change stress initialization to previous time step for revp, to be up-to-date with literature.
 * update local solar time computation [#323](https://github.com/CICE-Consortium/CICE/pull/323)
 * add method to determine model depths based on a pop grid file for fast ice [#367](https://github.com/CICE-Consortium/CICE/pull/367)
