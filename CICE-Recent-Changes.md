@@ -40,6 +40,7 @@ By:  T. Craig
   * cheyenne upgrade [#341](https://github.com/CICE-Consortium/CICE/pull/341)
   * badger upgrade [#351](https://github.com/CICE-Consortium/CICE/pull/351)
   * port to izumi [#356](https://github.com/CICE-Consortium/CICE/pull/356)
+  * update serial job launching on conrad, gordon, onyx [#369](https://github.com/CICE-Consortium/CICE/pull/369)
 * update documentation
 
 **Bug fixes:**
