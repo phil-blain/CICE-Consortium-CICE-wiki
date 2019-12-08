@@ -21,9 +21,9 @@ We continue to work toward an interface for Icepack that is flexible, extensible
 
 **Enhancements:**
 
-* Update Icepack version [#379](https://github.com/CICE-Consortium/CICE/pull/379)  **_CHECK THAT IS THE CORRECT PR REF_**
+* Update Icepack version [#379](https://github.com/CICE-Consortium/CICE/pull/379)
 * Update Icepack interface calls to use keywords [#378](https://github.com/CICE-Consortium/CICE/pull/378)
-and to be consistent with recent refactoring of the interface (see [Icepack #285](https://github.com/CICE-Consortium/Icepack/pull/285)) [#379](https://github.com/CICE-Consortium/CICE/pull/379)
+and to be consistent with recent refactoring of the interface (see [Icepack #285](https://github.com/CICE-Consortium/Icepack/pull/285). [Icepack #289](https://github.com/CICE-Consortium/Icepack/pull/289)) [#379](https://github.com/CICE-Consortium/CICE/pull/379), [#385](https://github.com/CICE-Consortium/CICE/pull/385)
 * Improve automation of test reporting and Zenodo links [#370](https://github.com/CICE-Consortium/CICE/pull/370)
 * Improve method for launching serial runs [#369](https://github.com/CICE-Consortium/CICE/pull/369)
 
