@@ -12,7 +12,7 @@ By:  E. Hunke
 
 This release includes a major new physics parameterization in Icepack, the joint thickness and floe size distribution (FSD) of L. Roach and colleagues, and a new directory structure for drivers used in host models, especially NUOPC caps.   
 
-We continue to work toward an interface for Icepack that is flexible, extensive and easy to maintain, so that future Icepack upgrades minimize the amount of changes required in host models.  Toward that goal, this release includes changes to the interface that are not backwards compatible, which are detailed in the Icepack v1.2 release notes.
+We continue to work toward an interface for Icepack that is flexible, extensible and easy to maintain, so that future Icepack upgrades minimize the amount of changes required in host models.  Toward that goal, this release includes changes to the interface that are not backwards compatible, which are detailed in the Icepack v1.2 release notes.
 
 **Major changes:**
 
