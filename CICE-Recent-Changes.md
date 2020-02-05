@@ -2,9 +2,9 @@
  
 ## 
 
-Date of last update:  9 December 2019
+Date of last update:  5 February 2020
 
-By:  T. Craig
+By:  E. Hunke
 
 [Last numbered release](https://github.com/CICE-Consortium/CICE/releases): CICE 6.1.0 (Dec 9, 2019)
 
@@ -14,7 +14,15 @@ By:  T. Craig
 
 
 **Enhancements:**
+* Add html anchors when reporting results [#388](https://github.com/CICE-Consortium/CICE/pull/388)
+* Use MPI module instead of Fortran include statement [#389](https://github.com/CICE-Consortium/CICE/pull/389)
+* Update community bulletin board/forum links [#391](https://github.com/CICE-Consortium/CICE/pull/391)
+* Add information for contributing [#392](https://github.com/CICE-Consortium/CICE/pull/392)
+* Add conda environment to run on personal computers [#393](https://github.com/CICE-Consortium/CICE/pull/393)
+* Update run status output based on diag_type setting [#396](https://github.com/CICE-Consortium/CICE/pull/396)
+* Update documentation [#397](https://github.com/CICE-Consortium/Icepack/pull/397)
 
 
 **Bug fixes:**
-
+* Correct logic for floe size distribution wave_spec_type (changes answers for fsd12 option) [#394](https://github.com/CICE-Consortium/CICE/pull/394)
+* Fix threading in macros files for some machines [#396](https://github.com/CICE-Consortium/CICE/pull/396)
