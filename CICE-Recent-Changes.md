@@ -18,7 +18,7 @@ By:  E. Hunke
 * Use MPI module instead of Fortran include statement [#389](https://github.com/CICE-Consortium/CICE/pull/389)
 * Update community bulletin board/forum links [#391](https://github.com/CICE-Consortium/CICE/pull/391)
 * Add information for contributing [#392](https://github.com/CICE-Consortium/CICE/pull/392)
-* Add conda environment to run on personal computers [#393](https://github.com/CICE-Consortium/CICE/pull/393)
+* Add conda environment to run on personal computers [#393](https://github.com/CICE-Consortium/CICE/pull/393) [#400](https://github.com/CICE-Consortium/CICE/pull/400)
 * Update run status output based on diag_type setting [#396](https://github.com/CICE-Consortium/CICE/pull/396)
 * Update documentation [#397](https://github.com/CICE-Consortium/Icepack/pull/397)
 
