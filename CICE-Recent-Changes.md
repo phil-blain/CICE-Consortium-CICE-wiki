@@ -2,7 +2,7 @@
  
 ## 
 
-Date of last update:  7 February 2020
+Date of last update:  14 February 2020
 
 By:  E. Hunke
 
@@ -22,6 +22,7 @@ By:  E. Hunke
 * Update run status output based on diag_type setting [#396](https://github.com/CICE-Consortium/CICE/pull/396)
 * Update documentation [#397](https://github.com/CICE-Consortium/CICE/pull/397) [#400](https://github.com/CICE-Consortium/CICE/pull/400)
 * Update machines/compilers [#401](https://github.com/CICE-Consortium/CICE/pull/401)
+* Generalize cice.setup script to allow setup-only, setup+build, setup+build+run and setup+build+submit [#395](https://github.com/CICE-Consortium/CICE/pull/395)
 
 **Bug fixes:**
 * Correct logic for floe size distribution wave_spec_type (changes answers for fsd12 option) [#394](https://github.com/CICE-Consortium/CICE/pull/394)
