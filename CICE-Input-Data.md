@@ -103,17 +103,26 @@ inputdata = '/glade/p/cesm/pcwg_dev/'
                MONTHLY/
                   nitrate_climatologyWOA_gx1v6f_20150107.nc
                   silicate_climatologyWOA_gx1v6f_20150107.nc
-         gx3/NCAR_bulk/
-            4XDAILY/
-               u_10.1997.data
-               v_10.1997.data
-               q_10.1997.dat
-               t_10.1997.dat
-               dn10.1997.dat
-            MONTHLY/
-               cldf.1997.dat
-               prec.1997.dat
-               swdn.1997.dat
+         gx3/
+            ww3.20100101_efreq_remapgx3.nc
+            NCAR_bulk/
+               4XDAILY/
+                  u_10.1997.data
+                  v_10.1997.data
+                  q_10.1997.dat
+                  t_10.1997.dat
+                  dn10.1997.dat
+               MONTHLY/
+                  cldf.1997.dat
+                  prec.1997.dat
+                  swdn.1997.dat
+            JRA55/
+               8XDAILY/
+                  JRA55_gx3_03hr_forcing_2005.nc
+                  JRA55_gx3_03hr_forcing_2006.nc
+                  JRA55_gx3_03hr_forcing_2007.nc
+                  JRA55_gx3_03hr_forcing_2008.nc
+                  JRA55_gx3_03hr_forcing_2009.nc
        grid/
           gx1/
              grid_gx1.bin
