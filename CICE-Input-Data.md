@@ -6,20 +6,19 @@ Specific instructions for setting up standard tests (e.g. regression, restart) a
 
 #### _File Availability:_
 
-* Grid and IC files (25M): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_ic_grid.tar.gz
+File name | size | download link | wiki description |
+----|:---:|:---:|:---:|
+| **Grid and IC files** | (25M) | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_ic_grid.tar.gz) | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data/#grid-files-and-initial-conditions) |
+| **gx1 *monthly* forcing data** | (32M) | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_MONTHLY.tar.gz) | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data/#gx1-forcing-data) |
+| **gx1 2005 *4x and 8x daily* forcing data** | (11G) | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2005.tar.gz) | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data/#gx1-forcing-data) |
+| **gx1 2006 *4x and 8x daily* forcing data** | (11G) | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2006.tar.gz) | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data/#gx1-forcing-data) |
+| **gx1 2007 *4x and 8x daily* forcing data** | (11G) | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2007.tar.gz) | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data/#gx1-forcing-data) |
+| **gx1 2008 *4x and 8x daily* forcing data** | (11G) | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2008.tar.gz) | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data/#gx1-forcing-data) |
+| **gx1 2009 *4x and 8x daily* forcing data** | (11G) | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2009.tar.gz) | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data/#gx1-forcing-data) |
+| **gx3 *all* forcing data** | (4.1G) | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx3_all.tar.gz) | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data/#gx1-forcing-data) |
 
-* All monthly gx1 data (32M): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_MONTHLY.tar.gz
+A link to the newly added or updated forcing files is found [below](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data#updated-files).
 
-* All 4x and 8x daily gx1 data for:
-  * 2005 (11G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2005.tar.gz
-  * 2006 (11G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2006.tar.gz
-  * 2007 (11G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2007.tar.gz
-  * 2008 (11G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2008.tar.gz
-  * 2009 (11G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2009.tar.gz
-
-* All gx3 forcing data (4.1G): ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx3_all.tar.gz
-
-Link to the newly added or updated forcing files is found [below](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data#updated-files).
 
 ### _**grid files and initial conditions:**_
 
@@ -51,7 +50,7 @@ Forcing data are available from the FTP from three sources.
 
    **If you publish a paper using the JRA55 dataset *please* be sure to cite this paper.** _Tsujino, H., Urakawa, S., Nakano, H., Small, R. J., Kim, W. M., Yeager, S. G., et al. (2018). JRA‐55 based surface dataset for driving ocean–sea‐ice models (JRA55‐do). Ocean Modelling. https://doi.org/10.1016/j.ocemod.2018.07.002_ 
 
-3) Wave Watch 3 (WW3) forcing necessary for the floe size distribution.
+3) Wave Watch 3 (WW3) surface ocean wave spectral forcing necessary for the floe size distribution.
 
 ## Updated Files
 Users needing just the new files (detailed below) can download just these updated files here: ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_new.tar.gz . 
