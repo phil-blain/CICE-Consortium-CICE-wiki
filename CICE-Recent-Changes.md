@@ -2,9 +2,9 @@
  
 ## 
 
-Date of last update:  22 February 2020
+Date of last update:  7 March 2020
 
-By:  T. Craig
+By:  E. Hunke
 
 [Last numbered release](https://github.com/CICE-Consortium/CICE/releases): CICE 6.1.0 (Dec 9, 2019)
 
@@ -15,6 +15,8 @@ By:  T. Craig
 **Bug fixes:**
 * Correct logic for floe size distribution wave_spec_type (changes answers for fsd12 option) [#394](https://github.com/CICE-Consortium/CICE/pull/394)
 * Fix threading in macros files for some machines [#396](https://github.com/CICE-Consortium/CICE/pull/396)
+* Change order of operations in albedo calculation for restart consistency [#414](https://github.com/CICE-Consortium/CICE/pull/414), does not change answers in standard test cases
+
 
 **Enhancements:**
 * Use MPI module instead of Fortran include statement [#389](https://github.com/CICE-Consortium/CICE/pull/389)
@@ -22,7 +24,8 @@ By:  T. Craig
 * Update run status output based on diag_type setting [#396](https://github.com/CICE-Consortium/CICE/pull/396)
 * Update machines/compilers [#401](https://github.com/CICE-Consortium/CICE/pull/401)
 * Generalize cice.setup script to allow setup-only, setup+build, setup+build+run and setup+build+submit [#395](https://github.com/CICE-Consortium/CICE/pull/395) and fix bug introduced by the upgrade [#406](https://github.com/CICE-Consortium/CICE/pull/406)
-* Update Icepack version [#409](https://github.com/CICE-Consortium/CICE/pull/409)
+* Update ice_open to use 8-byte integers [#410](https://github.com/CICE-Consortium/CICE/pull/410)
+* Update Icepack version [#409](https://github.com/CICE-Consortium/CICE/pull/409) [#414](https://github.com/CICE-Consortium/CICE/pull/414)
 
 **Documentation**
 * Add html anchors when reporting results [#388](https://github.com/CICE-Consortium/CICE/pull/388)
