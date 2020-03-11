@@ -12,21 +12,21 @@ By:  A. DuVivier
 ## 
 **Upwind advection:**
 * The upwind advection horizontal transport is less accurate than the incremental remapping scheme.
-* [Namelist option set in _dynamics_nml_](https://cice-consortium-cice.readthedocs.io/en/master/user_guide/ug_case_settings.html#table-of-namelist-options): advection = upwind
+* [Namelist option](https://cice-consortium-cice.readthedocs.io/en/master/user_guide/ug_case_settings.html#table-of-namelist-options): _dynamics_nml_ --> advection = upwind
 * [Documentation](https://cice-consortium-cice.readthedocs.io/en/master/science_guide/sg_horiztrans.html)
 
 **CESM Melt Ponds:**
 * The CESM melt pond scheme is less sophisticated than the level-ice or deformed-ice schemes.
-* [Namelist option set in _tracer_nml_](https://cice-consortium-cice.readthedocs.io/en/master/user_guide/ug_case_settings.html#table-of-namelist-options): tr_pond_cesm = true
+* [Namelist option](https://cice-consortium-cice.readthedocs.io/en/master/user_guide/ug_case_settings.html#table-of-namelist-options): _tracer_nml_ --> tr_pond_cesm = true
 * [Documentation](https://cice-consortium-cice.readthedocs.io/en/master/science_guide/sg_tracers.html#tracers)
 
 **Delta Function ITD remapping:**
 * Having a single delta step for an ITD category is less sophisticated than the linear remapping approximation.
-* [Namelist option set in _thermo_nml_](https://cice-consortium-cice.readthedocs.io/en/master/user_guide/ug_case_settings.html#table-of-namelist-options): kitd = 0
+* [Namelist option](https://cice-consortium-cice.readthedocs.io/en/master/user_guide/ug_case_settings.html#table-of-namelist-options): _thermo_nml_ --> kitd = 0
 * [Documentation](https://cice-consortium-icepack.readthedocs.io/en/master/science_guide/sg_itd.html#ice-thickness-distribution)
 
 **Old Ridging Participation and Redistribution:**
 * REASONING??.
-* [Namelist option set in _dynamics_nml_](https://cice-consortium-cice.readthedocs.io/en/master/user_guide/ug_case_settings.html#table-of-namelist-options): krdg_partic = 0  and krdg_redist = 0
+* [Namelist option](https://cice-consortium-cice.readthedocs.io/en/master/user_guide/ug_case_settings.html#table-of-namelist-options): _dynamics_nml_ --> krdg_partic = 0  and krdg_redist = 0
 * [Documentation](https://cice-consortium-cice.readthedocs.io/en/master/user_guide/ug_implementation.html#choosing-an-appropriate-time-step)
 
