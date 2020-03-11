@@ -1,15 +1,15 @@
-## Forcing Data
+# Forcing Data
 
 Data files for testing CICE and that were included with code distributions from the svn repository are too large to be kept on github. The near surface data required for testing CICE can be found at the anonymous FTP site paths listed below. Details about each dataset follow the FTP paths.
 
 Specific instructions for setting up standard tests (e.g. regression, restart) are in the User's Guide section of the documentation.
 
-#### _File Availability:_
+## _File Availability:_
 
 File name | size (Mb) | download link | wiki description | status
 ----|:---:|:---:|:---:|:---:|
 |**General Datasets**| | | | |
-| All CICE Grid files | 4 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_grids.tar.gz) | [link](HERE) | * |
+| All CICE Grid files | 4 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_grids.tar.gz) | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT%3A-INPUT-DATA/_#grid-files) | * |
 | All CICE Initial Condition files | 21 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_ic.tar.gz) | [link](HERE) | * |
 |**gx3 Forcing Datasets**| | | | |
 | CICE gx3 JRA55 forcing files | 3700 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_forcing_JRA55.tar.gz) | [link](HERE) | * +9/2019, CICE6.0.2 |
@@ -20,7 +20,13 @@ File name | size (Mb) | download link | wiki description | status
 | CICE gx1 COREII forcing files | 18000 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx1_forcing_COREII.tar.gz) | [link](HERE) | * |
 | CICE gx1 WOA forcing files | 17 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx1_forcing_WOA.tar.gz) | [link](HERE) | u |
 
-### _**grid files and initial conditions:**_
+# Descriptions of Tar files
+
+## _**grid files**_
+
+Initial conditions, grid, and kmt files are provided for each of the two grids (gx1 and gx3). We also provide grid and kmt files for the tripole grid (tx1). 
+
+## _**initial condition files**_
 
 Initial conditions, grid, and kmt files are provided for each of the two grids (gx1 and gx3). We also provide grid and kmt files for the tripole grid (tx1). 
 
