@@ -9,7 +9,7 @@ Specific instructions for setting up standard tests (e.g. regression, restart) a
 File name | size (Mb) | download link | wiki description | status
 ----|:---:|:---:|:---:|:---:|
 |**General Datasets**| | | | |
-| All CICE Grid files | 4 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_grids.tar.gz) | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#grid-files) | * |
+| All CICE Grid files | 4 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_grids.tar.gz) | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#all-cice-grid-files) | * |
 | All CICE Initial Condition files | 21 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_ic.tar.gz) | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#initial-condition-files) | * |
 |**gx3 Forcing Datasets**| | | | |
 | CICE gx3 JRA55 forcing files | 3700 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_forcing_JRA55.tar.gz) | [link](HERE) | * +9/2019, CICE6.0.2 |
@@ -28,7 +28,7 @@ Grid and kmt files are provided for the following global grids:
 * gx1 - nominal one-degree resolution
 * tx1 - nominal one-degree resolution, tripole 
 
-### _**initial condition files**_
+### _**All CICE Initial Condition Files**_
 Initial conditions are provided for the gx1 and gx3 grids, described above. 
 
 ## _**gx3 Forcing datasets:**_
