@@ -21,29 +21,34 @@ File name | size (Mb) | download link | wiki description | status
 | CICE gx1 WOA forcing files | 17 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx1_forcing_WOA.tar.gz) | [link](HERE) | u |
 
 # Descriptions of Tar files
-
-### _**grid files**_
-
-Initial conditions, grid, and kmt files are provided for each of the two grids (gx1 and gx3). We also provide grid and kmt files for the tripole grid (tx1). 
+## General Datasets
+### _**All CICE grid files**_
+Grid and kmt files are provided for the following global grids:
+* gx3 - nominal three-degree resolution
+* gx1 - nominal one-degree resolution
+* tx1 - nominal one-degree resolution, tripole 
 
 ### _**initial condition files**_
+Initial conditions are provided for the gx1 and gx3 grids, described above. 
 
-Initial conditions, grid, and kmt files are provided for each of the two grids (gx1 and gx3). We also provide grid and kmt files for the tripole grid (tx1). 
-
-### _**gx3 forcing data:**_
-#### _**JRA55 forcing:**_
+## _**gx3 Forcing datasets:**_
+### _**JRA55 forcing:**_
 JRA55 forcing (Tsujino et. al 2018) files are 8x daily data by year with the following fields: X-ward wind (wndewd), Y-ward wind (wndnwd), Specific Humidity (spchmd), Air Temperature (airtmp), Total Precipitation (ttlpcp), Downward Surface Longwave (dlwsfc), and Downward Surface Shortwave (glbrad). As a result, there is no need for monthly files or cloud fraction when using the JRA55 forcing. Five years (2005-2009) of forcing data are available. **If you publish a paper using the JRA55 dataset *please* be sure to cite this paper.** 
 
 _Tsujino, H., Urakawa, S., Nakano, H., Small, R. J., Kim, W. M., Yeager, S. G., et al. (2018). JRA‐55 based surface dataset for driving ocean–sea‐ice models (JRA55‐do). Ocean Modelling. https://doi.org/10.1016/j.ocemod.2018.07.002_ 
 
-#### _**NCAR_bulk forcing:**_
+### _**NCAR_bulk forcing:**_
 NCAR_bulk forcing files are are available for one year (1997). These include 4x daily data for near surface fields (u_10, v_10, q_10, t_10, dn_10) as well as monthly cloud forcing, precipitation, and shortwave down radiation fields. 
 
-#### _**WW3 forcing:**_
-Wave Watch 3 (WW3) surface ocean wave spectral forcing that is necessary for the floe size distribution is available.
+CITATION?? MORE INFO ABOUT DEPRECATION OR CODE RELEASE TO USE WITH?
 
-### _**gx1 forcing data:**_
-#### _**JRA55 forcing:**_
+### _**WW3 forcing:**_
+Wave Watch 3 (WW3) surface ocean wave spectral forcing that is necessary for the floe size distribution.
+
+MORE INFO? CITATION?
+
+## _**gx1 Forcing Datasets:**_
+### _**JRA55 forcing:**_
 JRA55 forcing (Tsujino et. al 2018) files are 8x daily data by year with the following fields: X-ward wind (wndewd), Y-ward wind (wndnwd), Specific Humidity (spchmd), Air Temperature (airtmp), Total Precipitation (ttlpcp), Downward Surface Longwave (dlwsfc), and Downward Surface Shortwave (glbrad). As a result, there is no need for monthly files or cloud fraction when using the JRA55 forcing. Five years (2005-2009) of forcing data are available. **If you publish a paper using the JRA55 dataset *please* be sure to cite this paper.** 
 
    _Tsujino, H., Urakawa, S., Nakano, H., Small, R. J., Kim, W. M., Yeager, S. G., et al. (2018). JRA‐55 based surface dataset for driving ocean–sea‐ice models (JRA55‐do). Ocean Modelling. https://doi.org/10.1016/j.ocemod.2018.07.002_ 
@@ -53,11 +58,13 @@ COREII (Large and Yeager 2009) forcing files are 4x daily data by year for the f
 
    _Large, W.G. and S.G. Yeager (2009).The global climatology of an interannually varying air-sea flux data set. Climate Dynamics, 33, 341-364. https://doi.org/10.1007/s00382-008-0441-3_
 
-#### _**WOA forcing:**_
-DETAILS HERE
+MORE INFO ABOUT DEPRECATION OR CODE RELEASE TO USE WITH?
 
-#### _**Additional Years:**_
+##### _**Additional Years:**_
 If more than 5 years of gx1 forcing data are required for your work, information and instructions about how users can generate 50 years of forcing data can also be found at ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/gx1_50yr_scrip.tar.gz. These data will not be arranged in the directory structure described below and the user is responsible for arranging files appropriately.  The Consortium recommends against using the stand-alone configuration for scientific studies.  See the [FAQ](https://github.com/CICE-Consortium/About-Us/wiki/FAQ-(Frequently-Asked-Questions)#stand-alone-configuration-and-forcing).
+
+### _**WOA forcing:**_
+DETAILS HERE
 
 ## Directory structure
 
