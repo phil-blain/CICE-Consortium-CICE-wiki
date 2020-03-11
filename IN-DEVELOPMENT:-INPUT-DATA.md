@@ -6,19 +6,19 @@ Specific instructions for setting up standard tests (e.g. regression, restart) a
 
 ## _File Availability:_
 
-File name | size (Mb) | download link | wiki description | status
+File name | size (Mb) | download link | status ('*' indicates active dataset) | wiki description |
 ----|:---:|:---:|:---:|:---:|
 |**General Datasets**| | | | |
-| All CICE Grid files | 4 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_grids.tar.gz) | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#all-cice-grid-files) | * |
-| All CICE Initial Condition files | 21 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_ic.tar.gz) | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#initial-condition-files) | * |
+| All CICE Grid files | 4 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_grids.tar.gz) | * | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#all-cice-grid-files) | 
+| All CICE Initial Condition files | 21 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_ic.tar.gz) | * | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#all-cice-initial-condition-files) |
 |**gx3 Forcing Datasets**| | | | |
-| CICE gx3 JRA55 forcing files | 3700 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_forcing_JRA55.tar.gz) | [link](HERE) | * +9/2019, CICE6.0.2 |
-| CICE gx3 NCAR_bulk forcing files | 428 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_forcing_NCAR_bulk.tar.gz) | [link](HERE) | * |
-| CICE gx3 WW3 forcing files | 3 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_forcing_WW3.tar.gz) | [link](HERE) | * +12/2019, CICE6.1.0 |
+| CICE gx3 JRA55 forcing files | 3700 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_forcing_JRA55.tar.gz) | * +9/2019, CICE6.0.2 | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#jra55-forcing) |
+| CICE gx3 NCAR_bulk forcing files | 428 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_forcing_NCAR_bulk.tar.gz) | * | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#ncar_bulk-forcing) |
+| CICE gx3 WW3 forcing files | 3 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_forcing_WW3.tar.gz) | * +12/2019, CICE6.1.0 | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#ww3-forcing) |
 |**gx1 Forcing Datasets**| | | |
-| CICE gx1 JRA55 forcing files | 38000 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx1_forcing_JRA55.tar.gz) | [link](HERE) | * +3/2020, CICE6.1.1 |
-| CICE gx1 COREII forcing files | 18000 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx1_forcing_COREII.tar.gz) | [link](HERE) | * |
-| CICE gx1 WOA forcing files | 17 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx1_forcing_WOA.tar.gz) | [link](HERE) | u |
+| CICE gx1 JRA55 forcing files | 38000 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx1_forcing_JRA55.tar.gz) | * +3/2020, CICE6.1.1 | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#jra55-forcing-1) |
+| CICE gx1 COREII forcing files | 18000 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx1_forcing_COREII.tar.gz) | * | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#core-ii-forcing) |
+| CICE gx1 WOA forcing files | 17 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx1_forcing_WOA.tar.gz) | * | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#woa-forcing) |
 
 # Descriptions of Tar files
 ## General Datasets
