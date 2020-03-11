@@ -9,8 +9,8 @@ Specific instructions for setting up standard tests (e.g. regression, restart) a
 File name | size (Mb) | download link | wiki description | status
 ----|:---:|:---:|:---:|:---:|
 |**General Datasets**| | | | |
-| All CICE Grid files | 4 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_grids.tar.gz) | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT%3A-INPUT-DATA/_#grid-files) | * |
-| All CICE Initial Condition files | 21 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_ic.tar.gz) | [link](HERE) | * |
+| All CICE Grid files | 4 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_grids.tar.gz) | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#grid-files) | * |
+| All CICE Initial Condition files | 21 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_ic.tar.gz) | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#initial-condition-files) | * |
 |**gx3 Forcing Datasets**| | | | |
 | CICE gx3 JRA55 forcing files | 3700 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_forcing_JRA55.tar.gz) | [link](HERE) | * +9/2019, CICE6.0.2 |
 | CICE gx3 NCAR_bulk forcing files | 428 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_forcing_NCAR_bulk.tar.gz) | [link](HERE) | * |
@@ -22,11 +22,11 @@ File name | size (Mb) | download link | wiki description | status
 
 # Descriptions of Tar files
 
-## _**grid files**_
+### _**grid files**_
 
 Initial conditions, grid, and kmt files are provided for each of the two grids (gx1 and gx3). We also provide grid and kmt files for the tripole grid (tx1). 
 
-## _**initial condition files**_
+### _**initial condition files**_
 
 Initial conditions, grid, and kmt files are provided for each of the two grids (gx1 and gx3). We also provide grid and kmt files for the tripole grid (tx1). 
 
