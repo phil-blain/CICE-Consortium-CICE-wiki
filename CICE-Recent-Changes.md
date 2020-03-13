@@ -2,9 +2,9 @@
  
 ## 
 
-Date of last update:  7 March 2020
+Date of last update:  13 March 2020
 
-By:  E. Hunke
+By:  T. Craig
 
 [Last numbered release](https://github.com/CICE-Consortium/CICE/releases): CICE 6.1.0 (Dec 9, 2019)
 
@@ -20,12 +20,13 @@ By:  E. Hunke
 
 **Enhancements:**
 * Use MPI module instead of Fortran include statement [#389](https://github.com/CICE-Consortium/CICE/pull/389)
+* Update wave_spec_frac filename handling, namelist input now specifies path and filename [#417](https://github.com/CICE-Consortium/CICE/pull/417)
 * Add conda environment to run on personal computers [#393](https://github.com/CICE-Consortium/CICE/pull/393) [#400](https://github.com/CICE-Consortium/CICE/pull/400) [#402](https://github.com/CICE-Consortium/CICE/pull/402)
 * Update run status output based on diag_type setting [#396](https://github.com/CICE-Consortium/CICE/pull/396)
-* Update machines/compilers [#401](https://github.com/CICE-Consortium/CICE/pull/401)
+* Update machines/compilers [#401](https://github.com/CICE-Consortium/CICE/pull/401), [#416](https://github.com/CICE-Consortium/CICE/pull/416)
 * Generalize cice.setup script to allow setup-only, setup+build, setup+build+run and setup+build+submit [#395](https://github.com/CICE-Consortium/CICE/pull/395) and fix bug introduced by the upgrade [#406](https://github.com/CICE-Consortium/CICE/pull/406)
 * Update ice_open to use 8-byte integers [#410](https://github.com/CICE-Consortium/CICE/pull/410)
-* Update Icepack version [#409](https://github.com/CICE-Consortium/CICE/pull/409) [#414](https://github.com/CICE-Consortium/CICE/pull/414)
+* Update Icepack version [#409](https://github.com/CICE-Consortium/CICE/pull/409), [#414](https://github.com/CICE-Consortium/CICE/pull/414), [#416](https://github.com/CICE-Consortium/CICE/pull/416), [#417](https://github.com/CICE-Consortium/CICE/pull/417)
 
 **Documentation**
 * Add html anchors when reporting results [#388](https://github.com/CICE-Consortium/CICE/pull/388)
