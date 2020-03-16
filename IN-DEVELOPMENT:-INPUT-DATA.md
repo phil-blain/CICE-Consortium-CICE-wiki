@@ -6,32 +6,27 @@ Specific instructions for setting up standard tests (e.g. regression, restart) a
 
 ## _File Availability:_
 
-File name | size (Mb) | download link | status ('*' indicates active dataset) | wiki description |
+File name | size | download link | status ('*' indicates active dataset) | wiki description |
 ----|:---:|:---:|:---:|:---:|
-|**General Datasets**| | | | |
-| All CICE Grid files | 4 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_grids.tar.gz) | * | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#all-cice-grid-files) | 
-| All CICE Initial Condition files | 21 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_ic.tar.gz) | * | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#all-cice-initial-condition-files) |
-|**gx3 Forcing Datasets**| | | | |
-| CICE gx3 JRA55 forcing files | 3700 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_forcing_JRA55.tar.gz) | * +9/2019, CICE6.0.2 | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#jra55-forcing) |
-| CICE gx3 NCAR_bulk forcing files | 428 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_forcing_NCAR_bulk.tar.gz) | * | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#ncar_bulk-forcing) |
-| CICE gx3 WW3 forcing files | 3 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_forcing_WW3.tar.gz) | * +12/2019, CICE6.1.0 | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#ww3-forcing) |
+|**gx3 Datasets**| | | | |
+| CICE gx3 grid files | 476 Kb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_grid.tar.gz) | * +9/2019, CICE6.0.2 | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#jra55-forcing) |
+| CICE gx3 initial condition files | 2.2 Mb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_ic.tar.gz) | * +9/2019, CICE6.0.2 | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#jra55-forcing) |
+| CICE gx3 JRA55 forcing files | 3.7 Gb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_forcing_JRA55.tar.gz) | * +9/2019, CICE6.0.2 | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#jra55-forcing) |
+| CICE gx3 NCAR_bulk forcing files | 428 Mb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_forcing_NCAR_bulk.tar.gz) | * | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#ncar_bulk-forcing) |
+| CICE gx3 WW3 forcing files | 2.9 Mb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_forcing_WW3.tar.gz) | * +12/2019, CICE6.1.0 | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#ww3-forcing) |
 |**gx1 Forcing Datasets**| | | |
-| CICE gx1 JRA55 forcing files | 38000 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx1_forcing_JRA55.tar.gz) | * +3/2020, CICE6.1.1 | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#jra55-forcing-1) |
-| CICE gx1 COREII forcing files | 18000 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx1_forcing_COREII.tar.gz) | * | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#core-ii-forcing) |
-| CICE gx1 WOA forcing files | 17 | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx1_forcing_WOA.tar.gz) | * | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#woa-forcing) |
+| CICE gx1 grid files | 2.8 Mb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx1_grid.tar.gz) | * +9/2019, CICE6.0.2 | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#jra55-forcing) |
+| CICE gx1 initial condition files | 19 Mb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx1_ic.tar.gz) | * +9/2019, CICE6.0.2 | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#jra55-forcing) |
+| CICE gx1 JRA55 forcing files | 38 Gb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx1_forcing_JRA55.tar.gz) | * +3/2020, CICE6.1.1 | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#jra55-forcing-1) |
+| CICE gx1 COREII forcing files | 18 Gb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx1_forcing_COREII.tar.gz) | * | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#core-ii-forcing) |
+| CICE gx1 WOA forcing files | 17 Mb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx1_forcing_WOA.tar.gz) | * | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#woa-forcing) |
+|**tx1 Forcing Datasets**| | | |
+| CICE tx1 grid files | 871 Kb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_tx1_grid.tar.gz) | * +9/2019, CICE6.0.2 | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#jra55-forcing) |
 
 # Descriptions of Tar files
-## General Datasets
-### _**All CICE grid files**_
-Grid and kmt files are provided for the following global grids:
-* gx3 - nominal three-degree resolution
-* gx1 - nominal one-degree resolution
-* tx1 - nominal one-degree resolution, tripole 
-
-### _**All CICE Initial Condition Files**_
-Initial conditions are provided for the gx1 and gx3 grids, described above. 
-
-## _**gx3 Forcing datasets:**_
+## _**gx3 datasets:**_
+### _**Grid and Initial Condition files:**_
+The gx3 grid is nominal three-degree resolution. Grid and kmt file are provided in the grid tar file. Initial conditions are also available.
 ### _**JRA55 forcing:**_
 JRA55 forcing (Tsujino et. al 2018) files are 8x daily data by year with the following fields: X-ward wind (wndewd), Y-ward wind (wndnwd), Specific Humidity (spchmd), Air Temperature (airtmp), Total Precipitation (ttlpcp), Downward Surface Longwave (dlwsfc), and Downward Surface Shortwave (glbrad). As a result, there is no need for monthly files or cloud fraction when using the JRA55 forcing. Five years (2005-2009) of forcing data are available. **If you publish a paper using the JRA55 dataset *please* be sure to cite this paper.** 
 
@@ -47,7 +42,9 @@ Wave Watch 3 (WW3) surface ocean wave spectral forcing that is necessary for the
 
 MORE INFO? CITATION?
 
-## _**gx1 Forcing Datasets:**_
+## _**gx1 datasets:**_
+### _**Grid and Initial Condition files:**_
+The gx1 grid is nominal one-degree resolution. Grid and kmt file are provided in the grid tar file. Initial conditions are also available.
 ### _**JRA55 forcing:**_
 JRA55 forcing (Tsujino et. al 2018) files are 8x daily data by year with the following fields: X-ward wind (wndewd), Y-ward wind (wndnwd), Specific Humidity (spchmd), Air Temperature (airtmp), Total Precipitation (ttlpcp), Downward Surface Longwave (dlwsfc), and Downward Surface Shortwave (glbrad). As a result, there is no need for monthly files or cloud fraction when using the JRA55 forcing. Five years (2005-2009) of forcing data are available. **If you publish a paper using the JRA55 dataset *please* be sure to cite this paper.** 
 
@@ -66,7 +63,11 @@ If more than 5 years of gx1 forcing data are required for your work, information
 ### _**WOA forcing:**_
 DETAILS HERE
 
-## Directory structure
+## _**tx1 datasets:**_
+### _**Grid files:**_
+The tx3 grid is nominal one-degree resolution on a tripole grid. Grid and kmt file are provided in the grid tar file. Initial conditions are not yet available.
+
+# Directory structure
 
 An example of how testing data is organized follows. We recommend setting up a similar path structure. You will need to set up your own 'inputdata' path, but the organization of the CICE_data top level directory should follow the structure below and should automatically unpack as so from the ftp's *.tar.gz files. You will need to extract the data from the downloaded *tar.gz files.
 
@@ -138,7 +139,11 @@ inputdata = '/glade/p/cesm/pcwg_dev/'
             iced_gx3_v5.nc
 ```
 
-## Naming standards
-New forcing datasets must have a new directory under the grid directory they are designated for. 
+# Naming standards
+File names must be unique from any other files in the archive. The grid name should be included in the file name. 
 
-File names must be unique from any other files in the archive. The grid name should be included in the file name.  
+New grid files or initial condition files for an existing dataset will be added to the existing grid and initial condition tar files. As stated above, new files added must have unique file names from those already included in the repository.
+
+Existing forcing datasets will be updated only if there are errors found in the existing data. New forcing datasets will be added as an entirely new tar file with a new directory under the grid directory with which they are used.
+
+ 
