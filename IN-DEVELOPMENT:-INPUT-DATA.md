@@ -6,66 +6,22 @@ Specific instructions for setting up standard tests (e.g. regression, restart) a
 
 ## _File Availability:_
 
-File name | size | download link | status ('*' indicates active dataset) | wiki description |
-----|:---:|:---:|:---:|:---:|
-|**gx3 Datasets**| | | | |
-| CICE gx3 grid files | 476 Kb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_grid.tar.gz) | * +9/2019, CICE6.0.2 | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#jra55-forcing) |
-| CICE gx3 initial condition files | 2.2 Mb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_ic.tar.gz) | * +9/2019, CICE6.0.2 | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#jra55-forcing) |
-| CICE gx3 JRA55 forcing files | 3.7 Gb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_forcing_JRA55.tar.gz) | * +9/2019, CICE6.0.2 | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#jra55-forcing) |
-| CICE gx3 NCAR_bulk forcing files | 428 Mb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_forcing_NCAR_bulk.tar.gz) | * | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#ncar_bulk-forcing) |
-| CICE gx3 WW3 forcing files | 2.9 Mb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_forcing_WW3.tar.gz) | * +12/2019, CICE6.1.0 | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#ww3-forcing) |
-|**gx1 Forcing Datasets**| | | |
-| CICE gx1 grid files | 2.8 Mb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx1_grid.tar.gz) | * +9/2019, CICE6.0.2 | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#jra55-forcing) |
-| CICE gx1 initial condition files | 19 Mb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx1_ic.tar.gz) | * +9/2019, CICE6.0.2 | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#jra55-forcing) |
-| CICE gx1 JRA55 forcing files | 38 Gb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx1_forcing_JRA55.tar.gz) | * +3/2020, CICE6.1.1 | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#jra55-forcing-1) |
-| CICE gx1 COREII forcing files | 18 Gb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx1_forcing_COREII.tar.gz) | * | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#core-ii-forcing) |
-| CICE gx1 WOA forcing files | 17 Mb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx1_forcing_WOA.tar.gz) | * | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#woa-forcing) |
-|**tx1 Forcing Datasets**| | | |
-| CICE tx1 grid files | 871 Kb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_tx1_grid.tar.gz) | * +9/2019, CICE6.0.2 | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#jra55-forcing) |
-
-# Descriptions of Tar files
-## _**gx3 datasets:**_
-### _**Grid and Initial Condition files:**_
-The gx3 grid is nominal three-degree resolution. Grid and kmt file are provided in the grid tar file. Initial conditions are also available.
-### _**JRA55 forcing:**_
-JRA55 forcing (Tsujino et. al 2018) files are 8x daily data by year with the following fields: X-ward wind (wndewd), Y-ward wind (wndnwd), Specific Humidity (spchmd), Air Temperature (airtmp), Total Precipitation (ttlpcp), Downward Surface Longwave (dlwsfc), and Downward Surface Shortwave (glbrad). As a result, there is no need for monthly files or cloud fraction when using the JRA55 forcing. Five years (2005-2009) of forcing data are available. **If you publish a paper using the JRA55 dataset *please* be sure to cite this paper.** 
-
-_Tsujino, H., Urakawa, S., Nakano, H., Small, R. J., Kim, W. M., Yeager, S. G., et al. (2018). JRA‐55 based surface dataset for driving ocean–sea‐ice models (JRA55‐do). Ocean Modelling. https://doi.org/10.1016/j.ocemod.2018.07.002_ 
-
-### _**NCAR_bulk forcing:**_
-NCAR_bulk forcing files are are available for one year (1997). These include 4x daily data for near surface fields (u_10, v_10, q_10, t_10, dn_10) as well as monthly cloud forcing, precipitation, and shortwave down radiation fields. 
-
-CITATION?? MORE INFO ABOUT DEPRECATION OR CODE RELEASE TO USE WITH?
-
-### _**WW3 forcing:**_
-Wave Watch 3 (WW3) surface ocean wave spectral forcing that is necessary for the floe size distribution.
-
-MORE INFO? CITATION?
-
-## _**gx1 datasets:**_
-### _**Grid and Initial Condition files:**_
-The gx1 grid is nominal one-degree resolution. Grid and kmt file are provided in the grid tar file. Initial conditions are also available.
-### _**JRA55 forcing:**_
-JRA55 forcing (Tsujino et. al 2018) files are 8x daily data by year with the following fields: X-ward wind (wndewd), Y-ward wind (wndnwd), Specific Humidity (spchmd), Air Temperature (airtmp), Total Precipitation (ttlpcp), Downward Surface Longwave (dlwsfc), and Downward Surface Shortwave (glbrad). As a result, there is no need for monthly files or cloud fraction when using the JRA55 forcing. Five years (2005-2009) of forcing data are available. **If you publish a paper using the JRA55 dataset *please* be sure to cite this paper.** 
-
-   _Tsujino, H., Urakawa, S., Nakano, H., Small, R. J., Kim, W. M., Yeager, S. G., et al. (2018). JRA‐55 based surface dataset for driving ocean–sea‐ice models (JRA55‐do). Ocean Modelling. https://doi.org/10.1016/j.ocemod.2018.07.002_ 
-
-#### _**CORE II forcing:**_
-COREII (Large and Yeager 2009) forcing files are 4x daily data by year for the following near surface fields: Zonal Wind (u_10), Meridional Wind (v_10), 10m Specific Humidity (q_10), and 10m Temperature (t_10). The monthly cloud forcing (cldf) and precipitation (prec) climatological fields are separate. Five years (2005-2009) of forcing data are available.
-
-   _Large, W.G. and S.G. Yeager (2009).The global climatology of an interannually varying air-sea flux data set. Climate Dynamics, 33, 341-364. https://doi.org/10.1007/s00382-008-0441-3_
-
-MORE INFO ABOUT DEPRECATION OR CODE RELEASE TO USE WITH?
-
-##### _**Additional Years:**_
-If more than 5 years of gx1 forcing data are required for your work, information and instructions about how users can generate 50 years of forcing data can also be found at ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/gx1_50yr_scrip.tar.gz. These data will not be arranged in the directory structure described below and the user is responsible for arranging files appropriately.  The Consortium recommends against using the stand-alone configuration for scientific studies.  See the [FAQ](https://github.com/CICE-Consortium/About-Us/wiki/FAQ-(Frequently-Asked-Questions)#stand-alone-configuration-and-forcing).
-
-### _**WOA forcing:**_
-DETAILS HERE
-
-## _**tx1 datasets:**_
-### _**Grid files:**_
-The tx3 grid is nominal one-degree resolution on a tripole grid. Grid and kmt file are provided in the grid tar file. Initial conditions are not yet available.
+File name | size | download link | compatible version | date added(+)/ deprecated(-) | wiki description |
+----|:---:|:---:|:---:|:---:|:---:|
+|**gx3 Datasets**| | | | | |
+| CICE gx3 grid files | 476 Kb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_grid.tar.gz) | All | | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#jra55-forcing) |
+| CICE gx3 initial condition files | 2.2 Mb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_ic.tar.gz) | All | | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#jra55-forcing) |
+| CICE gx3 JRA55 forcing files | 3.7 Gb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_forcing_JRA55.tar.gz) | CICE6.0.2 | +9/2019 | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#jra55-forcing) |
+| CICE gx3 NCAR_bulk forcing files | 428 Mb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_forcing_NCAR_bulk.tar.gz) | All | | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#ncar_bulk-forcing) |
+| CICE gx3 WW3 forcing files | 2.9 Mb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_forcing_WW3.tar.gz) | CICE6.1.0 | +12/2019 | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#ww3-forcing) |
+|**gx1 Forcing Datasets**| | | | |
+| CICE gx1 grid files | 2.8 Mb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx1_grid.tar.gz) | All | | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#jra55-forcing) |
+| CICE gx1 initial condition files | 19 Mb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx1_ic.tar.gz) | All |  | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#jra55-forcing) |
+| CICE gx1 JRA55 forcing files | 38 Gb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx1_forcing_JRA55.tar.gz) | CICE6.1.1 | +3/2020 | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#jra55-forcing-1) |
+| CICE gx1 COREII forcing files | 18 Gb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx1_forcing_COREII.tar.gz) | All | | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#core-ii-forcing) |
+| CICE gx1 WOA forcing files | 17 Mb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx1_forcing_WOA.tar.gz) | All | | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#woa-forcing) |
+|**tx1 Forcing Datasets**| | | | |
+| CICE tx1 grid files | 871 Kb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_tx1_grid.tar.gz) | CICE6.0.2 | +9/2019 | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#jra55-forcing) |
 
 # Directory structure
 
@@ -138,6 +94,48 @@ inputdata = '/glade/p/cesm/pcwg_dev/'
           gx3/
             iced_gx3_v5.nc
 ```
+
+# Descriptions of Tar files
+## _**gx3 datasets:**_
+### _**Grid and Initial Condition files:**_
+The gx3 grid is nominal three-degree resolution. Grid and kmt file are provided in the grid tar file. Initial conditions are also available.
+### _**JRA55 forcing:**_
+JRA55 forcing (Tsujino et. al 2018) files are 8x daily data by year with the following fields: X-ward wind (wndewd), Y-ward wind (wndnwd), Specific Humidity (spchmd), Air Temperature (airtmp), Total Precipitation (ttlpcp), Downward Surface Longwave (dlwsfc), and Downward Surface Shortwave (glbrad). As a result, there is no need for monthly files or cloud fraction when using the JRA55 forcing. Five years (2005-2009) of forcing data are available. **If you publish a paper using the JRA55 dataset *please* be sure to cite this paper.** 
+
+_Tsujino, H., Urakawa, S., Nakano, H., Small, R. J., Kim, W. M., Yeager, S. G., et al. (2018). JRA‐55 based surface dataset for driving ocean–sea‐ice models (JRA55‐do). Ocean Modelling. https://doi.org/10.1016/j.ocemod.2018.07.002_ 
+
+### _**WW3 forcing:**_
+Surface ocean wave forcing derived from the Wavewatch III (WW3) model. This is a single year of the wave spectral forcing and is necessary for the floe size distribution (FSD) within CICE.
+
+MORE INFO? CITATION?
+
+### _**NCAR_bulk forcing:**_
+NCAR_bulk forcing files are are available for one year (1997). These include 4x daily data for near surface fields (u_10, v_10, q_10, t_10, dn_10) as well as monthly cloud forcing, precipitation, and shortwave down radiation fields. 
+
+## _**gx1 datasets:**_
+### _**Grid and Initial Condition files:**_
+The gx1 grid is nominal one-degree resolution. Grid and kmt file are provided in the grid tar file. Initial conditions are also available.
+### _**JRA55 forcing:**_
+JRA55 forcing (Tsujino et. al 2018) files are 8x daily data by year with the following fields: X-ward wind (wndewd), Y-ward wind (wndnwd), Specific Humidity (spchmd), Air Temperature (airtmp), Total Precipitation (ttlpcp), Downward Surface Longwave (dlwsfc), and Downward Surface Shortwave (glbrad). As a result, there is no need for monthly files or cloud fraction when using the JRA55 forcing. Five years (2005-2009) of forcing data are available. **If you publish a paper using the JRA55 dataset *please* be sure to cite this paper.** 
+
+   _Tsujino, H., Urakawa, S., Nakano, H., Small, R. J., Kim, W. M., Yeager, S. G., et al. (2018). JRA‐55 based surface dataset for driving ocean–sea‐ice models (JRA55‐do). Ocean Modelling. https://doi.org/10.1016/j.ocemod.2018.07.002_ 
+
+### _**WOA forcing:**_
+Climatological nitrate and silicate concentration (mmol/m^3) derived from the World Ocean Atlas and necessary for biogeochemical forcing.
+
+   _National Centers for Environmental Information (2013). World Ocean Atlas Version 2. Natl. Ocn. and Atm. Admin. https://www.nodc.noaa.gov/OC5/woa13/_
+
+### _**CORE II forcing:**_
+COREII (Large and Yeager 2009) forcing files are 4x daily data by year for the following near surface fields: Zonal Wind (u_10), Meridional Wind (v_10), 10m Specific Humidity (q_10), and 10m Temperature (t_10). The monthly cloud forcing (cldf) and precipitation (prec) climatological fields are separate. Five years (2005-2009) of forcing data are available.
+
+   _Large, W.G. and S.G. Yeager (2009).The global climatology of an interannually varying air-sea flux data set. Climate Dynamics, 33, 341-364. https://doi.org/10.1007/s00382-008-0441-3_
+
+#### _**Additional Years:**_
+If more than 5 years of gx1 forcing data are required for your work, information and instructions about how users can generate 50 years of forcing data can also be found at ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/gx1_50yr_scrip.tar.gz. These data will not be arranged in the directory structure described below and the user is responsible for arranging files appropriately.  The Consortium recommends against using the stand-alone configuration for scientific studies.  See the [FAQ](https://github.com/CICE-Consortium/About-Us/wiki/FAQ-(Frequently-Asked-Questions)#stand-alone-configuration-and-forcing).
+
+## _**tx1 datasets:**_
+### _**Grid files:**_
+The tx3 grid is nominal one-degree resolution on a tripole grid. Grid and kmt file are provided in the grid tar file. Initial conditions are not yet available.
 
 # Naming standards
 File names must be unique from any other files in the archive. The grid name should be included in the file name. 
