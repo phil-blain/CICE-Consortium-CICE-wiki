@@ -101,12 +101,16 @@ The gx3 grid is nominal three-degree resolution. Grid and kmt file are provided 
 ### _**JRA55 forcing:**_
 JRA55 forcing (Tsujino et. al 2018) files are 8x daily data by year with the following fields: X-ward wind (wndewd), Y-ward wind (wndnwd), Specific Humidity (spchmd), Air Temperature (airtmp), Total Precipitation (ttlpcp), Downward Surface Longwave (dlwsfc), and Downward Surface Shortwave (glbrad). As a result, there is no need for monthly files or cloud fraction when using the JRA55 forcing. Five years (2005-2009) of forcing data are available. **If you publish a paper using the JRA55 dataset *please* be sure to cite this paper.** 
 
-_Tsujino, H., Urakawa, S., Nakano, H., Small, R. J., Kim, W. M., Yeager, S. G., et al. (2018). JRA‐55 based surface dataset for driving ocean–sea‐ice models (JRA55‐do). Ocean Modelling. https://doi.org/10.1016/j.ocemod.2018.07.002_ 
+_Tsujino, H., S. Urakawa, H. Nakano, R.J. Small, W.M. Kim, S.G. Yeager, et al. (2018). JRA‐55 based surface dataset for driving ocean–sea‐ice models (JRA55‐do). Ocean Modelling. https://doi.org/10.1016/j.ocemod.2018.07.002_ 
 
 ### _**WW3 forcing:**_
-Surface ocean wave forcing derived from the Wavewatch III (WW3) model. This is a single year of the wave spectral forcing and is necessary for the floe size distribution (FSD) within CICE.
+Surface ocean wave forcing derived from the Wavewatch III (WW3) model. This is a single day of the wave spectral forcing that is necessary for the floe size distribution (FSD) within CICE. It is provided only for testing purposes and should not be used for publications. Users should produce their own spectral wave input. The data were derived from the wave-ice coupled run described in the following paper.
 
-MORE INFO? CITATION?
+_Roach, L.A., C.M. Bitz, C. Horvat, S.M. Dean. (2019). Advances in modelling interactions between sea ice and ocean surface waves. Journal of Advances in Modeling Earth Systems. https://doi.org/10.1029/2019MS001836_
+
+The WW3 model is documented in:
+
+_WAVEWATCH III Development Group. (2016). User manual and system documentation of WAVEWATCH III, version 5.16. Tech. Note 329, NOAA/NWS/NCEP/MMAB, College Park, MD, USA._
 
 ### _**NCAR_bulk forcing:**_
 NCAR_bulk forcing files are are available for one year (1997). These include 4x daily data for near surface fields (u_10, v_10, q_10, t_10, dn_10) as well as monthly cloud forcing, precipitation, and shortwave down radiation fields. 
@@ -117,24 +121,24 @@ The gx1 grid is nominal one-degree resolution. Grid and kmt file are provided in
 ### _**JRA55 forcing:**_
 JRA55 forcing (Tsujino et. al 2018) files are 8x daily data by year with the following fields: X-ward wind (wndewd), Y-ward wind (wndnwd), Specific Humidity (spchmd), Air Temperature (airtmp), Total Precipitation (ttlpcp), Downward Surface Longwave (dlwsfc), and Downward Surface Shortwave (glbrad). As a result, there is no need for monthly files or cloud fraction when using the JRA55 forcing. Five years (2005-2009) of forcing data are available. **If you publish a paper using the JRA55 dataset *please* be sure to cite this paper.** 
 
-   _Tsujino, H., Urakawa, S., Nakano, H., Small, R. J., Kim, W. M., Yeager, S. G., et al. (2018). JRA‐55 based surface dataset for driving ocean–sea‐ice models (JRA55‐do). Ocean Modelling. https://doi.org/10.1016/j.ocemod.2018.07.002_ 
+_Tsujino, H., S. Urakawa, H. Nakano, R.J. Small, W.M. Kim, S.G. Yeager, et al. (2018). JRA‐55 based surface dataset for driving ocean–sea‐ice models (JRA55‐do). Ocean Modelling. https://doi.org/10.1016/j.ocemod.2018.07.002_ 
 
 ### _**WOA forcing:**_
 Climatological nitrate and silicate concentration (mmol/m^3) derived from the World Ocean Atlas and necessary for biogeochemical forcing.
 
-   _National Centers for Environmental Information (2013). World Ocean Atlas Version 2. Natl. Ocn. and Atm. Admin. https://www.nodc.noaa.gov/OC5/woa13/_
+_National Centers for Environmental Information (2013). World Ocean Atlas Version 2. Natl. Ocn. and Atm. Admin. https://www.nodc.noaa.gov/OC5/woa13/_
 
 ### _**CORE II forcing:**_
 COREII (Large and Yeager 2009) forcing files are 4x daily data by year for the following near surface fields: Zonal Wind (u_10), Meridional Wind (v_10), 10m Specific Humidity (q_10), and 10m Temperature (t_10). The monthly cloud forcing (cldf) and precipitation (prec) climatological fields are separate. Five years (2005-2009) of forcing data are available.
 
-   _Large, W.G. and S.G. Yeager (2009).The global climatology of an interannually varying air-sea flux data set. Climate Dynamics, 33, 341-364. https://doi.org/10.1007/s00382-008-0441-3_
+_Large, W.G. and S.G. Yeager (2009).The global climatology of an interannually varying air-sea flux data set. Climate Dynamics, 33, 341-364. https://doi.org/10.1007/s00382-008-0441-3_
 
 #### _**Additional Years:**_
 If more than 5 years of gx1 forcing data are required for your work, information and instructions about how users can generate 50 years of forcing data can also be found at ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/gx1_50yr_scrip.tar.gz. These data will not be arranged in the directory structure described below and the user is responsible for arranging files appropriately.  The Consortium recommends against using the stand-alone configuration for scientific studies.  See the [FAQ](https://github.com/CICE-Consortium/About-Us/wiki/FAQ-(Frequently-Asked-Questions)#stand-alone-configuration-and-forcing).
 
 ## _**tx1 datasets:**_
 ### _**Grid files:**_
-The tx3 grid is nominal one-degree resolution on a tripole grid. Grid and kmt file are provided in the grid tar file. Initial conditions are not yet available.
+The tx3 grid is nominal one-degree resolution on a tripole grid. Grid and kmt file are provided in the grid tar file. Initial conditions for this grid are not yet available.
 
 # Naming standards
 File names must be unique from any other files in the archive. The grid name should be included in the file name. 
