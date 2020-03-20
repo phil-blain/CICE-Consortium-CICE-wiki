@@ -11,7 +11,7 @@ File name | size | download link | compatible version | date added(+)/ deprecate
 ----|:---:|:---:|:---:|:---:|:---:|
 |**gx3 Datasets**| | | | | |
 | CICE gx3 grid and initial condition files | 2.7 Mb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_grid_ic.tar.gz) | All | | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-INPUT-DATA-V2#grid-and-initial-condition-files) |
-| CICE gx3 JRA55 forcing files | 3.7 Gb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_forcing_JRA55.tar.gz) | CICE6.0.2+ | +10/2019 | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-INPUT-DATA-V2#ncar_bulk-forcing) |
+| CICE gx3 JRA55 forcing files | 3.7 Gb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_forcing_JRA55.tar.gz) | CICE6.0.2+ | +10/2019 | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-INPUT-DATA-V2#jra55-forcing) |
 | CICE gx3 WW3 forcing files | 2.9 Mb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_forcing_WW3.tar.gz) | CICE6.1.0+ | +12/2019 | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-INPUT-DATA-V2#ww3-forcing) |
 | CICE gx3 NCAR_bulk forcing files | 428 Mb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_forcing_NCAR_bulk.tar.gz) | All | | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#ncar_bulk-forcing) |
 |**gx1 Datasets**| | | | |
