@@ -1,15 +1,15 @@
 # Forcing Data
 
-Data files for testing CICE and that were included with code distributions from the svn repository are too large to be kept on github. The near surface data required for testing CICE can be found at the anonymous FTP site paths listed below. Details about each dataset follow the FTP paths.
+Data files for testing CICE are too large to be kept on github. The data files necessary for testing CICE have been published on Zenodo and can be found at the path listed for each dataset. Details about each dataset can be found at the link following the Zenodo DOI.
 
-Specific instructions for setting up standard tests (e.g. regression, restart) are in the User's Guide section of the documentation.
+These data files are designed only for testing the code, not for use in production runs or as observational data. Please do not publish results based on these data sets. Specific instructions for setting up standard tests (e.g. regression, restart) are in the User's Guide section of the documentation.
 
 ## _File Availability:_
 File name | size | download link | compatible version | date added(+)/ deprecated(-) | wiki description |
 ----|:---:|:---:|:---:|:---:|:---:|
 |**gx3 Datasets**| | | | | |
 | CICE gx3 grid and initial condition files | 476 Kb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_grid_ic.tar.gz) | All | | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#jra55-forcing) |
-| CICE gx3 JRA55 forcing files | 3.7 Gb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_forcing_JRA55.tar.gz) | CICE6.0.2+ | +9/2019 | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#jra55-forcing) |
+| CICE gx3 JRA55 forcing files | 3.7 Gb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_forcing_JRA55.tar.gz) | CICE6.0.2+ | +10/2019 | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#jra55-forcing) |
 | CICE gx3 NCAR_bulk forcing files | 428 Mb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_forcing_NCAR_bulk.tar.gz) | All | | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#ncar_bulk-forcing) |
 | CICE gx3 WW3 forcing files | 2.9 Mb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx3_forcing_WW3.tar.gz) | CICE6.1.0+ | +12/2019 | [link](https://github.com/CICE-Consortium/CICE/wiki/IN-DEVELOPMENT:-INPUT-DATA#ww3-forcing) |
 |**gx1 Datasets**| | | | |
