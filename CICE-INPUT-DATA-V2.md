@@ -4,7 +4,9 @@
 
 Data files for testing CICE are too large to be kept on github. The data files necessary for testing CICE have been published on Zenodo and can be found at the path listed for each dataset. Details about each dataset can be found at the link following the Zenodo DOI.
 
-These data files are designed only for testing the code, not for use in production runs or as observational data. Please do not publish results based on these data sets. Specific instructions for setting up standard tests (e.g. regression, restart) are in the User's Guide section of the documentation.
+The data files available below are designed only for testing the code, not for use in production runs or as observational data. Please do not publish results based on these data sets. Specific instructions for setting up standard tests (e.g. regression, restart) are in the User's Guide section of the documentation.
+
+A guide to the [directory structure](https://github.com/CICE-Consortium/CICE/wiki/CICE-INPUT-DATA-V2#directory-structure) of the CICE input data is also available. Tar files provided below will automatically unpack with this structure.
 
 ## _File Availability:_
 File name | size | download link | compatible version | date added(+)/ deprecated(-) | wiki description |
