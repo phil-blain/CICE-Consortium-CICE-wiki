@@ -17,10 +17,19 @@ File name | size | download link | compatible version | date added(+)/ deprecate
 |**gx1 Datasets**| | | | |
 | CICE gx1 grid and initial condition files | 22 Mb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx1_grid_ic.tar.gz) | All | | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-INPUT-DATA-V2#grid-and-initial-condition-files-1) |
 | CICE gx1 JRA55 forcing files | 38 Gb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx1_forcing_JRA55.tar.gz) | CICE6.1.1+ | +3/2020 | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-INPUT-DATA-V2#jra55-forcing-1) |
-| CICE gx1 COREII forcing files | 18 Gb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx1_forcing_COREII.tar.gz) | All | | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-INPUT-DATA-V2#core-ii-forcing) |
 | CICE gx1 WOA forcing files | 17 Mb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx1_forcing_WOA.tar.gz) | All | | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-INPUT-DATA-V2#woa-forcing) |
+| CICE gx1 COREII forcing files | 18 Gb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_gx1_forcing_COREII.tar.gz) | All | | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-INPUT-DATA-V2#core-ii-forcing) |
 |**tx1 Datasets**| | | | |
 | CICE tx1 grid files | 871 Kb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/prototyping/CICE_data_tx1_grid_ic.tar.gz) | CICE6.0.2+ | +9/2019 | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-INPUT-DATA-V2#grid-files) |
+
+### Naming standards
+For any new files that will be added to the CICE Input Data files, please note the following: 
+* File names must be unique from any other files in the archive. 
+* The grid name should be included in the file name whenever possible. 
+* New _grid or initial condition_ files for an existing dataset will be added to the existing grid and initial condition tar files. These new files added must have unique file names from the existing files.
+* Existing forcing datasets will be updated only if there are errors found in the existing data. 
+* New forcing datasets for a given grid will be added under `CICE_data/forcing/<grid>/` in a new directory. These files will also be made available as an entirely new tar file.
+* Any new grid that is added will conform to the existing data structure, naming, and format. The same applies to initial condition and forcing files associated with the new grid. 
 
 # Directory structure
 
@@ -139,11 +148,4 @@ If more than 5 years of gx1 forcing data are required for your work, information
 ## _**tx1 datasets:**_
 ### _**Grid files:**_
 The tx3 grid is nominal one-degree resolution on a tripole grid. Grid and kmt file are provided in the grid tar file. Initial conditions for this grid are not yet available.
-
-# Naming standards
-File names must be unique from any other files in the archive. The grid name should be included in the file name. 
-
-New grid files or initial condition files for an existing dataset will be added to the existing grid and initial condition tar files. As stated above, new files added must have unique file names from those already included in the repository.
-
-Existing forcing datasets will be updated only if there are errors found in the existing data. New forcing datasets will be added as an entirely new tar file with a new directory under the grid directory with which they are used.
 
