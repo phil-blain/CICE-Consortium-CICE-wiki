@@ -8,14 +8,14 @@ Specific instructions for setting up standard tests (e.g. regression, restart) a
 
 File name | size | download link | wiki description |
 ----|:---:|:---:|:---:|
-| **All Grid and IC files** | (25M) | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_ic_grid.tar.gz) | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data/#grid-files-and-initial-conditions) |
-| **gx1 *monthly* forcing data** | (32M) | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_MONTHLY.tar.gz) | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data/#gx1-forcing-data) |
-| **gx1 2005 *4x and 8x daily* forcing data** | (11G) | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2005.tar.gz) | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data/#gx1-forcing-data) |
-| **gx1 2006 *4x and 8x daily* forcing data** | (11G) | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2006.tar.gz) | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data/#gx1-forcing-data) |
-| **gx1 2007 *4x and 8x daily* forcing data** | (11G) | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2007.tar.gz) | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data/#gx1-forcing-data) |
-| **gx1 2008 *4x and 8x daily* forcing data** | (11G) | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2008.tar.gz) | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data/#gx1-forcing-data) |
-| **gx1 2009 *4x and 8x daily* forcing data** | (11G) | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx1_2009.tar.gz) | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data/#gx1-forcing-data) |
-| **gx3 *all* forcing data** | (4.1G) | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_forcing_gx3_all.tar.gz) | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data/#gx3-forcing-data) |
+| **All Grid and IC files** | (25M) | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/backup/CICE_data_ic_grid.tar.gz) | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data/#grid-files-and-initial-conditions) |
+| **gx1 *monthly* forcing data** | (32M) | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/backup/CICE_data_forcing_gx1_MONTHLY.tar.gz) | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data/#gx1-forcing-data) |
+| **gx1 2005 *4x and 8x daily* forcing data** | (11G) | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/backup/CICE_data_forcing_gx1_2005.tar.gz) | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data/#gx1-forcing-data) |
+| **gx1 2006 *4x and 8x daily* forcing data** | (11G) | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/backup/CICE_data_forcing_gx1_2006.tar.gz) | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data/#gx1-forcing-data) |
+| **gx1 2007 *4x and 8x daily* forcing data** | (11G) | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/backup/CICE_data_forcing_gx1_2007.tar.gz) | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data/#gx1-forcing-data) |
+| **gx1 2008 *4x and 8x daily* forcing data** | (11G) | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/backup/CICE_data_forcing_gx1_2008.tar.gz) | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data/#gx1-forcing-data) |
+| **gx1 2009 *4x and 8x daily* forcing data** | (11G) | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/backup/CICE_data_forcing_gx1_2009.tar.gz) | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data/#gx1-forcing-data) |
+| **gx3 *all* forcing data** | (4.1G) | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/backup/CICE_data_forcing_gx3_all.tar.gz) | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data/#gx3-forcing-data) |
 
 A link to the newly added or updated forcing files is found [below](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data#updated-files).
 
@@ -38,7 +38,7 @@ Five years (2005-2009) of forcing data are available from the FTP from two sourc
 
 #### _**Additional Years:**_
 
-If more than 5 years of gx1 forcing data are required for your work, information and instructions about how users can generate 50 years of forcing data can also be found at ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/gx1_50yr_scrip.tar.gz. These data will not be arranged in the directory structure described below and the user is responsible for arranging files appropriately.  The Consortium recommends against using the stand-alone configuration for scientific studies.  See the [FAQ](https://github.com/CICE-Consortium/About-Us/wiki/FAQ-(Frequently-Asked-Questions)#stand-alone-configuration-and-forcing).
+If more than 5 years of gx1 forcing data are required for your work, information and instructions about how users can generate 50 years of forcing data can also be found at ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/backup/gx1_50yr_scrip.tar.gz. These data will not be arranged in the directory structure described below and the user is responsible for arranging files appropriately.  The Consortium recommends against using the stand-alone configuration for scientific studies.  See the [FAQ](https://github.com/CICE-Consortium/About-Us/wiki/FAQ-(Frequently-Asked-Questions)#stand-alone-configuration-and-forcing).
 
 ### _**gx3 forcing data:**_
 
@@ -53,7 +53,7 @@ Forcing data are available from the FTP from three sources.
 3) Wave Watch 3 (WW3) surface ocean wave spectral forcing necessary for the floe size distribution.
 
 ## Updated Files
-Users needing just the new files (detailed below) can download just these updated files here: ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_new.tar.gz . 
+Users needing just the new files (detailed below) can download just these updated files here: ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/backup/CICE_data_new.tar.gz . 
 
 A list of file updates or additions is shown below and will be updated with new additions. After 6 months the files will be incorporated in the full data files an no longer considered "new". Users will be responsible for downloading and extracting the new files.
 
