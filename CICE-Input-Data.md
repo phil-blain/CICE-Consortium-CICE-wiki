@@ -16,7 +16,7 @@ File name | size | DOI and download link | compatible code versions | date added
 | CICE gx3 NCAR_bulk forcing files | 428 Mb | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3728362.svg)](https://doi.org/10.5281/zenodo.3728362) | All | | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data#ncar_bulk-forcing) |
 |**gx1 Datasets**| | | | |
 | CICE gx1 grid and initial condition files | 22 Mb | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3728583.svg)](https://doi.org/10.5281/zenodo.3728583) | All | | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data#grid-and-initial-condition-files-1) |
-| CICE gx1 JRA55 forcing files | 38 Gb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_gx1_forcing_JRA55-20200320.tar.gz) | CICE6.1.1+ | +3/2020 | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data#jra55-forcing-1) |
+| CICE gx1 JRA55 forcing files | 38 Gb | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3731014.svg)](https://doi.org/10.5281/zenodo.3731014) | CICE6.1.1+ | +3/2020 | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data#jra55-forcing-1) |
 | CICE gx1 WOA forcing files | 17 Mb | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3728600.svg)](https://doi.org/10.5281/zenodo.3728600) | All | | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data#woa-forcing) |
 | CICE gx1 COREII forcing files | 18 Gb | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3731012.svg)](https://doi.org/10.5281/zenodo.3731012) | All | | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data#core-ii-forcing) |
 |**tx1 Datasets**| | | | |
