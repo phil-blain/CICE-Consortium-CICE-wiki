@@ -7,20 +7,20 @@ The data files available below are designed only for testing the code, not for u
 A guide to the [directory structure](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data#directory-structure) of the CICE input data is also available. Tar files provided below will automatically unpack with this structure.
 
 ## _File Availability:_
-File name | size | download link | compatible code versions | date added(+)/ deprecated(-) | file description |
+File name | size | DOI and download link | compatible code versions | date added(+)/ deprecated(-) | file description |
 ----|:---:|:---:|:---:|:---:|:---:|
 |**gx3 Datasets**| | | | | |
-| CICE gx3 grid and initial condition files | 2.7 Mb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_gx3_grid_ic-20200320.tar.gz) | All | | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data#grid-and-initial-condition-files) |
+| CICE gx3 grid and initial condition files | 2.7 Mb | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3728358.svg)](https://doi.org/10.5281/zenodo.3728358) | All | | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data#grid-and-initial-condition-files) |
 | CICE gx3 JRA55 forcing files | 3.7 Gb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_gx3_forcing_JRA55-20200320.tar.gz) | CICE6.0.2+ | +10/2019 | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data#jra55-forcing) |
-| CICE gx3 WW3 forcing files | 2.9 Mb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_gx3_forcing_WW3-20200320.tar.gz) | CICE6.1.0+ | +12/2019 | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data#ww3-forcing) |
-| CICE gx3 NCAR_bulk forcing files | 428 Mb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_gx3_forcing_NCAR_bulk-20200320.tar.gz) | All | | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data#ncar_bulk-forcing) |
+| CICE gx3 WW3 forcing files | 2.9 Mb | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3728360.svg)](https://doi.org/10.5281/zenodo.3728360) | CICE6.1.0+ | +12/2019 | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data#ww3-forcing) |
+| CICE gx3 NCAR_bulk forcing files | 428 Mb | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3728362.svg)](https://doi.org/10.5281/zenodo.3728362) | All | | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data#ncar_bulk-forcing) |
 |**gx1 Datasets**| | | | |
-| CICE gx1 grid and initial condition files | 22 Mb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_gx1_grid_ic-20200320.tar.gz) | All | | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data#grid-and-initial-condition-files-1) |
+| CICE gx1 grid and initial condition files | 22 Mb | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3728583.svg)](https://doi.org/10.5281/zenodo.3728583) | All | | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data#grid-and-initial-condition-files-1) |
 | CICE gx1 JRA55 forcing files | 38 Gb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_gx1_forcing_JRA55-20200320.tar.gz) | CICE6.1.1+ | +3/2020 | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data#jra55-forcing-1) |
-| CICE gx1 WOA forcing files | 17 Mb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_gx1_forcing_WOA-20200320.tar.gz) | All | | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data#woa-forcing) |
+| CICE gx1 WOA forcing files | 17 Mb | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3728600.svg)](https://doi.org/10.5281/zenodo.3728600) | All | | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data#woa-forcing) |
 | CICE gx1 COREII forcing files | 18 Gb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_gx1_forcing_COREII-20200320.tar.gz) | All | | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data#core-ii-forcing) |
 |**tx1 Datasets**| | | | |
-| CICE tx1 grid files | 871 Kb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_tx1_grid_ic-20200320.tar.gz) | CICE6.0.2+ | +9/2019 | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data#grid-files) |
+| CICE tx1 grid files | 871 Kb | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3728356.svg)](https://doi.org/10.5281/zenodo.3728356) | CICE6.0.2+ | +9/2019 | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data#grid-files) |
 
 ### Naming standards
 For any new files that will be added to the CICE Input Data files, please note the following: 
