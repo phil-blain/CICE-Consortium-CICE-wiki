@@ -7,7 +7,7 @@ The data files available below are designed only for testing the code, not for u
 A guide to the [directory structure](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data#directory-structure) of the CICE input data is also available. Tar files provided below will automatically unpack with this structure.
 
 ## _File Availability:_
-File name | size | download link | compatible version | date added(+)/ deprecated(-) | file description |
+File name | size | download link | compatible code versions | date added(+)/ deprecated(-) | file description |
 ----|:---:|:---:|:---:|:---:|:---:|
 |**gx3 Datasets**| | | | | |
 | CICE gx3 grid and initial condition files | 2.7 Mb | [File](ftp://ftp.cgd.ucar.edu/archive/Model-Data/CICE/CICE_data_gx3_grid_ic-20200320.tar.gz) | All | | [link](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data#grid-and-initial-condition-files) |
