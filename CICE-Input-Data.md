@@ -6,6 +6,24 @@ The data files available below are designed only for testing the code, not for u
 
 A guide to the [directory structure](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data#directory-structure) of the CICE input data is also available. Tar files provided below will automatically unpack with this structure.
 
+### Downloading from Zenodo.
+1. Click on the DOI link from the file availability table.
+2. Find the file you want to download.
+3. Download the file
+
+   3a. Direct download
+
+      Click on either the file name or the "Download" button on zenodo to download the data directly to your 
+      machine.
+
+   3b. Download at the command line
+
+      Cut and paste the link to the link address for the file. Then, at the command line on the system to which 
+      you want to download the data, use the wget command to download. 
+      ```
+      wget $link
+      ```
+
 ## _File Availability:_
 File name | size | DOI and download link | compatible code versions | date added(+)/ deprecated(-) | file description |
 ----|:---:|:---:|:---:|:---:|:---:|
@@ -148,4 +166,20 @@ If more than 5 years of gx1 forcing data are required for your work, information
 ## _**tx1 datasets:**_
 ### _**Grid files:**_
 The tx3 grid is nominal one-degree resolution on a tripole grid. Grid and kmt file are provided in the grid tar file. Initial conditions for this grid are not yet available.
+
+# How to download data
+## FTP from the command line
+The file, listed above, for generating 50+ years of gx3 forcing data is available from an anonymous FTP. You can click the URL listed aove or access the file from the comman line using the following commands:
+
+```
+   $ ftp ftp.cgd.ucar.edu
+
+   $ Name: [anonymous]
+
+   $ Password: [user's email address]
+
+   $ cd /archive/Model-Data/CICE/
+```
+
+Then use standard ftp commands to obtain the relevant files from these subdirectories.
 
