@@ -6,6 +6,13 @@ The data files available below are designed only for testing the code, not for u
 
 A guide to the [directory structure](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data#directory-structure) of the CICE input data is also available. Tar files provided below will automatically unpack with this structure.
 
+
+
+
+
+
+
+
 ## _File Availability:_
 File name | size | DOI and download link | compatible code versions | date added(+)/ deprecated(-) | file description |
 ----|:---:|:---:|:---:|:---:|:---:|
