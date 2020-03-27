@@ -167,6 +167,7 @@ If more than 5 years of gx1 forcing data are required for your work, information
 ### _**Grid files:**_
 The tx3 grid is nominal one-degree resolution on a tripole grid. Grid and kmt file are provided in the grid tar file. Initial conditions for this grid are not yet available.
 
+#
 ### FTP from the command line
 The file for generating [50 years of gx1 forcing data](https://github.com/CICE-Consortium/CICE/wiki/CICE-Input-Data#core-ii-forcing) is available from an anonymous FTP. You can click the URL listed above or access the file from the command line using the following commands:
 
