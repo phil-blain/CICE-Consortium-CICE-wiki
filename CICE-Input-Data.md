@@ -158,6 +158,11 @@ _National Centers for Environmental Information (2013). World Ocean Atlas Versio
 ### _**CORE II forcing:**_
 COREII (Large and Yeager 2009) forcing files are 4x daily data by year for the following near surface fields: Zonal Wind (u_10), Meridional Wind (v_10), 10m Specific Humidity (q_10), and 10m Temperature (t_10). The monthly cloud forcing (cldf) and precipitation (prec) climatological fields are separate. Five years (2005-2009) of forcing data are available.
 
+<!---cldf is total cloud coverage, as a fraction between 0 and 1. In our test data, it is monthly but it can be provided and used at other frequencies. This variable is not used directly in the sea ice physics, but rather to generate other forcing fields such as downwelling longwave radiation, and to modify the amount of shortwave that reaches the surface. In coupled runs, I believe this is all done prior to the forcing reaching the sea ice model, and so cldf does not need to be sent by a flux coupler.
+prec is precipitation, in units that can be set in the namelist file (ice_in). This is often just liquid precipitation, a portion of which might be converted to snow if the temperature is cold enough. Again, in coupled runs the coupler or atmosphere component determine exactly what this is. You'll need to check the sea ice model code to be sure that what you are sending it is being used the way you expect. The ice model can handle both liquid and solid precipitation. (And this does need to be better documented.)
+swdn is the downwelling shortwave radiation, in W/m2. In our test configurations, it is provided as a single value and then divided up into 4 wavelength bands. In coupled runs, the bands are sent directly. The model has a couple of different options for calculating the radiation balance, and this part of the code is well documented.--->
+
+
 _Large, W.G. and S.G. Yeager (2009).The global climatology of an interannually varying air-sea flux data set. Climate Dynamics, 33, 341-364. https://doi.org/10.1007/s00382-008-0441-3_
 
 #### _**Additional Years:**_
