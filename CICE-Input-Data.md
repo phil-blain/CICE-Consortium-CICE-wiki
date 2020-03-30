@@ -126,12 +126,12 @@ inputdata = '/glade/p/cesm/pcwg_dev/'
 ### _**Grid and Initial Condition files:**_
 The gx3 grid is nominal three-degree resolution. Grid and kmt file are provided in the grid tar file. Initial conditions are also available.
 ### _**JRA55 forcing:**_
-JRA55 forcing (Tsujino et. al 2018) files are 8x daily data by year with the following fields: X-ward wind (wndewd), Y-ward wind (wndnwd), Specific Humidity (spchmd), Air Temperature (airtmp), Total Precipitation (ttlpcp), Downward Surface Longwave (dlwsfc), and Downward Surface Shortwave (glbrad). As a result, there is no need for monthly files or cloud fraction when using the JRA55 forcing. Five years (2005-2009) of forcing data are available. **If you publish a paper using the JRA55 dataset *please* be sure to cite this paper.** 
+JRA55 forcing (Tsujino et. al 2018) files are 8x daily data (every 3hr) by year with the following fields: X-ward wind (wndewd; m/s), Y-ward wind (wndnwd; m/s), Specific Humidity (spchmd; kg/kg), Air Temperature (airtmp; K), Total Precipitation (ttlpcp; kg/(m2*s) ), Downward Surface Longwave (dlwsfc; W/m2), and Downward Surface Shortwave (glbrad; W/m2). As a result, there is no need for monthly files or cloud fraction when using the JRA55 forcing. Five years (2005-2009) of forcing data are available. **If you publish a paper using the JRA55 dataset *please* be sure to cite this paper.** 
 
 _Tsujino, H., S. Urakawa, H. Nakano, R.J. Small, W.M. Kim, S.G. Yeager, et al. (2018). JRA‐55 based surface dataset for driving ocean–sea‐ice models (JRA55‐do). Ocean Modelling. https://doi.org/10.1016/j.ocemod.2018.07.002_ 
 
 ### _**WW3 forcing:**_
-Surface ocean wave forcing derived from the Wavewatch III (WW3) model. This is a single day of the wave spectral forcing that is necessary for the floe size distribution (FSD) within CICE. It is provided only for testing purposes and should not be used for publications. Users should produce their own spectral wave input. The data were derived from the wave-ice coupled run described in the following paper.
+Surface ocean wave forcing derived from the Wavewatch III (WW3) model. This is a single day of the wave spectral forcing (efreq; m2*s) that is necessary for the floe size distribution (FSD) within CICE. It is provided only for testing purposes and should not be used for publications. Users should produce their own spectral wave input. The data were derived from the wave-ice coupled run described in the following paper.
 
 _Roach, L.A., C.M. Bitz, C. Horvat, S.M. Dean. (2019). Advances in modelling interactions between sea ice and ocean surface waves. Journal of Advances in Modeling Earth Systems. https://doi.org/10.1029/2019MS001836_
 
@@ -140,28 +140,23 @@ The WW3 model is documented in:
 _WAVEWATCH III Development Group. (2016). User manual and system documentation of WAVEWATCH III, version 5.16. Tech. Note 329, NOAA/NWS/NCEP/MMAB, College Park, MD, USA._
 
 ### _**NCAR_bulk forcing:**_
-NCAR_bulk forcing files are are available for one year (1997). These include 4x daily data for near surface fields (u_10, v_10, q_10, t_10, dn_10) as well as monthly cloud forcing, precipitation, and shortwave down radiation fields. 
+NCAR_bulk forcing files are are available for one year (1997). Fields available 4x daily (every 6hr) at 10 meters above the surface for: zonal (u_10; m/s) and meridional (v_10; m/s) wind, specific humidity (q_10; kg/kg), air temperature (t_10; K), and air density (dn_10; kg/m3). Fields available monthly are: cloud forcing (cldf), precipitation (prec), and downward shortwave radiation (swdn; W/m2). The cloud forcing is a fraction between 0 and 1. It is not used directly in the sea ice physics, but to generate forcing fields such as downwelling longwave and shortwave radiation at the surface. In fully coupled runs the radiation is directly passed instead of cldf. The precipitation units can be set in the namelist. Precipitation is often just liquid precipitation that is converted to snow in cold enough temperatures, but the model can handle both liquid and solid precipitation. In fully coupled runs the atmospheric model provides the precipitation fields. In our test configurations the shortwave downward forcing is provided as a single value and then divided into 4 wavelength bands. In fully coupled runs, the bands are passed directly.
 
 ## _**gx1 datasets:**_
 ### _**Grid and Initial Condition files:**_
 The gx1 grid is nominal one-degree resolution. Grid and kmt file are provided in the grid tar file. Initial conditions are also available.
 ### _**JRA55 forcing:**_
-JRA55 forcing (Tsujino et. al 2018) files are 8x daily data by year with the following fields: X-ward wind (wndewd), Y-ward wind (wndnwd), Specific Humidity (spchmd), Air Temperature (airtmp), Total Precipitation (ttlpcp), Downward Surface Longwave (dlwsfc), and Downward Surface Shortwave (glbrad). As a result, there is no need for monthly files or cloud fraction when using the JRA55 forcing. Five years (2005-2009) of forcing data are available. **If you publish a paper using the JRA55 dataset *please* be sure to cite this paper.** 
+JRA55 forcing (Tsujino et. al 2018) files are 8x daily data (every 3hr) by year with the following fields: X-ward wind (wndewd; m/s), Y-ward wind (wndnwd; m/s), Specific Humidity (spchmd; kg/kg), Air Temperature (airtmp; K), Total Precipitation (ttlpcp; kg/(m2*s) ), Downward Surface Longwave (dlwsfc; W/m2), and Downward Surface Shortwave (glbrad; W/m2). As a result, there is no need for monthly files or cloud fraction when using the JRA55 forcing. Five years (2005-2009) of forcing data are available. **If you publish a paper using the JRA55 dataset *please* be sure to cite this paper.** 
 
 _Tsujino, H., S. Urakawa, H. Nakano, R.J. Small, W.M. Kim, S.G. Yeager, et al. (2018). JRA‐55 based surface dataset for driving ocean–sea‐ice models (JRA55‐do). Ocean Modelling. https://doi.org/10.1016/j.ocemod.2018.07.002_ 
 
 ### _**WOA forcing:**_
-Climatological nitrate and silicate concentration (mmol/m^3) derived from the World Ocean Atlas and necessary for biogeochemical forcing.
+Monthly climatological nitrate and silicate concentration (mmol/m3) derived from the World Ocean Atlas and necessary for biogeochemical forcing.
 
 _National Centers for Environmental Information (2013). World Ocean Atlas Version 2. Natl. Ocn. and Atm. Admin. https://www.nodc.noaa.gov/OC5/woa13/_
 
 ### _**CORE II forcing:**_
-COREII (Large and Yeager 2009) forcing files are 4x daily data by year for the following near surface fields: Zonal Wind (u_10), Meridional Wind (v_10), 10m Specific Humidity (q_10), and 10m Temperature (t_10). The monthly cloud forcing (cldf) and precipitation (prec) climatological fields are separate. Five years (2005-2009) of forcing data are available.
-
-<!---cldf is total cloud coverage, as a fraction between 0 and 1. In our test data, it is monthly but it can be provided and used at other frequencies. This variable is not used directly in the sea ice physics, but rather to generate other forcing fields such as downwelling longwave radiation, and to modify the amount of shortwave that reaches the surface. In coupled runs, I believe this is all done prior to the forcing reaching the sea ice model, and so cldf does not need to be sent by a flux coupler.
-prec is precipitation, in units that can be set in the namelist file (ice_in). This is often just liquid precipitation, a portion of which might be converted to snow if the temperature is cold enough. Again, in coupled runs the coupler or atmosphere component determine exactly what this is. You'll need to check the sea ice model code to be sure that what you are sending it is being used the way you expect. The ice model can handle both liquid and solid precipitation. (And this does need to be better documented.)
-swdn is the downwelling shortwave radiation, in W/m2. In our test configurations, it is provided as a single value and then divided up into 4 wavelength bands. In coupled runs, the bands are sent directly. The model has a couple of different options for calculating the radiation balance, and this part of the code is well documented.--->
-
+COREII (Large and Yeager 2009) of forcing data for five years (2005-2009) are available. Fields available 4x daily (every 6hr) at 10 meters above the surface for: Zonal Wind (u_10; m/s), Meridional Wind (v_10; m/s), 10m Specific Humidity (q_10; kg/kg), and 10m Temperature (t_10; K). The monthly cloud forcing (cldf) and precipitation (prec) climatological fields are also available. The cloud forcing is a fraction between 0 and 1. It is not used directly in the sea ice physics, but to generate forcing fields such as downwelling longwave and shortwave radiation at the surface. In fully coupled runs the radiation is directly passed instead of cldf. The precipitation units can be set in the namelist. Precipitation is often just liquid precipitation that is converted to snow in cold enough temperatures, but the model can handle both liquid and solid precipitation. In fully coupled runs the atmospheric model provides the precipitation fields.
 
 _Large, W.G. and S.G. Yeager (2009).The global climatology of an interannually varying air-sea flux data set. Climate Dynamics, 33, 341-364. https://doi.org/10.1007/s00382-008-0441-3_
 
