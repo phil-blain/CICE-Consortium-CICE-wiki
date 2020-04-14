@@ -35,10 +35,26 @@ File name | size | DOI and download link | compatible code versions | date added
    3b. Download at the command line
 
       Cut and paste the link to the link address for the file. Then, at the command line on the system to which 
-      you want to download the data, use the wget command to download. 
+      you want to download the data, use the `wget` (or `curl`) command to download.  
+      Linux:
       ```
       wget $link
       ```
+
+      macOS:
+      ```
+      curl -O $link
+      ```
+4. Optional, but recommended: check the MD5 checksum for the downloaded file against the provided checksum on Zenodo (below the filename).  
+    Linux:
+    ```
+    md5sum $file
+    ```
+
+    macOS:
+    ```
+    md5 $file
+    ```
 
 ### Naming standards
 For any new files that will be added to the CICE Input Data files, please note the following: 
